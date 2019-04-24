@@ -3,6 +3,7 @@
 The Swiss Army Knife for type conversion in .NET
 
 - [NuGet Package](https://www.nuget.org/packages/UniversalTypeConverter/)
+- [Browse API](https://t-bruning.github.io/UniversalTypeConverter/api/index.html)
 - [License (MS-PL)](https://opensource.org/licenses/ms-pl.html)
 
 Convert any type to another compatible type without worrying about which method to use.
