@@ -23,6 +23,10 @@ namespace TB.ComponentModel.Conversions {
             return TryConvert(sourceValue, destinationType, out result, args);
         }
 
+        /// <summary>
+        /// Converts the given value to the given type.
+        ///  A return value indicates whether the operation succeeded.
+        /// </summary>
         protected abstract bool TryConvert(TSource value, Type destinationType, out object result, ConversionArgs args);
 
     }

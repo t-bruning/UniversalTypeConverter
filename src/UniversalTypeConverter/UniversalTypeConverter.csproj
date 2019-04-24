@@ -14,14 +14,21 @@
     <PackageReleaseNotes>Version 2.0 is a complete rewrite of the UniversalTypeConverter. Much more options and possibilities - but also some breaking changes.</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>UTC.snk</AssemblyOriginatorKeyFile>
+    <PackageProjectUrl>https://github.com/t-bruning/UniversalTypeConverter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/t-bruning/UniversalTypeConverter</RepositoryUrl>
+    <PackageIconUrl>https://t-bruning.github.io/UniversalTypeConverter/images/logo.png</PackageIconUrl>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net45|AnyCPU'">
-    <DocumentationFile>bin\Debug\net45\UniversalTypeConverter.xml</DocumentationFile>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\UniversalTypeConverter.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
     <DocumentationFile>bin\Release\net45\UniversalTypeConverter.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net46|AnyCPU'">
+    <DocumentationFile>bin\Release\net46\UniversalTypeConverter.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

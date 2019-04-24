@@ -12,6 +12,7 @@ namespace TB.ComponentModel.Conversions {
     /// </summary>
     public class ConvertibleConversion : TypeConversion<IConvertible> {
 
+        /// <inheritdoc />
         protected override bool TryConvert(IConvertible value, Type destinationType, out object result, ConversionArgs args) {
             try {
                 if (destinationType == typeof(string)) {
