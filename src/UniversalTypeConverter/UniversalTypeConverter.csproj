@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net46;net45;netstandard2.0</TargetFrameworks>
+    <RootNamespace>TB.ComponentModel</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.0.0</Version>
+    <Authors>Thorsten Bruning</Authors>
+    <Company />
+    <PackageLicenseUrl>http://www.opensource.org/licenses/ms-pl.html</PackageLicenseUrl>
+    <Copyright>Copyright 2011-2019 by Thorsten Bruning</Copyright>
+    <PackageTags>typeconverter typeconversion typeconverting conversion converting converter convert convertible type types UniversalTypeConverter universal casting</PackageTags>
+    <Description>The Swiss Army Knife for type conversion.</Description>
+    <PackageReleaseNotes>Version 2.0 is a complete rewrite of the UniversalTypeConverter. Much more options and possibilities - but also some breaking changes.</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>UTC.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net45|AnyCPU'">
+    <DocumentationFile>bin\Debug\net45\UniversalTypeConverter.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+    <DocumentationFile>bin\Release\net45\UniversalTypeConverter.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

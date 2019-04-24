@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="ConversionCollection.Add Method " Url="html/67fa90c7-0eee-719b-4031-1399b737b4b2.htm" />
+    <HelpKINode Title="TypeValueDictionary.Add Method " Url="html/164cf225-f899-b74e-aeb9-de2b8f39fdf9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Add(Of TSource, TDestination) method" Url="html/ba1ad72a-f030-7359-109d-97fd291f31c1.htm" />
+  <HelpKINode Title="Add&lt;TSource, TDestination&gt; method" Url="html/ba1ad72a-f030-7359-109d-97fd291f31c1.htm" />
+  <HelpKINode Title="AllowDefaultValueIfNotConvertible property">
+    <HelpKINode Title="ConversionOptions.AllowDefaultValueIfNotConvertible Property " Url="html/11a756d8-1296-8471-fb9b-a67903e1ff02.htm" />
+    <HelpKINode Title="IConversionOptions.AllowDefaultValueIfNotConvertible Property " Url="html/bc10362e-bb33-e2cd-7169-7bb9d9219da7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AllowDefaultValueIfNull property">
+    <HelpKINode Title="ConversionOptions.AllowDefaultValueIfNull Property " Url="html/f51c4c17-0d33-6877-e2c1-09f9f759f56f.htm" />
+    <HelpKINode Title="IConversionOptions.AllowDefaultValueIfNull Property " Url="html/0e80a2fd-fb39-078f-6580-31a94c9568a5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AllowDefaultValueIfWhitespace property">
+    <HelpKINode Title="ConversionOptions.AllowDefaultValueIfWhitespace Property " Url="html/d73b84e7-bf76-0c19-53f0-6406b900d4dc.htm" />
+    <HelpKINode Title="IConversionOptions.AllowDefaultValueIfWhitespace Property " Url="html/894435c5-e1c3-34e0-c231-52e0e2db1f60.htm" />
+  </HelpKINode>
+  <HelpKINode Title="As(Of T) method" Url="html/d8946463-b26a-d66b-ca54-b795f92907bc.htm" />
+  <HelpKINode Title="As&lt;T&gt; method" Url="html/d8946463-b26a-d66b-ca54-b795f92907bc.htm" />
+  <HelpKINode Title="AssignableConversion class">
+    <HelpKINode Title="AssignableConversion Class" Url="html/d369ef3a-2817-8008-f59b-481f9cbe3136.htm" />
+    <HelpKINode Title="constructor" Url="html/13d2b8ee-b99e-9e06-ca27-53cc3a0088d3.htm" />
+    <HelpKINode Title="methods" Url="html/63c82045-093b-c5de-2eb7-b10b552076cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssignableConversion.AssignableConversion constructor" Url="html/13d2b8ee-b99e-9e06-ca27-53cc3a0088d3.htm" />
+  <HelpKINode Title="AssignableConversion.TryConvert method" Url="html/fd72fcf8-4935-e2e3-5ec3-778a74590965.htm" />
+  <HelpKINode Title="AsString enumeration member" Url="html/77a47688-9ef5-37d7-afc3-53caf6b7397b.htm" />
+  <HelpKINode Title="Base64 enumeration member" Url="html/3658e9e1-fe63-6aee-48fb-ce54f384c58f.htm" />
+  <HelpKINode Title="Base64WithLineBreaks enumeration member" Url="html/3658e9e1-fe63-6aee-48fb-ce54f384c58f.htm" />
+  <HelpKINode Title="Binary enumeration member" Url="html/13342c2b-674b-a1d9-3913-78694e29fe68.htm" />
+  <HelpKINode Title="Break property" Url="html/ca825d5d-f41f-a2af-5708-34a1fb8b3d17.htm" />
+  <HelpKINode Title="ByteArrayConversion class">
+    <HelpKINode Title="ByteArrayConversion Class" Url="html/435e30d4-1224-fd7c-aec2-50539a7eb199.htm" />
+    <HelpKINode Title="constructor" Url="html/c28e7ba8-b1d6-7ed2-896f-61c730b142c4.htm" />
+    <HelpKINode Title="methods" Url="html/1f0a41c1-6d41-07f4-8ed3-1eb117e47530.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ByteArrayConversion.ByteArrayConversion constructor" Url="html/c28e7ba8-b1d6-7ed2-896f-61c730b142c4.htm" />
+  <HelpKINode Title="ByteArrayConversion.TryConvert method" Url="html/b1800b3d-32f4-1603-ca12-23dd3d4db767.htm" />
+  <HelpKINode Title="ByteArrayFormat enumeration" Url="html/3658e9e1-fe63-6aee-48fb-ce54f384c58f.htm" />
+  <HelpKINode Title="ByteArrayFormat property">
+    <HelpKINode Title="ConversionOptions.ByteArrayFormat Property " Url="html/dbcb491c-acdf-f6e9-7be5-f9464c948cf5.htm" />
+    <HelpKINode Title="IConversionOptions.ByteArrayFormat Property " Url="html/66b63e5e-687e-3467-893e-a06e0b01e688.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ByteConversion class">
+    <HelpKINode Title="ByteConversion Class" Url="html/3528e7ac-ae07-8fcf-c73f-91688a7bee62.htm" />
+    <HelpKINode Title="constructor" Url="html/e427eabc-33cb-6a16-4f41-52ae62dba682.htm" />
+    <HelpKINode Title="methods" Url="html/ce982615-ad5c-811d-176e-0c75c25cf8a8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ByteConversion.ByteConversion constructor" Url="html/e427eabc-33cb-6a16-4f41-52ae62dba682.htm" />
+  <HelpKINode Title="ByteConversion.TryConvert method" Url="html/9d1cde5c-6921-0653-2851-6f6557b58ef8.htm" />
+  <HelpKINode Title="Caller property" Url="html/7dd6baad-54e2-d0d4-8120-eea3454ad30a.htm" />
+  <HelpKINode Title="CanConvert method">
+    <HelpKINode Title="ObjectExtension.CanConvert Method " Url="html/b232e795-0546-5833-5069-128bc7224dae.htm" />
+    <HelpKINode Title="TypeConverter.CanConvert Method " Url="html/667f365d-06ff-c6f3-b676-93bec051a633.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CanConvertTo(Of T) method">
+    <HelpKINode Title="ObjectExtension.CanConvertTo(T) Method " Url="html/92c2e92d-5b87-613a-85f0-1026f72df27d.htm" />
+    <HelpKINode Title="TypeConverter.CanConvertTo(T) Method " Url="html/4fbe8af8-7b6c-8115-3432-757ed2445ccc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CanConvertTo&lt;T&gt; method">
+    <HelpKINode Title="ObjectExtension.CanConvertTo(T) Method " Url="html/92c2e92d-5b87-613a-85f0-1026f72df27d.htm" />
+    <HelpKINode Title="TypeConverter.CanConvertTo(T) Method " Url="html/4fbe8af8-7b6c-8115-3432-757ed2445ccc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CharConversion class">
+    <HelpKINode Title="CharConversion Class" Url="html/18225cea-ec20-d16f-943d-45943a5b1da0.htm" />
+    <HelpKINode Title="constructor" Url="html/f64f67fe-1af2-4517-e5e9-5a60eff5479b.htm" />
+    <HelpKINode Title="methods" Url="html/19ec9502-ea90-3676-e8b7-92ab521e1cc7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CharConversion.CharConversion constructor" Url="html/f64f67fe-1af2-4517-e5e9-5a60eff5479b.htm" />
+  <HelpKINode Title="CharConversion.TryConvert method" Url="html/00224bd5-0526-1217-8c56-cc7efc70b703.htm" />
+  <HelpKINode Title="Clear method" Url="html/d0661a95-0c22-435a-fdb3-83abb240588a.htm" />
+  <HelpKINode Title="ConstructorBasedConversion class">
+    <HelpKINode Title="ConstructorBasedConversion Class" Url="html/fbd4c044-aac6-51bb-bfa7-9a6a81de0049.htm" />
+    <HelpKINode Title="constructor" Url="html/99d566a1-e2d8-bd9e-3a98-0533bf2a1197.htm" />
+    <HelpKINode Title="methods" Url="html/245f5477-ece5-2785-8fc5-4e674b01e790.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConstructorBasedConversion.ConstructorBasedConversion constructor" Url="html/99d566a1-e2d8-bd9e-3a98-0533bf2a1197.htm" />
+  <HelpKINode Title="ConstructorBasedConversion.TryConvert method" Url="html/93d334e0-084c-30e3-22e6-f36a748e647a.htm" />
+  <HelpKINode Title="ConstructorResolvingMode enumeration" Url="html/f288409c-d5eb-19f7-5b0f-7aad25f397a4.htm" />
+  <HelpKINode Title="ConstructorResolvingMode property">
+    <HelpKINode Title="ConversionOptions.ConstructorResolvingMode Property " Url="html/ef5fd8f4-209e-6afb-c428-3412b9179caa.htm" />
+    <HelpKINode Title="IConversionOptions.ConstructorResolvingMode Property " Url="html/17a13c3c-182f-b5ad-db3c-3070818e3d3f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConversionArgs class">
+    <HelpKINode Title="ConversionArgs Class" Url="html/f60b6857-b98c-ed1e-131f-e17400d1a95c.htm" />
+    <HelpKINode Title="constructor" Url="html/35278284-f924-6798-7304-91fd9a0c3827.htm" />
+    <HelpKINode Title="methods" Url="html/4d786b9f-89c4-2aff-f1ab-51b479c0ab37.htm" />
+    <HelpKINode Title="properties" Url="html/70932aa6-5318-f469-2d5a-fb0978b7f195.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConversionArgs.Break property" Url="html/ca825d5d-f41f-a2af-5708-34a1fb8b3d17.htm" />
+  <HelpKINode Title="ConversionArgs.Caller property" Url="html/7dd6baad-54e2-d0d4-8120-eea3454ad30a.htm" />
+  <HelpKINode Title="ConversionArgs.ConversionArgs constructor" Url="html/35278284-f924-6798-7304-91fd9a0c3827.htm" />
+  <HelpKINode Title="ConversionArgs.Culture property" Url="html/28aed5a1-e8a9-5afa-0782-65a2148b686f.htm" />
+  <HelpKINode Title="ConversionArgs.Options property" Url="html/04b4922f-d1ca-dfcc-fd73-b7a1c0a28866.htm" />
+  <HelpKINode Title="ConversionBase class">
+    <HelpKINode Title="ConversionBase Class" Url="html/85b30622-c5fb-4f4a-4505-af8024af92f3.htm" />
+    <HelpKINode Title="constructor" Url="html/1f97b728-2ba2-cb35-87e9-680285737c6a.htm" />
+    <HelpKINode Title="methods" Url="html/5cb81c30-5b01-f97c-f07c-88c0c4ec542b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConversionBase.ConversionBase constructor" Url="html/1f97b728-2ba2-cb35-87e9-680285737c6a.htm" />
+  <HelpKINode Title="ConversionBase.GetMethodsOf method" Url="html/7e4469b9-1b50-b894-67ca-7ec79c1f95c7.htm" />
+  <HelpKINode Title="ConversionBase.IsAssignable method" Url="html/50fc806f-a254-e910-92b9-2d328a243319.htm" />
+  <HelpKINode Title="ConversionBase.IsEnum method" Url="html/611df56f-306c-1d1f-f46d-67347693bbf0.htm" />
+  <HelpKINode Title="ConversionBase.IsFloat method" Url="html/96375e95-375e-75fd-23c6-373dd57f34b0.htm" />
+  <HelpKINode Title="ConversionBase.IsInteger method" Url="html/327f0f83-0e2e-328c-2680-5d9f383d700d.htm" />
+  <HelpKINode Title="ConversionBase.TryConvert method" Url="html/2fc0e931-009b-2dbb-d288-8ed91ceddbd9.htm" />
+  <HelpKINode Title="ConversionCollection class">
+    <HelpKINode Title="ConversionCollection Class" Url="html/ca182566-8e25-2327-5262-db747d59eb2b.htm" />
+    <HelpKINode Title="constructor" Url="html/137945d2-51d3-523d-733b-f566d3418efc.htm" />
+    <HelpKINode Title="methods" Url="html/d0aa9e5d-e3f0-4db1-886b-1a283c169632.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConversionCollection.Add method" Url="html/67fa90c7-0eee-719b-4031-1399b737b4b2.htm" />
+  <HelpKINode Title="ConversionCollection.ConversionCollection constructor" Url="html/137945d2-51d3-523d-733b-f566d3418efc.htm" />
+  <HelpKINode Title="ConversionCollection.GetEnumerator method" Url="html/b2667837-e25a-396e-b09f-12acbe7de62a.htm" />
+  <HelpKINode Title="ConversionOptions class">
+    <HelpKINode Title="ConversionOptions Class" Url="html/08f7c35b-31d3-4293-5a43-f74f24cfdd2e.htm" />
+    <HelpKINode Title="constructor" Url="html/131dac71-85a3-749c-73ec-af540a91b5fb.htm" />
+    <HelpKINode Title="methods" Url="html/32cf75e6-bc49-da4a-8297-1652e4524393.htm" />
+    <HelpKINode Title="properties" Url="html/13d589d1-e49b-866b-c4c7-4fdf14b7c27a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConversionOptions.AllowDefaultValueIfNotConvertible property" Url="html/11a756d8-1296-8471-fb9b-a67903e1ff02.htm" />
+  <HelpKINode Title="ConversionOptions.AllowDefaultValueIfNull property" Url="html/f51c4c17-0d33-6877-e2c1-09f9f759f56f.htm" />
+  <HelpKINode Title="ConversionOptions.AllowDefaultValueIfWhitespace property" Url="html/d73b84e7-bf76-0c19-53f0-6406b900d4dc.htm" />
+  <HelpKINode Title="ConversionOptions.ByteArrayFormat property" Url="html/dbcb491c-acdf-f6e9-7be5-f9464c948cf5.htm" />
+  <HelpKINode Title="ConversionOptions.ConstructorResolvingMode property" Url="html/ef5fd8f4-209e-6afb-c428-3412b9179caa.htm" />
+  <HelpKINode Title="ConversionOptions.ConversionOptions constructor" Url="html/131dac71-85a3-749c-73ec-af540a91b5fb.htm" />
+  <HelpKINode Title="ConversionOptions.DateTimeFormat property" Url="html/204df9dd-7a22-668b-2e34-4fe066d5adea.htm" />
+  <HelpKINode Title="ConversionOptions.DateTimeLongMeaning property" Url="html/448ed27c-2215-04d3-0813-08382ad3025d.htm" />
+  <HelpKINode Title="ConversionOptions.DateTimePatterns property" Url="html/64771e14-7f5c-5c99-fc3e-637105feceef.htm" />
+  <HelpKINode Title="ConversionOptions.DateTimeStyle property" Url="html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm" />
+  <HelpKINode Title="ConversionOptions.DecimalFormat property" Url="html/bdbbe0aa-c88a-08d8-839d-a916c74705af.htm" />
+  <HelpKINode Title="ConversionOptions.DecimalNumberStyle property" Url="html/89d80b65-58bf-1879-5f98-7b17361702db.htm" />
+  <HelpKINode Title="ConversionOptions.FloatFormat property" Url="html/466d2d83-daaa-e78b-59b6-950861076b59.htm" />
+  <HelpKINode Title="ConversionOptions.FloatNumberStyle property" Url="html/6d9fbb26-6e4c-3321-ec37-9b8f8f0b3e7c.htm" />
+  <HelpKINode Title="ConversionOptions.GuidFormat property" Url="html/1db3ca6e-71c5-df36-c20b-d21232035766.htm" />
+  <HelpKINode Title="ConversionOptions.HandleDBNullAsNull property" Url="html/8c4ca40a-2cd9-8113-b3f6-dedf9d2b2004.htm" />
+  <HelpKINode Title="ConversionOptions.IntegerFormat property" Url="html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm" />
+  <HelpKINode Title="ConversionOptions.IntegerNumberStyle property" Url="html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm" />
+  <HelpKINode Title="ConversionOptions.PropertyResolvingMode property" Url="html/8c5cbb48-ed51-7bb3-a8dd-b023e366d731.htm" />
+  <HelpKINode Title="ConversionPriority enumeration" Url="html/ad5fa9fe-1581-de8d-58df-e20592a4a65e.htm" />
+  <HelpKINode Title="ConversionResult(Of T) class">
+    <HelpKINode Title="ConversionResult(T) Class" Url="html/66a390b4-59df-0317-f742-c020992602ab.htm" />
+    <HelpKINode Title="constructor" Url="html/08bb6f1a-82ce-460e-51a2-829a32e0706c.htm" />
+    <HelpKINode Title="methods" Url="html/da973810-ae59-5d87-45d4-14348fa8f948.htm" />
+    <HelpKINode Title="properties" Url="html/da4f61a5-5369-21a9-db5a-013a16e99b45.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConversionResult(Of T).ConversionResult constructor" Url="html/08bb6f1a-82ce-460e-51a2-829a32e0706c.htm" />
+  <HelpKINode Title="ConversionResult(Of T).HasValue property" Url="html/91c692a2-e54d-2203-cc66-f77f2653d3c7.htm" />
+  <HelpKINode Title="ConversionResult(Of T).Or method" Url="html/b2825ed9-7cf5-7f41-c1f1-2961518ff1b8.htm" />
+  <HelpKINode Title="ConversionResult(Of T).OrDefault method" Url="html/cad172fd-f171-24d7-b842-e639814e160a.htm" />
+  <HelpKINode Title="ConversionResult(Of T).ToString method" Url="html/2133ff62-a308-af3d-fc69-3142667d6db5.htm" />
+  <HelpKINode Title="ConversionResult(Of T).Value property" Url="html/6de2430e-19b5-4599-1ae9-c8c6d6655b97.htm" />
+  <HelpKINode Title="ConversionResult&lt;T&gt; class">
+    <HelpKINode Title="ConversionResult(T) Class" Url="html/66a390b4-59df-0317-f742-c020992602ab.htm" />
+    <HelpKINode Title="constructor" Url="html/08bb6f1a-82ce-460e-51a2-829a32e0706c.htm" />
+    <HelpKINode Title="methods" Url="html/da973810-ae59-5d87-45d4-14348fa8f948.htm" />
+    <HelpKINode Title="properties" Url="html/da4f61a5-5369-21a9-db5a-013a16e99b45.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConversionResult&lt;T&gt;.ConversionResult constructor" Url="html/08bb6f1a-82ce-460e-51a2-829a32e0706c.htm" />
+  <HelpKINode Title="ConversionResult&lt;T&gt;.HasValue property" Url="html/91c692a2-e54d-2203-cc66-f77f2653d3c7.htm" />
+  <HelpKINode Title="ConversionResult&lt;T&gt;.Or method" Url="html/b2825ed9-7cf5-7f41-c1f1-2961518ff1b8.htm" />
+  <HelpKINode Title="ConversionResult&lt;T&gt;.OrDefault method" Url="html/cad172fd-f171-24d7-b842-e639814e160a.htm" />
+  <HelpKINode Title="ConversionResult&lt;T&gt;.ToString method" Url="html/2133ff62-a308-af3d-fc69-3142667d6db5.htm" />
+  <HelpKINode Title="ConversionResult&lt;T&gt;.Value property" Url="html/6de2430e-19b5-4599-1ae9-c8c6d6655b97.htm" />
+  <HelpKINode Title="Conversions property">
+    <HelpKINode Title="TypeConverter.Conversions Property " Url="html/ad6fff00-547f-539b-9355-2f427b7e3ac8.htm" />
+    <HelpKINode Title="UniversalTypeConverter.Conversions Property " Url="html/c480ccdf-60d8-5cd7-b10e-ee0bfeb48c39.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Convert method">
+    <HelpKINode Title="ObjectExtension.Convert Method " Url="html/e13239dd-afff-db3d-bf01-dc1b54838f4c.htm" />
+    <HelpKINode Title="TypeConverter.Convert Method " Url="html/b44f149b-e24d-8cb7-169c-90adcab1ff57.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConvertibleConversion class">
+    <HelpKINode Title="ConvertibleConversion Class" Url="html/f41ac9d6-2bac-e2bf-f623-1c7d07fd2df7.htm" />
+    <HelpKINode Title="constructor" Url="html/d1c32066-2d3b-9471-9ab9-601c1cbf2dd5.htm" />
+    <HelpKINode Title="methods" Url="html/a42e8331-b602-2717-342c-4a8775e323d2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConvertibleConversion.ConvertibleConversion constructor" Url="html/d1c32066-2d3b-9471-9ab9-601c1cbf2dd5.htm" />
+  <HelpKINode Title="ConvertibleConversion.TryConvert method" Url="html/62f582b6-a886-c77d-141c-0bc3bcb2d03f.htm" />
+  <HelpKINode Title="ConvertTo(Of T) method">
+    <HelpKINode Title="ObjectExtension.ConvertTo(T) Method " Url="html/32a24228-0704-961d-5da4-1c605f96afb2.htm" />
+    <HelpKINode Title="TypeConverter.ConvertTo(T) Method " Url="html/a90815ce-c0f7-458f-3491-31cbb739362d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConvertTo&lt;T&gt; method">
+    <HelpKINode Title="ObjectExtension.ConvertTo(T) Method " Url="html/32a24228-0704-961d-5da4-1c605f96afb2.htm" />
+    <HelpKINode Title="TypeConverter.ConvertTo(T) Method " Url="html/a90815ce-c0f7-458f-3491-31cbb739362d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConvertToEnumerable method">
+    <HelpKINode Title="ObjectExtension.ConvertToEnumerable Method " Url="html/1a5f2dfc-9eea-fcb0-0bcc-a376bf75020e.htm" />
+    <HelpKINode Title="TypeConverter.ConvertToEnumerable Method " Url="html/6994e17c-8bbe-fd1b-9de1-e84e0fa15a31.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Create method">
+    <HelpKINode Title="DictionaryExtension.Create Method " Url="html/95a0f441-9d56-227a-69cc-323a990d2cef.htm" />
+    <HelpKINode Title="TypeConverter.Create Method " Url="html/643f1a67-bba5-888a-f812-fa39c808dfb1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateDataTable(Of T) method" Url="html/77cd08b4-1d46-b58a-c7d6-d585b5dcb60f.htm" />
+  <HelpKINode Title="CreateDataTable&lt;T&gt; method" Url="html/77cd08b4-1d46-b58a-c7d6-d585b5dcb60f.htm" />
+  <HelpKINode Title="Culture property" Url="html/28aed5a1-e8a9-5afa-0782-65a2148b686f.htm" />
+  <HelpKINode Title="DataRecordConversion class">
+    <HelpKINode Title="DataRecordConversion Class" Url="html/c798d3c4-ec52-5261-84bf-357b9fb2e9cd.htm" />
+    <HelpKINode Title="constructor" Url="html/1f73fff8-dfad-8570-e88b-b51a56cf3027.htm" />
+    <HelpKINode Title="methods" Url="html/2e0bc207-7576-f53e-9691-78d56f87afa1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataRecordConversion.DataRecordConversion constructor" Url="html/1f73fff8-dfad-8570-e88b-b51a56cf3027.htm" />
+  <HelpKINode Title="DataRecordConversion.TryConvert method" Url="html/a313e53c-8986-54d8-575b-8483880a9715.htm" />
+  <HelpKINode Title="DataRecordExtension class">
+    <HelpKINode Title="DataRecordExtension Class" Url="html/86a2f231-6d04-40d4-e311-90eb0f9ef82b.htm" />
+    <HelpKINode Title="methods" Url="html/bdac8c0f-1da2-d42a-a6b3-202e3cc216c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataRecordExtension.ToDictionary method" Url="html/574cb047-1088-11fc-5b56-0cef50fb1f5e.htm" />
+  <HelpKINode Title="DataRowConversion class">
+    <HelpKINode Title="DataRowConversion Class" Url="html/cf08b472-5cd6-1d1d-8b77-8dbf44aba6a5.htm" />
+    <HelpKINode Title="constructor" Url="html/50b4cae5-fbd3-11c2-c058-18e714665267.htm" />
+    <HelpKINode Title="methods" Url="html/46b06974-c769-34aa-1f62-0386c36b7723.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataRowConversion.DataRowConversion constructor" Url="html/50b4cae5-fbd3-11c2-c058-18e714665267.htm" />
+  <HelpKINode Title="DataRowConversion.TryConvert method" Url="html/5b4d8fd6-d1cf-b0ff-c26b-db2f9ce0da26.htm" />
+  <HelpKINode Title="DataRowExtension class">
+    <HelpKINode Title="DataRowExtension Class" Url="html/f33d68a0-8c96-1e26-5cc2-a8a13c3edfcc.htm" />
+    <HelpKINode Title="methods" Url="html/ba69c671-e94d-c96a-f200-47b07d804b75.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataRowExtension.ToDictionary method" Url="html/d0112f68-c7f1-7c32-6d53-32dafbb6278e.htm" />
+  <HelpKINode Title="DataRowViewConversion class">
+    <HelpKINode Title="DataRowViewConversion Class" Url="html/e7ed7e12-6d05-6ffd-4801-f1d631e88604.htm" />
+    <HelpKINode Title="constructor" Url="html/3a68c72e-b107-72cb-e30c-8cdd7d9fa73e.htm" />
+    <HelpKINode Title="methods" Url="html/89ff3eb2-c1b8-c00d-ef9b-4c0adcdda15c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataRowViewConversion.DataRowViewConversion constructor" Url="html/3a68c72e-b107-72cb-e30c-8cdd7d9fa73e.htm" />
+  <HelpKINode Title="DataRowViewConversion.TryConvert method" Url="html/722a9eaa-714e-dc63-245c-3acff5aa72ac.htm" />
+  <HelpKINode Title="DateTimeConversion class">
+    <HelpKINode Title="DateTimeConversion Class" Url="html/a2060c9b-5008-e4ef-4712-48bb033d35f3.htm" />
+    <HelpKINode Title="constructor" Url="html/36f9bd97-50c6-99f4-506c-0b424a039f80.htm" />
+    <HelpKINode Title="methods" Url="html/94a43e2b-74df-3a4e-b3b5-a5676e60815d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DateTimeConversion.DateTimeConversion constructor" Url="html/36f9bd97-50c6-99f4-506c-0b424a039f80.htm" />
+  <HelpKINode Title="DateTimeConversion.TryConvert method" Url="html/45766ed4-18bf-d207-cdc0-a9471922f489.htm" />
+  <HelpKINode Title="DateTimeFormat property">
+    <HelpKINode Title="ConversionOptions.DateTimeFormat Property " Url="html/204df9dd-7a22-668b-2e34-4fe066d5adea.htm" />
+    <HelpKINode Title="IConversionOptions.DateTimeFormat Property " Url="html/35cc11e5-b7e2-c44e-33ab-639d42e156b1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DateTimeLongMeaning enumeration" Url="html/13342c2b-674b-a1d9-3913-78694e29fe68.htm" />
+  <HelpKINode Title="DateTimeLongMeaning property">
+    <HelpKINode Title="ConversionOptions.DateTimeLongMeaning Property " Url="html/448ed27c-2215-04d3-0813-08382ad3025d.htm" />
+    <HelpKINode Title="IConversionOptions.DateTimeLongMeaning Property " Url="html/a300cac4-7349-992b-5783-c4e3063081e5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DateTimePatterns property">
+    <HelpKINode Title="ConversionOptions.DateTimePatterns Property " Url="html/64771e14-7f5c-5c99-fc3e-637105feceef.htm" />
+    <HelpKINode Title="IConversionOptions.DateTimePatterns Property " Url="html/ec03b9b6-d41c-ada4-5dc7-148431c6e133.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DateTimeStyle property">
+    <HelpKINode Title="ConversionOptions.DateTimeStyle Property " Url="html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm" />
+    <HelpKINode Title="IConversionOptions.DateTimeStyle Property " Url="html/3e617a56-6b0b-cb9c-ba87-33f2c7b947e8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DecimalConversion class">
+    <HelpKINode Title="DecimalConversion Class" Url="html/0c0f2ca9-67f7-3b12-10ce-4c6be99c9b10.htm" />
+    <HelpKINode Title="constructor" Url="html/f39f0bcb-f1e6-dbec-6588-2583dd593ecb.htm" />
+    <HelpKINode Title="methods" Url="html/ce1318f4-6eb8-b5b9-7c7c-acdeaffc8187.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DecimalConversion.DecimalConversion constructor" Url="html/f39f0bcb-f1e6-dbec-6588-2583dd593ecb.htm" />
+  <HelpKINode Title="DecimalConversion.TryConvert method" Url="html/ce5489fc-f9c7-a044-ca92-8f14099ec5ba.htm" />
+  <HelpKINode Title="DecimalFormat property">
+    <HelpKINode Title="ConversionOptions.DecimalFormat Property " Url="html/bdbbe0aa-c88a-08d8-839d-a916c74705af.htm" />
+    <HelpKINode Title="IConversionOptions.DecimalFormat Property " Url="html/27cf8ba4-f2ad-494d-7ee8-664381fe21d2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DecimalNumberStyle property">
+    <HelpKINode Title="ConversionOptions.DecimalNumberStyle Property " Url="html/89d80b65-58bf-1879-5f98-7b17361702db.htm" />
+    <HelpKINode Title="IConversionOptions.DecimalNumberStyle Property " Url="html/9d854f80-365f-0b94-87d0-b5ecc5ff2a2c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultCulture property">
+    <HelpKINode Title="TypeConverter.DefaultCulture Property " Url="html/43e5b489-347b-0e11-ada3-19a3ef22588e.htm" />
+    <HelpKINode Title="UniversalTypeConverter.DefaultCulture Property " Url="html/332041ac-6964-fe7d-9b82-785a5da6a99e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DestinationType property">
+    <HelpKINode Title="IValueMapping.DestinationType Property " Url="html/cc33d09d-10e0-c5ad-de06-1f2aa9b2ee92.htm" />
+    <HelpKINode Title="ValueMapping(TSource, TDestination).DestinationType Property " Url="html/3d9197b8-320c-d122-34c9-423b5b2a581b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DictionaryExtension class">
+    <HelpKINode Title="DictionaryExtension Class" Url="html/72d2b44e-7a54-869b-a423-16336860a564.htm" />
+    <HelpKINode Title="methods" Url="html/fdeaa71a-0d74-bd2d-648b-1515e849ba61.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DictionaryExtension.Create method" Url="html/95a0f441-9d56-227a-69cc-323a990d2cef.htm" />
+  <HelpKINode Title="DictionaryExtension.TryCreate method" Url="html/95ae51a5-a3d2-275f-998e-103bd52a3f73.htm" />
+  <HelpKINode Title="DoubleConversion class">
+    <HelpKINode Title="DoubleConversion Class" Url="html/150b1dd1-81a4-edd9-59b1-37506775fdc7.htm" />
+    <HelpKINode Title="constructor" Url="html/158e553f-4705-d487-5262-4432133da01a.htm" />
+    <HelpKINode Title="methods" Url="html/162d9fb4-59b9-7e46-6604-07b3e8162612.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DoubleConversion.DoubleConversion constructor" Url="html/158e553f-4705-d487-5262-4432133da01a.htm" />
+  <HelpKINode Title="DoubleConversion.TryConvert method" Url="html/513fd17c-ed45-5fdf-06a2-e27025fc932e.htm" />
+  <HelpKINode Title="EnumConversion class">
+    <HelpKINode Title="EnumConversion Class" Url="html/92b72903-8bc4-5ae1-4a1d-846f016af465.htm" />
+    <HelpKINode Title="constructor" Url="html/c6a69e88-7d78-6090-60ab-46e0c69f460f.htm" />
+    <HelpKINode Title="methods" Url="html/2880ee7b-1719-4d3b-2a3b-c3b2c3561637.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumConversion.EnumConversion constructor" Url="html/c6a69e88-7d78-6090-60ab-46e0c69f460f.htm" />
+  <HelpKINode Title="EnumConversion.TryConvert method" Url="html/4a3b74a7-3409-d7e0-2a55-7dc545f11b99.htm" />
+  <HelpKINode Title="EnumerableConversion(Of T) class">
+    <HelpKINode Title="EnumerableConversion(T) Class" Url="html/9ed2e9b7-af6c-3020-b5ec-430f88183fab.htm" />
+    <HelpKINode Title="methods" Url="html/071f4ef0-c336-33ed-59ee-4c766f00d4be.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumerableConversion(Of T).GetEnumerator method" Url="html/6c685eb9-2092-3073-7d8c-7d02ff5f8817.htm" />
+  <HelpKINode Title="EnumerableConversion(Of T).IgnoringNonConvertibleElements method" Url="html/092cee4a-c828-9fad-6126-ce0a6774e69d.htm" />
+  <HelpKINode Title="EnumerableConversion(Of T).IgnoringNullElements method" Url="html/d164f080-e43f-c777-3bc2-bad06ef30bb1.htm" />
+  <HelpKINode Title="EnumerableConversion(Of T).Try method" Url="html/8081f64b-d29c-a242-997c-868d29d16422.htm" />
+  <HelpKINode Title="EnumerableConversion&lt;T&gt; class">
+    <HelpKINode Title="EnumerableConversion(T) Class" Url="html/9ed2e9b7-af6c-3020-b5ec-430f88183fab.htm" />
+    <HelpKINode Title="methods" Url="html/071f4ef0-c336-33ed-59ee-4c766f00d4be.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumerableConversion&lt;T&gt;.GetEnumerator method" Url="html/6c685eb9-2092-3073-7d8c-7d02ff5f8817.htm" />
+  <HelpKINode Title="EnumerableConversion&lt;T&gt;.IgnoringNonConvertibleElements method" Url="html/092cee4a-c828-9fad-6126-ce0a6774e69d.htm" />
+  <HelpKINode Title="EnumerableConversion&lt;T&gt;.IgnoringNullElements method" Url="html/d164f080-e43f-c777-3bc2-bad06ef30bb1.htm" />
+  <HelpKINode Title="EnumerableConversion&lt;T&gt;.Try method" Url="html/8081f64b-d29c-a242-997c-868d29d16422.htm" />
+  <HelpKINode Title="EnumerableExtension class">
+    <HelpKINode Title="EnumerableExtension Class" Url="html/dc13dc61-4130-e48a-f7f1-789a6f74c0c5.htm" />
+    <HelpKINode Title="methods" Url="html/f6ebd0bd-9a1b-fad3-1e62-cc7744bc373f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumerableExtension.ToCollection(Of T) method" Url="html/d5dba674-d8b6-1085-3458-fb31c81d3e96.htm" />
+  <HelpKINode Title="EnumerableExtension.ToCollection&lt;T&gt; method" Url="html/d5dba674-d8b6-1085-3458-fb31c81d3e96.htm" />
+  <HelpKINode Title="EnumerableExtension.ToDataTable method" Url="html/3e44bfd6-5c15-897b-49b5-d6c9d50f9859.htm" />
+  <HelpKINode Title="EnumerableExtension.ToEnumerable method" Url="html/77a36942-d44a-8144-c402-c3de5359600b.htm" />
+  <HelpKINode Title="FileTime enumeration member" Url="html/13342c2b-674b-a1d9-3913-78694e29fe68.htm" />
+  <HelpKINode Title="FileTimeUtc enumeration member" Url="html/13342c2b-674b-a1d9-3913-78694e29fe68.htm" />
+  <HelpKINode Title="FloatConversion class">
+    <HelpKINode Title="FloatConversion Class" Url="html/edfc4688-2817-ab3d-5a0e-8be2f4868dab.htm" />
+    <HelpKINode Title="constructor" Url="html/00511f3b-9213-4be3-cd90-937fa26df7d6.htm" />
+    <HelpKINode Title="methods" Url="html/1c1bc3b1-6a70-aeb8-5424-e645cb500e31.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FloatConversion.FloatConversion constructor" Url="html/00511f3b-9213-4be3-cd90-937fa26df7d6.htm" />
+  <HelpKINode Title="FloatConversion.TryConvert method" Url="html/c78f0d81-56f9-4e41-70c1-1f4592202895.htm" />
+  <HelpKINode Title="FloatFormat property">
+    <HelpKINode Title="ConversionOptions.FloatFormat Property " Url="html/466d2d83-daaa-e78b-59b6-950861076b59.htm" />
+    <HelpKINode Title="IConversionOptions.FloatFormat Property " Url="html/9d4a8840-7ce2-a8ac-e583-bc6a2b7adaa1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FloatNumberStyle property">
+    <HelpKINode Title="ConversionOptions.FloatNumberStyle Property " Url="html/6d9fbb26-6e4c-3321-ec37-9b8f8f0b3e7c.htm" />
+    <HelpKINode Title="IConversionOptions.FloatNumberStyle Property " Url="html/ba5551a1-0091-a2c3-eefc-157fb1921c60.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormattableConversion class">
+    <HelpKINode Title="FormattableConversion Class" Url="html/9ed69b16-63c3-78f4-b176-cbbe22742679.htm" />
+    <HelpKINode Title="constructor" Url="html/5e91b272-10a1-464f-1cb1-ee42e52c158d.htm" />
+    <HelpKINode Title="methods" Url="html/9ae0fa85-2518-8414-0787-9330aa7663db.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormattableConversion.FormattableConversion constructor" Url="html/5e91b272-10a1-464f-1cb1-ee42e52c158d.htm" />
+  <HelpKINode Title="FormattableConversion.TryConvert method" Url="html/820246c5-a7d6-e752-0a11-49a0a5cb11a0.htm" />
+  <HelpKINode Title="GetEnumerator method">
+    <HelpKINode Title="ConversionCollection.GetEnumerator Method " Url="html/b2667837-e25a-396e-b09f-12acbe7de62a.htm" />
+    <HelpKINode Title="EnumerableConversion(T).GetEnumerator Method " Url="html/6c685eb9-2092-3073-7d8c-7d02ff5f8817.htm" />
+    <HelpKINode Title="ValueMappingCollection.GetEnumerator Method " Url="html/b92144c7-e9c8-0e26-4b94-9785e720383b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetMethodsOf method" Url="html/7e4469b9-1b50-b894-67ca-7ec79c1f95c7.htm" />
+  <HelpKINode Title="GuidConversion class">
+    <HelpKINode Title="GuidConversion Class" Url="html/1ef3e5fd-f4e8-9017-9e49-21eefec08057.htm" />
+    <HelpKINode Title="constructor" Url="html/339c3692-c580-46ef-8c1e-c11dd877051d.htm" />
+    <HelpKINode Title="methods" Url="html/34fe35cb-867b-8be3-9305-c0d133303dec.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GuidConversion.GuidConversion constructor" Url="html/339c3692-c580-46ef-8c1e-c11dd877051d.htm" />
+  <HelpKINode Title="GuidConversion.TryConvert method" Url="html/5c1108ca-bcfd-cd3e-7472-e9d895660af0.htm" />
+  <HelpKINode Title="GuidFormat property">
+    <HelpKINode Title="ConversionOptions.GuidFormat Property " Url="html/1db3ca6e-71c5-df36-c20b-d21232035766.htm" />
+    <HelpKINode Title="IConversionOptions.GuidFormat Property " Url="html/e3c28922-3b93-0f2f-f1f7-e3c93009b687.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HandleDBNullAsNull property">
+    <HelpKINode Title="ConversionOptions.HandleDBNullAsNull Property " Url="html/8c4ca40a-2cd9-8113-b3f6-dedf9d2b2004.htm" />
+    <HelpKINode Title="IConversionOptions.HandleDBNullAsNull Property " Url="html/66fbf571-f1bb-3ac9-9153-58fa1d792588.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HasValue property" Url="html/91c692a2-e54d-2203-cc66-f77f2653d3c7.htm" />
+  <HelpKINode Title="High enumeration member" Url="html/ad5fa9fe-1581-de8d-58df-e20592a4a65e.htm" />
+  <HelpKINode Title="IConversionOptions interface">
+    <HelpKINode Title="IConversionOptions Interface" Url="html/5be2e229-a731-4cfa-dbcd-7e283d8eab42.htm" />
+    <HelpKINode Title="properties" Url="html/633616ed-252e-064a-2823-aa491f532248.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IConversionOptions.AllowDefaultValueIfNotConvertible property" Url="html/bc10362e-bb33-e2cd-7169-7bb9d9219da7.htm" />
+  <HelpKINode Title="IConversionOptions.AllowDefaultValueIfNull property" Url="html/0e80a2fd-fb39-078f-6580-31a94c9568a5.htm" />
+  <HelpKINode Title="IConversionOptions.AllowDefaultValueIfWhitespace property" Url="html/894435c5-e1c3-34e0-c231-52e0e2db1f60.htm" />
+  <HelpKINode Title="IConversionOptions.ByteArrayFormat property" Url="html/66b63e5e-687e-3467-893e-a06e0b01e688.htm" />
+  <HelpKINode Title="IConversionOptions.ConstructorResolvingMode property" Url="html/17a13c3c-182f-b5ad-db3c-3070818e3d3f.htm" />
+  <HelpKINode Title="IConversionOptions.DateTimeFormat property" Url="html/35cc11e5-b7e2-c44e-33ab-639d42e156b1.htm" />
+  <HelpKINode Title="IConversionOptions.DateTimeLongMeaning property" Url="html/a300cac4-7349-992b-5783-c4e3063081e5.htm" />
+  <HelpKINode Title="IConversionOptions.DateTimePatterns property" Url="html/ec03b9b6-d41c-ada4-5dc7-148431c6e133.htm" />
+  <HelpKINode Title="IConversionOptions.DateTimeStyle property" Url="html/3e617a56-6b0b-cb9c-ba87-33f2c7b947e8.htm" />
+  <HelpKINode Title="IConversionOptions.DecimalFormat property" Url="html/27cf8ba4-f2ad-494d-7ee8-664381fe21d2.htm" />
+  <HelpKINode Title="IConversionOptions.DecimalNumberStyle property" Url="html/9d854f80-365f-0b94-87d0-b5ecc5ff2a2c.htm" />
+  <HelpKINode Title="IConversionOptions.FloatFormat property" Url="html/9d4a8840-7ce2-a8ac-e583-bc6a2b7adaa1.htm" />
+  <HelpKINode Title="IConversionOptions.FloatNumberStyle property" Url="html/ba5551a1-0091-a2c3-eefc-157fb1921c60.htm" />
+  <HelpKINode Title="IConversionOptions.GuidFormat property" Url="html/e3c28922-3b93-0f2f-f1f7-e3c93009b687.htm" />
+  <HelpKINode Title="IConversionOptions.HandleDBNullAsNull property" Url="html/66fbf571-f1bb-3ac9-9153-58fa1d792588.htm" />
+  <HelpKINode Title="IConversionOptions.IntegerFormat property" Url="html/46ac0d9b-d2ff-6b84-54cb-9f86b144a89b.htm" />
+  <HelpKINode Title="IConversionOptions.IntegerNumberStyle property" Url="html/5d8de197-299e-1fdb-d584-577c4fbdf7ee.htm" />
+  <HelpKINode Title="IConversionOptions.PropertyResolvingMode property" Url="html/1a5dcdc4-3aa1-df36-cf65-0ad9035dccca.htm" />
+  <HelpKINode Title="Ignore enumeration member" Url="html/77a47688-9ef5-37d7-afc3-53caf6b7397b.htm" />
+  <HelpKINode Title="IgnoringNonConvertibleElements method" Url="html/092cee4a-c828-9fad-6126-ce0a6774e69d.htm" />
+  <HelpKINode Title="IgnoringNullElements method" Url="html/d164f080-e43f-c777-3bc2-bad06ef30bb1.htm" />
+  <HelpKINode Title="IncompatibleDataColumnTypeHandling enumeration" Url="html/77a47688-9ef5-37d7-afc3-53caf6b7397b.htm" />
+  <HelpKINode Title="InstantiationException class">
+    <HelpKINode Title="InstantiationException Class" Url="html/2fe50167-cf46-b0ac-de8d-b1f4b9b2a5b5.htm" />
+    <HelpKINode Title="constructor" Url="html/d8ba5306-e55d-dd88-3d3d-8e64cf060077.htm" />
+    <HelpKINode Title="methods" Url="html/16b76039-ea40-14a6-f4b2-c8abf1ffd98c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InstantiationException.InstantiationException constructor" Url="html/d8ba5306-e55d-dd88-3d3d-8e64cf060077.htm" />
+  <HelpKINode Title="IntConversion class">
+    <HelpKINode Title="IntConversion Class" Url="html/142c5ac9-15d6-13d2-b86d-d0a359429ae4.htm" />
+    <HelpKINode Title="constructor" Url="html/b2c01a71-0c1a-4733-9478-1664cbe1f4e8.htm" />
+    <HelpKINode Title="methods" Url="html/52c12e18-62d3-5737-59e6-d5ee32c1932d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntConversion.IntConversion constructor" Url="html/b2c01a71-0c1a-4733-9478-1664cbe1f4e8.htm" />
+  <HelpKINode Title="IntConversion.TryConvert method" Url="html/fa5a04ae-b489-8e1b-aa29-eb73361e9202.htm" />
+  <HelpKINode Title="IntegerFormat property">
+    <HelpKINode Title="ConversionOptions.IntegerFormat Property " Url="html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm" />
+    <HelpKINode Title="IConversionOptions.IntegerFormat Property " Url="html/46ac0d9b-d2ff-6b84-54cb-9f86b144a89b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntegerNumberStyle property">
+    <HelpKINode Title="ConversionOptions.IntegerNumberStyle Property " Url="html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm" />
+    <HelpKINode Title="IConversionOptions.IntegerNumberStyle Property " Url="html/5d8de197-299e-1fdb-d584-577c4fbdf7ee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InvalidConversionException class">
+    <HelpKINode Title="InvalidConversionException Class" Url="html/6df954dd-2186-0b64-18ee-3d6712759af4.htm" />
+    <HelpKINode Title="constructor" Url="html/218bbc23-9ead-61d6-12a4-ab071caa8846.htm" />
+    <HelpKINode Title="methods" Url="html/79387d9e-d4ef-d268-f826-295144cd87ef.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InvalidConversionException.InvalidConversionException constructor" Url="html/218bbc23-9ead-61d6-12a4-ab071caa8846.htm" />
+  <HelpKINode Title="IsAssignable method" Url="html/50fc806f-a254-e910-92b9-2d328a243319.htm" />
+  <HelpKINode Title="IsConvertibleTo method" Url="html/7abd601d-6573-a016-2896-0dd717898258.htm" />
+  <HelpKINode Title="IsEnum method" Url="html/611df56f-306c-1d1f-f46d-67347693bbf0.htm" />
+  <HelpKINode Title="IsFloat method" Url="html/96375e95-375e-75fd-23c6-373dd57f34b0.htm" />
+  <HelpKINode Title="IsInteger method" Url="html/327f0f83-0e2e-328c-2680-5d9f383d700d.htm" />
+  <HelpKINode Title="ITypeConversion interface">
+    <HelpKINode Title="ITypeConversion Interface" Url="html/e8300d27-ee7d-c100-ff1a-ef2c159828b1.htm" />
+    <HelpKINode Title="methods" Url="html/29caa05f-397b-bbf5-aac6-75b68d6e6dfc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITypeConversion.TryConvert method" Url="html/b45f12ce-306e-36d3-6859-ab56842b570a.htm" />
+  <HelpKINode Title="ITypeConverter interface">
+    <HelpKINode Title="ITypeConverter Interface" Url="html/d8e97374-3e8d-4486-79dd-c8eb6a505f4a.htm" />
+    <HelpKINode Title="methods" Url="html/9cb37aa4-dfe7-c104-2511-d3db18924bb1.htm" />
+    <HelpKINode Title="properties" Url="html/3f0929b8-138a-b2a5-1b04-c18fd8cb1df2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITypeConverter.Options property" Url="html/e623c849-affe-1b71-f8a5-a04d95226039.htm" />
+  <HelpKINode Title="IValueMapping interface">
+    <HelpKINode Title="IValueMapping Interface" Url="html/8938db58-ce66-600b-c5c9-d435d0bf274d.htm" />
+    <HelpKINode Title="methods" Url="html/3be7df40-3ecf-4234-87de-6668f8ea296b.htm" />
+    <HelpKINode Title="properties" Url="html/e4645eb7-5ba7-282c-4dff-ae12866ad727.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IValueMapping.DestinationType property" Url="html/cc33d09d-10e0-c5ad-de06-1f2aa9b2ee92.htm" />
+  <HelpKINode Title="IValueMapping.SourceType property" Url="html/d0f53b27-2627-4a7c-ea1c-ff20cc99c3c5.htm" />
+  <HelpKINode Title="IValueMapping.TryMap method" Url="html/db2dcc75-2993-df68-4154-21b382a9ea38.htm" />
+  <HelpKINode Title="Lax enumeration member">
+    <HelpKINode Title="ConstructorResolvingMode Enumeration" Url="html/f288409c-d5eb-19f7-5b0f-7aad25f397a4.htm" />
+    <HelpKINode Title="PropertyResolvingMode Enumeration" Url="html/c8ec7dd2-9fc0-0103-821a-3485be64ffa4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LongConversion class">
+    <HelpKINode Title="LongConversion Class" Url="html/6de28d25-88e6-02de-13d3-fcc5690a893b.htm" />
+    <HelpKINode Title="constructor" Url="html/2645d25e-c0d7-ff75-82dc-b555eb2990a0.htm" />
+    <HelpKINode Title="methods" Url="html/db76990b-8c9e-d0e3-db8e-8093b75813ce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LongConversion.LongConversion constructor" Url="html/2645d25e-c0d7-ff75-82dc-b555eb2990a0.htm" />
+  <HelpKINode Title="LongConversion.TryConvert method" Url="html/c15d91ed-dfdd-5b37-578c-e96bdc1b9a61.htm" />
+  <HelpKINode Title="Low enumeration member" Url="html/ad5fa9fe-1581-de8d-58df-e20592a4a65e.htm" />
+  <HelpKINode Title="None enumeration member">
+    <HelpKINode Title="ByteArrayFormat Enumeration" Url="html/3658e9e1-fe63-6aee-48fb-ce54f384c58f.htm" />
+    <HelpKINode Title="ConstructorResolvingMode Enumeration" Url="html/f288409c-d5eb-19f7-5b0f-7aad25f397a4.htm" />
+    <HelpKINode Title="DateTimeLongMeaning Enumeration" Url="html/13342c2b-674b-a1d9-3913-78694e29fe68.htm" />
+    <HelpKINode Title="PropertyResolvingMode Enumeration" Url="html/c8ec7dd2-9fc0-0103-821a-3485be64ffa4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NullValues property">
+    <HelpKINode Title="TypeConverter.NullValues Property " Url="html/d5c797d3-973e-9fbf-481f-61943692a9de.htm" />
+    <HelpKINode Title="UniversalTypeConverter.NullValues Property " Url="html/7b9c9be1-2432-46ab-e917-ed6de35a0922.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectExtension class">
+    <HelpKINode Title="ObjectExtension Class" Url="html/a637795d-8b68-9417-8fc8-be587a9bd084.htm" />
+    <HelpKINode Title="methods" Url="html/3cc07d55-1e05-34a1-9bc8-28be7c062c25.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectExtension.As(Of T) method" Url="html/d8946463-b26a-d66b-ca54-b795f92907bc.htm" />
+  <HelpKINode Title="ObjectExtension.As&lt;T&gt; method" Url="html/d8946463-b26a-d66b-ca54-b795f92907bc.htm" />
+  <HelpKINode Title="ObjectExtension.CanConvert method" Url="html/b232e795-0546-5833-5069-128bc7224dae.htm" />
+  <HelpKINode Title="ObjectExtension.CanConvertTo(Of T) method" Url="html/92c2e92d-5b87-613a-85f0-1026f72df27d.htm" />
+  <HelpKINode Title="ObjectExtension.CanConvertTo&lt;T&gt; method" Url="html/92c2e92d-5b87-613a-85f0-1026f72df27d.htm" />
+  <HelpKINode Title="ObjectExtension.Convert method" Url="html/e13239dd-afff-db3d-bf01-dc1b54838f4c.htm" />
+  <HelpKINode Title="ObjectExtension.ConvertTo(Of T) method" Url="html/32a24228-0704-961d-5da4-1c605f96afb2.htm" />
+  <HelpKINode Title="ObjectExtension.ConvertTo&lt;T&gt; method" Url="html/32a24228-0704-961d-5da4-1c605f96afb2.htm" />
+  <HelpKINode Title="ObjectExtension.ConvertToEnumerable method" Url="html/1a5f2dfc-9eea-fcb0-0bcc-a376bf75020e.htm" />
+  <HelpKINode Title="ObjectExtension.IsConvertibleTo method" Url="html/7abd601d-6573-a016-2896-0dd717898258.htm" />
+  <HelpKINode Title="ObjectExtension.To method" Url="html/985bff34-28ac-d32b-2d9b-7f061f15829e.htm" />
+  <HelpKINode Title="ObjectExtension.ToDictionary method" Url="html/98b8b123-eed4-186a-11ca-74c2de681bc9.htm" />
+  <HelpKINode Title="ObjectExtension.TryConvert method" Url="html/5a7dc09d-66a1-63f9-c3b0-05011640ee70.htm" />
+  <HelpKINode Title="ObjectExtension.TryConvertTo(Of T) method" Url="html/2e4ecd5f-9d8b-67c8-876a-80aef692424b.htm" />
+  <HelpKINode Title="ObjectExtension.TryConvertTo&lt;T&gt; method" Url="html/2e4ecd5f-9d8b-67c8-876a-80aef692424b.htm" />
+  <HelpKINode Title="Options property">
+    <HelpKINode Title="ConversionArgs.Options Property " Url="html/04b4922f-d1ca-dfcc-fd73-b7a1c0a28866.htm" />
+    <HelpKINode Title="ITypeConverter.Options Property " Url="html/e623c849-affe-1b71-f8a5-a04d95226039.htm" />
+    <HelpKINode Title="TypeConverter.Options Property " Url="html/0201aae2-8442-a9c8-91aa-8a53e3a4de91.htm" />
+    <HelpKINode Title="UniversalTypeConverter.Options Property " Url="html/0b666182-23a3-3cdb-984f-ebcc59a5abb6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Or method" Url="html/b2825ed9-7cf5-7f41-c1f1-2961518ff1b8.htm" />
+  <HelpKINode Title="OrDefault method" Url="html/cad172fd-f171-24d7-b842-e639814e160a.htm" />
+  <HelpKINode Title="PropertyBasedConversion class">
+    <HelpKINode Title="PropertyBasedConversion Class" Url="html/bdebb42c-19e7-db32-65b7-533782bcc456.htm" />
+    <HelpKINode Title="constructor" Url="html/6b7f536c-5d3e-b9d7-5676-bb3dea9a5ae0.htm" />
+    <HelpKINode Title="methods" Url="html/3afcbb12-571f-4ece-6967-c9b70c04269f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PropertyBasedConversion.PropertyBasedConversion constructor" Url="html/6b7f536c-5d3e-b9d7-5676-bb3dea9a5ae0.htm" />
+  <HelpKINode Title="PropertyBasedConversion.TryConvert method" Url="html/cd4f6886-0dbd-c8ff-373a-594b91b8968f.htm" />
+  <HelpKINode Title="PropertyResolvingMode enumeration" Url="html/c8ec7dd2-9fc0-0103-821a-3485be64ffa4.htm" />
+  <HelpKINode Title="PropertyResolvingMode property">
+    <HelpKINode Title="ConversionOptions.PropertyResolvingMode Property " Url="html/8c5cbb48-ed51-7bb3-a8dd-b023e366d731.htm" />
+    <HelpKINode Title="IConversionOptions.PropertyResolvingMode Property " Url="html/1a5dcdc4-3aa1-df36-cf65-0ad9035dccca.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveDestinationType(Of T) method" Url="html/ceb95324-08ce-017a-17f4-05cd259c79b7.htm" />
+  <HelpKINode Title="RemoveDestinationType&lt;T&gt; method" Url="html/ceb95324-08ce-017a-17f4-05cd259c79b7.htm" />
+  <HelpKINode Title="RemoveSourceType(Of T) method" Url="html/62b21625-d077-db70-85a7-74bbf4703b68.htm" />
+  <HelpKINode Title="RemoveSourceType&lt;T&gt; method" Url="html/62b21625-d077-db70-85a7-74bbf4703b68.htm" />
+  <HelpKINode Title="SByteConversion class">
+    <HelpKINode Title="SByteConversion Class" Url="html/d080a0bd-871a-c400-d4c2-85a86d5c1d8e.htm" />
+    <HelpKINode Title="constructor" Url="html/3188c002-41f0-0db4-6f57-d9856281ef74.htm" />
+    <HelpKINode Title="methods" Url="html/af180185-09a7-9683-8fdd-33271d8f91d9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SByteConversion.SByteConversion constructor" Url="html/3188c002-41f0-0db4-6f57-d9856281ef74.htm" />
+  <HelpKINode Title="SByteConversion.TryConvert method" Url="html/60f090dd-b01c-df6a-b0ee-838b2d226ba5.htm" />
+  <HelpKINode Title="ShortConversion class">
+    <HelpKINode Title="ShortConversion Class" Url="html/50036525-3133-5df2-0e7b-9b7fd6fcb3d1.htm" />
+    <HelpKINode Title="constructor" Url="html/5d0cfd1b-2c2e-e25f-26e4-5108d0b56c06.htm" />
+    <HelpKINode Title="methods" Url="html/6f234b49-7dfa-31e9-6d2f-afcaa2ec9b31.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShortConversion.ShortConversion constructor" Url="html/5d0cfd1b-2c2e-e25f-26e4-5108d0b56c06.htm" />
+  <HelpKINode Title="ShortConversion.TryConvert method" Url="html/6352aa16-0a65-4bd0-4abe-0af3ca65d740.htm" />
+  <HelpKINode Title="SourceType property">
+    <HelpKINode Title="IValueMapping.SourceType Property " Url="html/d0f53b27-2627-4a7c-ea1c-ff20cc99c3c5.htm" />
+    <HelpKINode Title="ValueMapping(TSource, TDestination).SourceType Property " Url="html/99c13fee-7c85-0709-1d37-bce75159468d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SourceValue property" Url="html/07dd3602-bbf0-3935-5962-427bdc9418a8.htm" />
+  <HelpKINode Title="Strict enumeration member">
+    <HelpKINode Title="ConstructorResolvingMode Enumeration" Url="html/f288409c-d5eb-19f7-5b0f-7aad25f397a4.htm" />
+    <HelpKINode Title="PropertyResolvingMode Enumeration" Url="html/c8ec7dd2-9fc0-0103-821a-3485be64ffa4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringConversion class">
+    <HelpKINode Title="StringConversion Class" Url="html/d9bf952b-6aab-3819-cd6d-0abb45e9a3b4.htm" />
+    <HelpKINode Title="constructor" Url="html/f5c981f5-2519-8f9c-1ff7-d27907ff835b.htm" />
+    <HelpKINode Title="methods" Url="html/3dee4a96-2455-2e66-b218-25be426ad09e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringConversion.StringConversion constructor" Url="html/f5c981f5-2519-8f9c-1ff7-d27907ff835b.htm" />
+  <HelpKINode Title="StringConversion.TryConvert method" Url="html/c237b178-78b8-07f0-f7b0-beb6f32b37d3.htm" />
+  <HelpKINode Title="TB.ComponentModel namespace" Url="html/cddcf616-ae7d-45a0-ce43-082ddbcf43ab.htm" />
+  <HelpKINode Title="TB.ComponentModel.ByteArrayFormat enumeration" Url="html/3658e9e1-fe63-6aee-48fb-ce54f384c58f.htm" />
+  <HelpKINode Title="TB.ComponentModel.ConstructorResolvingMode enumeration" Url="html/f288409c-d5eb-19f7-5b0f-7aad25f397a4.htm" />
+  <HelpKINode Title="TB.ComponentModel.ConversionArgs class" Url="html/f60b6857-b98c-ed1e-131f-e17400d1a95c.htm" />
+  <HelpKINode Title="TB.ComponentModel.ConversionCollection class" Url="html/ca182566-8e25-2327-5262-db747d59eb2b.htm" />
+  <HelpKINode Title="TB.ComponentModel.ConversionOptions class" Url="html/08f7c35b-31d3-4293-5a43-f74f24cfdd2e.htm" />
+  <HelpKINode Title="TB.ComponentModel.ConversionPriority enumeration" Url="html/ad5fa9fe-1581-de8d-58df-e20592a4a65e.htm" />
+  <HelpKINode Title="TB.ComponentModel.ConversionResult(Of T) class" Url="html/66a390b4-59df-0317-f742-c020992602ab.htm" />
+  <HelpKINode Title="TB.ComponentModel.ConversionResult&lt;T&gt; class" Url="html/66a390b4-59df-0317-f742-c020992602ab.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions namespace" Url="html/7c7246e7-0fac-d328-f102-6b8694701143.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.AssignableConversion class" Url="html/d369ef3a-2817-8008-f59b-481f9cbe3136.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.ByteArrayConversion class" Url="html/435e30d4-1224-fd7c-aec2-50539a7eb199.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.ByteConversion class" Url="html/3528e7ac-ae07-8fcf-c73f-91688a7bee62.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.CharConversion class" Url="html/18225cea-ec20-d16f-943d-45943a5b1da0.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.ConstructorBasedConversion class" Url="html/fbd4c044-aac6-51bb-bfa7-9a6a81de0049.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.ConversionBase class" Url="html/85b30622-c5fb-4f4a-4505-af8024af92f3.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.ConvertibleConversion class" Url="html/f41ac9d6-2bac-e2bf-f623-1c7d07fd2df7.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.DataRecordConversion class" Url="html/c798d3c4-ec52-5261-84bf-357b9fb2e9cd.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.DataRowConversion class" Url="html/cf08b472-5cd6-1d1d-8b77-8dbf44aba6a5.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.DataRowViewConversion class" Url="html/e7ed7e12-6d05-6ffd-4801-f1d631e88604.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.DateTimeConversion class" Url="html/a2060c9b-5008-e4ef-4712-48bb033d35f3.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.DecimalConversion class" Url="html/0c0f2ca9-67f7-3b12-10ce-4c6be99c9b10.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.DoubleConversion class" Url="html/150b1dd1-81a4-edd9-59b1-37506775fdc7.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.EnumConversion class" Url="html/92b72903-8bc4-5ae1-4a1d-846f016af465.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.FloatConversion class" Url="html/edfc4688-2817-ab3d-5a0e-8be2f4868dab.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.FormattableConversion class" Url="html/9ed69b16-63c3-78f4-b176-cbbe22742679.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.GuidConversion class" Url="html/1ef3e5fd-f4e8-9017-9e49-21eefec08057.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.IntConversion class" Url="html/142c5ac9-15d6-13d2-b86d-d0a359429ae4.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.LongConversion class" Url="html/6de28d25-88e6-02de-13d3-fcc5690a893b.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.PropertyBasedConversion class" Url="html/bdebb42c-19e7-db32-65b7-533782bcc456.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.SByteConversion class" Url="html/d080a0bd-871a-c400-d4c2-85a86d5c1d8e.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.ShortConversion class" Url="html/50036525-3133-5df2-0e7b-9b7fd6fcb3d1.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.StringConversion class" Url="html/d9bf952b-6aab-3819-cd6d-0abb45e9a3b4.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.TryParseConversion class" Url="html/b73e3ca3-6b0f-2c88-5443-3580fa8e7de0.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.TypeConversion(Of TSource) class" Url="html/b42ec32f-550e-8cf3-95a6-7ea3fe1e664a.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.TypeConversion&lt;TSource&gt; class" Url="html/b42ec32f-550e-8cf3-95a6-7ea3fe1e664a.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.TypeConverterConversion class" Url="html/0e367a0e-5639-d6b9-a48f-1ad716032574.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.UIntConversion class" Url="html/cc7f8431-1d99-e6a6-699d-8c8f73405323.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.ULongConversion class" Url="html/36ae410d-4efa-9101-db43-8412e7c90515.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.UShortConversion class" Url="html/52b10293-f5c4-1351-cd4a-18d89dcfc1bc.htm" />
+  <HelpKINode Title="TB.ComponentModel.Conversions.XPlicitConversion class" Url="html/1e94de3a-958e-d0f4-872e-f87b4d37b231.htm" />
+  <HelpKINode Title="TB.ComponentModel.DataRecordExtension class" Url="html/86a2f231-6d04-40d4-e311-90eb0f9ef82b.htm" />
+  <HelpKINode Title="TB.ComponentModel.DataRowExtension class" Url="html/f33d68a0-8c96-1e26-5cc2-a8a13c3edfcc.htm" />
+  <HelpKINode Title="TB.ComponentModel.DateTimeLongMeaning enumeration" Url="html/13342c2b-674b-a1d9-3913-78694e29fe68.htm" />
+  <HelpKINode Title="TB.ComponentModel.DictionaryExtension class" Url="html/72d2b44e-7a54-869b-a423-16336860a564.htm" />
+  <HelpKINode Title="TB.ComponentModel.EnumerableConversion(Of T) class" Url="html/9ed2e9b7-af6c-3020-b5ec-430f88183fab.htm" />
+  <HelpKINode Title="TB.ComponentModel.EnumerableConversion&lt;T&gt; class" Url="html/9ed2e9b7-af6c-3020-b5ec-430f88183fab.htm" />
+  <HelpKINode Title="TB.ComponentModel.EnumerableExtension class" Url="html/dc13dc61-4130-e48a-f7f1-789a6f74c0c5.htm" />
+  <HelpKINode Title="TB.ComponentModel.IConversionOptions interface" Url="html/5be2e229-a731-4cfa-dbcd-7e283d8eab42.htm" />
+  <HelpKINode Title="TB.ComponentModel.IncompatibleDataColumnTypeHandling enumeration" Url="html/77a47688-9ef5-37d7-afc3-53caf6b7397b.htm" />
+  <HelpKINode Title="TB.ComponentModel.InstantiationException class" Url="html/2fe50167-cf46-b0ac-de8d-b1f4b9b2a5b5.htm" />
+  <HelpKINode Title="TB.ComponentModel.InvalidConversionException class" Url="html/6df954dd-2186-0b64-18ee-3d6712759af4.htm" />
+  <HelpKINode Title="TB.ComponentModel.ITypeConversion interface" Url="html/e8300d27-ee7d-c100-ff1a-ef2c159828b1.htm" />
+  <HelpKINode Title="TB.ComponentModel.ITypeConverter interface" Url="html/d8e97374-3e8d-4486-79dd-c8eb6a505f4a.htm" />
+  <HelpKINode Title="TB.ComponentModel.IValueMapping interface" Url="html/8938db58-ce66-600b-c5c9-d435d0bf274d.htm" />
+  <HelpKINode Title="TB.ComponentModel.ObjectExtension class" Url="html/a637795d-8b68-9417-8fc8-be587a9bd084.htm" />
+  <HelpKINode Title="TB.ComponentModel.PropertyResolvingMode enumeration" Url="html/c8ec7dd2-9fc0-0103-821a-3485be64ffa4.htm" />
+  <HelpKINode Title="TB.ComponentModel.TypeConverter class" Url="html/d1ebbc02-1c0a-d6a8-9fe9-805f855eabda.htm" />
+  <HelpKINode Title="TB.ComponentModel.TypeValueDictionary class" Url="html/26106450-5672-7b05-bba8-82ca08eba3bb.htm" />
+  <HelpKINode Title="TB.ComponentModel.UniversalTypeConverter class" Url="html/48e33a2f-5d7f-a542-632e-05858d984285.htm" />
+  <HelpKINode Title="TB.ComponentModel.ValueMapping(Of TSource, TDestination) class" Url="html/7d7550ce-9a02-45e1-f994-4d9494836d7a.htm" />
+  <HelpKINode Title="TB.ComponentModel.ValueMapping&lt;TSource, TDestination&gt; class" Url="html/7d7550ce-9a02-45e1-f994-4d9494836d7a.htm" />
+  <HelpKINode Title="TB.ComponentModel.ValueMappingCollection class" Url="html/d3ded3d4-f132-7d83-f18c-cabb8d83ddb4.htm" />
+  <HelpKINode Title="Ticks enumeration member" Url="html/13342c2b-674b-a1d9-3913-78694e29fe68.htm" />
+  <HelpKINode Title="To method" Url="html/985bff34-28ac-d32b-2d9b-7f061f15829e.htm" />
+  <HelpKINode Title="ToCollection(Of T) method" Url="html/d5dba674-d8b6-1085-3458-fb31c81d3e96.htm" />
+  <HelpKINode Title="ToCollection&lt;T&gt; method" Url="html/d5dba674-d8b6-1085-3458-fb31c81d3e96.htm" />
+  <HelpKINode Title="ToDataTable method" Url="html/3e44bfd6-5c15-897b-49b5-d6c9d50f9859.htm" />
+  <HelpKINode Title="ToDictionary method">
+    <HelpKINode Title="DataRecordExtension.ToDictionary Method " Url="html/574cb047-1088-11fc-5b56-0cef50fb1f5e.htm" />
+    <HelpKINode Title="DataRowExtension.ToDictionary Method " Url="html/d0112f68-c7f1-7c32-6d53-32dafbb6278e.htm" />
+    <HelpKINode Title="ObjectExtension.ToDictionary Method " Url="html/98b8b123-eed4-186a-11ca-74c2de681bc9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToEnumerable method" Url="html/77a36942-d44a-8144-c402-c3de5359600b.htm" />
+  <HelpKINode Title="ToString enumeration member" Url="html/77a47688-9ef5-37d7-afc3-53caf6b7397b.htm" />
+  <HelpKINode Title="ToString method" Url="html/2133ff62-a308-af3d-fc69-3142667d6db5.htm" />
+  <HelpKINode Title="Try method" Url="html/8081f64b-d29c-a242-997c-868d29d16422.htm" />
+  <HelpKINode Title="TryConvert method">
+    <HelpKINode Title="AssignableConversion.TryConvert Method " Url="html/fd72fcf8-4935-e2e3-5ec3-778a74590965.htm" />
+    <HelpKINode Title="ByteArrayConversion.TryConvert Method " Url="html/b1800b3d-32f4-1603-ca12-23dd3d4db767.htm" />
+    <HelpKINode Title="ByteConversion.TryConvert Method " Url="html/9d1cde5c-6921-0653-2851-6f6557b58ef8.htm" />
+    <HelpKINode Title="CharConversion.TryConvert Method " Url="html/00224bd5-0526-1217-8c56-cc7efc70b703.htm" />
+    <HelpKINode Title="ConstructorBasedConversion.TryConvert Method " Url="html/93d334e0-084c-30e3-22e6-f36a748e647a.htm" />
+    <HelpKINode Title="ConversionBase.TryConvert Method " Url="html/2fc0e931-009b-2dbb-d288-8ed91ceddbd9.htm" />
+    <HelpKINode Title="ConvertibleConversion.TryConvert Method " Url="html/62f582b6-a886-c77d-141c-0bc3bcb2d03f.htm" />
+    <HelpKINode Title="DataRecordConversion.TryConvert Method " Url="html/a313e53c-8986-54d8-575b-8483880a9715.htm" />
+    <HelpKINode Title="DataRowConversion.TryConvert Method " Url="html/5b4d8fd6-d1cf-b0ff-c26b-db2f9ce0da26.htm" />
+    <HelpKINode Title="DataRowViewConversion.TryConvert Method " Url="html/722a9eaa-714e-dc63-245c-3acff5aa72ac.htm" />
+    <HelpKINode Title="DateTimeConversion.TryConvert Method " Url="html/45766ed4-18bf-d207-cdc0-a9471922f489.htm" />
+    <HelpKINode Title="DecimalConversion.TryConvert Method " Url="html/ce5489fc-f9c7-a044-ca92-8f14099ec5ba.htm" />
+    <HelpKINode Title="DoubleConversion.TryConvert Method " Url="html/513fd17c-ed45-5fdf-06a2-e27025fc932e.htm" />
+    <HelpKINode Title="EnumConversion.TryConvert Method " Url="html/4a3b74a7-3409-d7e0-2a55-7dc545f11b99.htm" />
+    <HelpKINode Title="FloatConversion.TryConvert Method " Url="html/c78f0d81-56f9-4e41-70c1-1f4592202895.htm" />
+    <HelpKINode Title="FormattableConversion.TryConvert Method " Url="html/820246c5-a7d6-e752-0a11-49a0a5cb11a0.htm" />
+    <HelpKINode Title="GuidConversion.TryConvert Method " Url="html/5c1108ca-bcfd-cd3e-7472-e9d895660af0.htm" />
+    <HelpKINode Title="IntConversion.TryConvert Method " Url="html/fa5a04ae-b489-8e1b-aa29-eb73361e9202.htm" />
+    <HelpKINode Title="ITypeConversion.TryConvert Method " Url="html/b45f12ce-306e-36d3-6859-ab56842b570a.htm" />
+    <HelpKINode Title="LongConversion.TryConvert Method " Url="html/c15d91ed-dfdd-5b37-578c-e96bdc1b9a61.htm" />
+    <HelpKINode Title="ObjectExtension.TryConvert Method " Url="html/5a7dc09d-66a1-63f9-c3b0-05011640ee70.htm" />
+    <HelpKINode Title="PropertyBasedConversion.TryConvert Method " Url="html/cd4f6886-0dbd-c8ff-373a-594b91b8968f.htm" />
+    <HelpKINode Title="SByteConversion.TryConvert Method " Url="html/60f090dd-b01c-df6a-b0ee-838b2d226ba5.htm" />
+    <HelpKINode Title="ShortConversion.TryConvert Method " Url="html/6352aa16-0a65-4bd0-4abe-0af3ca65d740.htm" />
+    <HelpKINode Title="StringConversion.TryConvert Method " Url="html/c237b178-78b8-07f0-f7b0-beb6f32b37d3.htm" />
+    <HelpKINode Title="TryParseConversion.TryConvert Method " Url="html/61cc460d-0c63-9268-943f-69924cddcc00.htm" />
+    <HelpKINode Title="TypeConversion(TSource).TryConvert Method " Url="html/5e9ff647-0bdc-1e67-0d8c-e2181d2f8d91.htm" />
+    <HelpKINode Title="TypeConverter.TryConvert Method " Url="html/c736d4ff-6852-a7cc-42ae-3fd8e35da5df.htm" />
+    <HelpKINode Title="TypeConverterConversion.TryConvert Method " Url="html/78a973b4-805c-af5d-553d-e6e3636506a9.htm" />
+    <HelpKINode Title="UIntConversion.TryConvert Method " Url="html/e56e8abb-1d4f-28d5-10ee-89d0e17e8230.htm" />
+    <HelpKINode Title="ULongConversion.TryConvert Method " Url="html/3dd61842-7ff7-fa08-5286-617b3c3844b8.htm" />
+    <HelpKINode Title="UShortConversion.TryConvert Method " Url="html/b9346cbd-65a6-caf6-ec3e-d0344c8081c7.htm" />
+    <HelpKINode Title="XPlicitConversion.TryConvert Method " Url="html/a6987290-7401-2b3a-d2c0-223b83c6e62d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryConvertTo(Of T) method">
+    <HelpKINode Title="ObjectExtension.TryConvertTo(T) Method " Url="html/2e4ecd5f-9d8b-67c8-876a-80aef692424b.htm" />
+    <HelpKINode Title="TypeConverter.TryConvertTo(T) Method " Url="html/1c060a92-201f-ae5d-8ae4-9432acfba41c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryConvertTo&lt;T&gt; method">
+    <HelpKINode Title="ObjectExtension.TryConvertTo(T) Method " Url="html/2e4ecd5f-9d8b-67c8-876a-80aef692424b.htm" />
+    <HelpKINode Title="TypeConverter.TryConvertTo(T) Method " Url="html/1c060a92-201f-ae5d-8ae4-9432acfba41c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryCreate method">
+    <HelpKINode Title="DictionaryExtension.TryCreate Method " Url="html/95ae51a5-a3d2-275f-998e-103bd52a3f73.htm" />
+    <HelpKINode Title="TypeConverter.TryCreate Method " Url="html/2d3745a3-a63a-a7aa-5041-9f601890d6f3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryGet method" Url="html/a522d30b-88b7-6ca7-010e-32607065f6e7.htm" />
+  <HelpKINode Title="TryMap method">
+    <HelpKINode Title="IValueMapping.TryMap Method " Url="html/db2dcc75-2993-df68-4154-21b382a9ea38.htm" />
+    <HelpKINode Title="ValueMapping(TSource, TDestination).TryMap Method " Url="html/b3de9ad7-1de2-b48c-a04b-07c5cd6e43b0.htm" />
+    <HelpKINode Title="ValueMappingCollection.TryMap Method " Url="html/10f3537f-51cb-2d6d-b47c-9a8f0c91e75e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryParseConversion class">
+    <HelpKINode Title="TryParseConversion Class" Url="html/b73e3ca3-6b0f-2c88-5443-3580fa8e7de0.htm" />
+    <HelpKINode Title="constructor" Url="html/46227124-0507-b378-ec07-a2a550a83866.htm" />
+    <HelpKINode Title="methods" Url="html/e4e77eb1-55ed-dde6-8a1c-92c5ab190e18.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryParseConversion.TryConvert method" Url="html/61cc460d-0c63-9268-943f-69924cddcc00.htm" />
+  <HelpKINode Title="TryParseConversion.TryParseConversion constructor" Url="html/46227124-0507-b378-ec07-a2a550a83866.htm" />
+  <HelpKINode Title="TypeConversion(Of TSource) class">
+    <HelpKINode Title="TypeConversion(TSource) Class" Url="html/b42ec32f-550e-8cf3-95a6-7ea3fe1e664a.htm" />
+    <HelpKINode Title="constructor" Url="html/d88f3d21-e2a5-5461-6440-b74f240104d5.htm" />
+    <HelpKINode Title="methods" Url="html/b8472da8-2a80-64b5-0a89-64c1f6625259.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TypeConversion(Of TSource).TryConvert method" Url="html/5e9ff647-0bdc-1e67-0d8c-e2181d2f8d91.htm" />
+  <HelpKINode Title="TypeConversion(Of TSource).TypeConversion constructor" Url="html/d88f3d21-e2a5-5461-6440-b74f240104d5.htm" />
+  <HelpKINode Title="TypeConversion&lt;TSource&gt; class">
+    <HelpKINode Title="TypeConversion(TSource) Class" Url="html/b42ec32f-550e-8cf3-95a6-7ea3fe1e664a.htm" />
+    <HelpKINode Title="constructor" Url="html/d88f3d21-e2a5-5461-6440-b74f240104d5.htm" />
+    <HelpKINode Title="methods" Url="html/b8472da8-2a80-64b5-0a89-64c1f6625259.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TypeConversion&lt;TSource&gt;.TryConvert method" Url="html/5e9ff647-0bdc-1e67-0d8c-e2181d2f8d91.htm" />
+  <HelpKINode Title="TypeConversion&lt;TSource&gt;.TypeConversion constructor" Url="html/d88f3d21-e2a5-5461-6440-b74f240104d5.htm" />
+  <HelpKINode Title="TypeConverter class">
+    <HelpKINode Title="TypeConverter Class" Url="html/d1ebbc02-1c0a-d6a8-9fe9-805f855eabda.htm" />
+    <HelpKINode Title="constructor" Url="html/d1dbae93-e232-5de8-ec00-154c76f8df22.htm" />
+    <HelpKINode Title="methods" Url="html/aaa34531-49a1-3bbf-e539-4a91b06c133a.htm" />
+    <HelpKINode Title="properties" Url="html/089d0989-3a45-0bce-a9d2-1fac6e903d80.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TypeConverter.CanConvert method" Url="html/667f365d-06ff-c6f3-b676-93bec051a633.htm" />
+  <HelpKINode Title="TypeConverter.CanConvertTo(Of T) method" Url="html/4fbe8af8-7b6c-8115-3432-757ed2445ccc.htm" />
+  <HelpKINode Title="TypeConverter.CanConvertTo&lt;T&gt; method" Url="html/4fbe8af8-7b6c-8115-3432-757ed2445ccc.htm" />
+  <HelpKINode Title="TypeConverter.Conversions property" Url="html/ad6fff00-547f-539b-9355-2f427b7e3ac8.htm" />
+  <HelpKINode Title="TypeConverter.Convert method" Url="html/b44f149b-e24d-8cb7-169c-90adcab1ff57.htm" />
+  <HelpKINode Title="TypeConverter.ConvertTo(Of T) method" Url="html/a90815ce-c0f7-458f-3491-31cbb739362d.htm" />
+  <HelpKINode Title="TypeConverter.ConvertTo&lt;T&gt; method" Url="html/a90815ce-c0f7-458f-3491-31cbb739362d.htm" />
+  <HelpKINode Title="TypeConverter.ConvertToEnumerable method" Url="html/6994e17c-8bbe-fd1b-9de1-e84e0fa15a31.htm" />
+  <HelpKINode Title="TypeConverter.Create method" Url="html/643f1a67-bba5-888a-f812-fa39c808dfb1.htm" />
+  <HelpKINode Title="TypeConverter.CreateDataTable(Of T) method" Url="html/77cd08b4-1d46-b58a-c7d6-d585b5dcb60f.htm" />
+  <HelpKINode Title="TypeConverter.CreateDataTable&lt;T&gt; method" Url="html/77cd08b4-1d46-b58a-c7d6-d585b5dcb60f.htm" />
+  <HelpKINode Title="TypeConverter.DefaultCulture property" Url="html/43e5b489-347b-0e11-ada3-19a3ef22588e.htm" />
+  <HelpKINode Title="TypeConverter.NullValues property" Url="html/d5c797d3-973e-9fbf-481f-61943692a9de.htm" />
+  <HelpKINode Title="TypeConverter.Options property" Url="html/0201aae2-8442-a9c8-91aa-8a53e3a4de91.htm" />
+  <HelpKINode Title="TypeConverter.TryConvert method" Url="html/c736d4ff-6852-a7cc-42ae-3fd8e35da5df.htm" />
+  <HelpKINode Title="TypeConverter.TryConvertTo(Of T) method" Url="html/1c060a92-201f-ae5d-8ae4-9432acfba41c.htm" />
+  <HelpKINode Title="TypeConverter.TryConvertTo&lt;T&gt; method" Url="html/1c060a92-201f-ae5d-8ae4-9432acfba41c.htm" />
+  <HelpKINode Title="TypeConverter.TryCreate method" Url="html/2d3745a3-a63a-a7aa-5041-9f601890d6f3.htm" />
+  <HelpKINode Title="TypeConverter.TypeConverter constructor" Url="html/d1dbae93-e232-5de8-ec00-154c76f8df22.htm" />
+  <HelpKINode Title="TypeConverter.ValueMappings property" Url="html/9d471122-6d5e-5643-83ce-e102f2774ace.htm" />
+  <HelpKINode Title="TypeConverterConversion class">
+    <HelpKINode Title="TypeConverterConversion Class" Url="html/0e367a0e-5639-d6b9-a48f-1ad716032574.htm" />
+    <HelpKINode Title="constructor" Url="html/6995b774-b909-02bb-73e2-52518e3484ae.htm" />
+    <HelpKINode Title="methods" Url="html/e6c08447-bd14-46cd-e3d7-e950d22f06f9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TypeConverterConversion.TryConvert method" Url="html/78a973b4-805c-af5d-553d-e6e3636506a9.htm" />
+  <HelpKINode Title="TypeConverterConversion.TypeConverterConversion constructor" Url="html/6995b774-b909-02bb-73e2-52518e3484ae.htm" />
+  <HelpKINode Title="TypeValueDictionary class">
+    <HelpKINode Title="TypeValueDictionary Class" Url="html/26106450-5672-7b05-bba8-82ca08eba3bb.htm" />
+    <HelpKINode Title="constructor" Url="html/25a825dc-5b48-3228-59e1-420853f13dd1.htm" />
+    <HelpKINode Title="methods" Url="html/441bbac2-574a-8b33-bf08-4cb2706220be.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TypeValueDictionary.Add method" Url="html/164cf225-f899-b74e-aeb9-de2b8f39fdf9.htm" />
+  <HelpKINode Title="TypeValueDictionary.TryGet method" Url="html/a522d30b-88b7-6ca7-010e-32607065f6e7.htm" />
+  <HelpKINode Title="TypeValueDictionary.TypeValueDictionary constructor" Url="html/25a825dc-5b48-3228-59e1-420853f13dd1.htm" />
+  <HelpKINode Title="UIntConversion class">
+    <HelpKINode Title="UIntConversion Class" Url="html/cc7f8431-1d99-e6a6-699d-8c8f73405323.htm" />
+    <HelpKINode Title="constructor" Url="html/350f84e2-8a94-56a0-e106-e53508f39bfe.htm" />
+    <HelpKINode Title="methods" Url="html/864600b0-1c13-91b7-adc4-79b56044a8f0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UIntConversion.TryConvert method" Url="html/e56e8abb-1d4f-28d5-10ee-89d0e17e8230.htm" />
+  <HelpKINode Title="UIntConversion.UIntConversion constructor" Url="html/350f84e2-8a94-56a0-e106-e53508f39bfe.htm" />
+  <HelpKINode Title="ULongConversion class">
+    <HelpKINode Title="ULongConversion Class" Url="html/36ae410d-4efa-9101-db43-8412e7c90515.htm" />
+    <HelpKINode Title="constructor" Url="html/01ce5492-4c4f-01c3-a17f-4f577c4cd41e.htm" />
+    <HelpKINode Title="methods" Url="html/5ab3223c-3291-66f7-1166-af8965e58100.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ULongConversion.TryConvert method" Url="html/3dd61842-7ff7-fa08-5286-617b3c3844b8.htm" />
+  <HelpKINode Title="ULongConversion.ULongConversion constructor" Url="html/01ce5492-4c4f-01c3-a17f-4f577c4cd41e.htm" />
+  <HelpKINode Title="UniversalTypeConverter class">
+    <HelpKINode Title="UniversalTypeConverter Class" Url="html/48e33a2f-5d7f-a542-632e-05858d984285.htm" />
+    <HelpKINode Title="properties" Url="html/e2e03cc6-a325-1c1c-cae3-2e9056b61560.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UniversalTypeConverter.Conversions property" Url="html/c480ccdf-60d8-5cd7-b10e-ee0bfeb48c39.htm" />
+  <HelpKINode Title="UniversalTypeConverter.DefaultCulture property" Url="html/332041ac-6964-fe7d-9b82-785a5da6a99e.htm" />
+  <HelpKINode Title="UniversalTypeConverter.NullValues property" Url="html/7b9c9be1-2432-46ab-e917-ed6de35a0922.htm" />
+  <HelpKINode Title="UniversalTypeConverter.Options property" Url="html/0b666182-23a3-3cdb-984f-ebcc59a5abb6.htm" />
+  <HelpKINode Title="UniversalTypeConverter.ValueMappings property" Url="html/92f254bf-bb07-a24d-f131-8f52945d73a2.htm" />
+  <HelpKINode Title="UShortConversion class">
+    <HelpKINode Title="UShortConversion Class" Url="html/52b10293-f5c4-1351-cd4a-18d89dcfc1bc.htm" />
+    <HelpKINode Title="constructor" Url="html/85c0b811-8582-14b6-312f-964e16a7f9a8.htm" />
+    <HelpKINode Title="methods" Url="html/80092fd9-627d-5e8e-2ae1-5ffbffe93a0e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UShortConversion.TryConvert method" Url="html/b9346cbd-65a6-caf6-ec3e-d0344c8081c7.htm" />
+  <HelpKINode Title="UShortConversion.UShortConversion constructor" Url="html/85c0b811-8582-14b6-312f-964e16a7f9a8.htm" />
+  <HelpKINode Title="Value property" Url="html/6de2430e-19b5-4599-1ae9-c8c6d6655b97.htm" />
+  <HelpKINode Title="ValueMapping(Of TSource, TDestination) class">
+    <HelpKINode Title="ValueMapping(TSource, TDestination) Class" Url="html/7d7550ce-9a02-45e1-f994-4d9494836d7a.htm" />
+    <HelpKINode Title="constructor" Url="html/90f113ec-c54b-2b20-41c6-66e4228e2e01.htm" />
+    <HelpKINode Title="methods" Url="html/15333739-5651-7647-7b1b-5f3556cc8a41.htm" />
+    <HelpKINode Title="properties" Url="html/020dedca-7a0f-a190-e49a-15ab176feb2c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueMapping(Of TSource, TDestination).DestinationType property" Url="html/3d9197b8-320c-d122-34c9-423b5b2a581b.htm" />
+  <HelpKINode Title="ValueMapping(Of TSource, TDestination).SourceType property" Url="html/99c13fee-7c85-0709-1d37-bce75159468d.htm" />
+  <HelpKINode Title="ValueMapping(Of TSource, TDestination).SourceValue property" Url="html/07dd3602-bbf0-3935-5962-427bdc9418a8.htm" />
+  <HelpKINode Title="ValueMapping(Of TSource, TDestination).TryMap method" Url="html/b3de9ad7-1de2-b48c-a04b-07c5cd6e43b0.htm" />
+  <HelpKINode Title="ValueMapping(Of TSource, TDestination).ValueMapping constructor" Url="html/90f113ec-c54b-2b20-41c6-66e4228e2e01.htm" />
+  <HelpKINode Title="ValueMapping&lt;TSource, TDestination&gt; class">
+    <HelpKINode Title="ValueMapping(TSource, TDestination) Class" Url="html/7d7550ce-9a02-45e1-f994-4d9494836d7a.htm" />
+    <HelpKINode Title="constructor" Url="html/90f113ec-c54b-2b20-41c6-66e4228e2e01.htm" />
+    <HelpKINode Title="methods" Url="html/15333739-5651-7647-7b1b-5f3556cc8a41.htm" />
+    <HelpKINode Title="properties" Url="html/020dedca-7a0f-a190-e49a-15ab176feb2c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueMapping&lt;TSource, TDestination&gt;.DestinationType property" Url="html/3d9197b8-320c-d122-34c9-423b5b2a581b.htm" />
+  <HelpKINode Title="ValueMapping&lt;TSource, TDestination&gt;.SourceType property" Url="html/99c13fee-7c85-0709-1d37-bce75159468d.htm" />
+  <HelpKINode Title="ValueMapping&lt;TSource, TDestination&gt;.SourceValue property" Url="html/07dd3602-bbf0-3935-5962-427bdc9418a8.htm" />
+  <HelpKINode Title="ValueMapping&lt;TSource, TDestination&gt;.TryMap method" Url="html/b3de9ad7-1de2-b48c-a04b-07c5cd6e43b0.htm" />
+  <HelpKINode Title="ValueMapping&lt;TSource, TDestination&gt;.ValueMapping constructor" Url="html/90f113ec-c54b-2b20-41c6-66e4228e2e01.htm" />
+  <HelpKINode Title="ValueMappingCollection class">
+    <HelpKINode Title="ValueMappingCollection Class" Url="html/d3ded3d4-f132-7d83-f18c-cabb8d83ddb4.htm" />
+    <HelpKINode Title="constructor" Url="html/7bab229f-8c9e-17b7-28e9-e23a49827536.htm" />
+    <HelpKINode Title="methods" Url="html/ffab5419-29aa-d7fd-a418-a67fd195f675.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueMappingCollection.Add(Of TSource, TDestination) method" Url="html/ba1ad72a-f030-7359-109d-97fd291f31c1.htm" />
+  <HelpKINode Title="ValueMappingCollection.Add&lt;TSource, TDestination&gt; method" Url="html/ba1ad72a-f030-7359-109d-97fd291f31c1.htm" />
+  <HelpKINode Title="ValueMappingCollection.Clear method" Url="html/d0661a95-0c22-435a-fdb3-83abb240588a.htm" />
+  <HelpKINode Title="ValueMappingCollection.GetEnumerator method" Url="html/b92144c7-e9c8-0e26-4b94-9785e720383b.htm" />
+  <HelpKINode Title="ValueMappingCollection.RemoveDestinationType(Of T) method" Url="html/ceb95324-08ce-017a-17f4-05cd259c79b7.htm" />
+  <HelpKINode Title="ValueMappingCollection.RemoveDestinationType&lt;T&gt; method" Url="html/ceb95324-08ce-017a-17f4-05cd259c79b7.htm" />
+  <HelpKINode Title="ValueMappingCollection.RemoveSourceType(Of T) method" Url="html/62b21625-d077-db70-85a7-74bbf4703b68.htm" />
+  <HelpKINode Title="ValueMappingCollection.RemoveSourceType&lt;T&gt; method" Url="html/62b21625-d077-db70-85a7-74bbf4703b68.htm" />
+  <HelpKINode Title="ValueMappingCollection.TryMap method" Url="html/10f3537f-51cb-2d6d-b47c-9a8f0c91e75e.htm" />
+  <HelpKINode Title="ValueMappingCollection.ValueMappingCollection constructor" Url="html/7bab229f-8c9e-17b7-28e9-e23a49827536.htm" />
+  <HelpKINode Title="ValueMappings property">
+    <HelpKINode Title="TypeConverter.ValueMappings Property " Url="html/9d471122-6d5e-5643-83ce-e102f2774ace.htm" />
+    <HelpKINode Title="UniversalTypeConverter.ValueMappings Property " Url="html/92f254bf-bb07-a24d-f131-8f52945d73a2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XPlicitConversion class">
+    <HelpKINode Title="XPlicitConversion Class" Url="html/1e94de3a-958e-d0f4-872e-f87b4d37b231.htm" />
+    <HelpKINode Title="constructor" Url="html/21aa9eed-d7f0-7c14-097e-aac3c5fc4242.htm" />
+    <HelpKINode Title="methods" Url="html/70b34d01-b944-5ad9-35bb-a59d5a6163ad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XPlicitConversion.TryConvert method" Url="html/a6987290-7401-2b3a-d2c0-223b83c6e62d.htm" />
+  <HelpKINode Title="XPlicitConversion.XPlicitConversion constructor" Url="html/21aa9eed-d7f0-7c14-097e-aac3c5fc4242.htm" />
+</HelpKI>

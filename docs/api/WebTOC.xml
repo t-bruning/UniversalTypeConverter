@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="d94db9a9-c858-4873-aa87-406cdf7ca82c" Title="TB.ComponentModel" Url="html/cddcf616-ae7d-45a0-ce43-082ddbcf43ab.htm">
+    <HelpTOCNode Title="ByteArrayFormat Enumeration" Url="html/3658e9e1-fe63-6aee-48fb-ce54f384c58f.htm" />
+    <HelpTOCNode Title="ConstructorResolvingMode Enumeration" Url="html/f288409c-d5eb-19f7-5b0f-7aad25f397a4.htm" />
+    <HelpTOCNode Id="54468cf1-8474-44b3-a281-f143641ffaaa" Title="ConversionArgs Class" Url="html/f60b6857-b98c-ed1e-131f-e17400d1a95c.htm">
+      <HelpTOCNode Title="ConversionArgs Constructor " Url="html/35278284-f924-6798-7304-91fd9a0c3827.htm" />
+      <HelpTOCNode Id="c5e99ea2-fbc2-4058-a389-8d8178e639ff" Title="ConversionArgs Properties" Url="html/70932aa6-5318-f469-2d5a-fb0978b7f195.htm">
+        <HelpTOCNode Title="Break Property " Url="html/ca825d5d-f41f-a2af-5708-34a1fb8b3d17.htm" />
+        <HelpTOCNode Title="Caller Property " Url="html/7dd6baad-54e2-d0d4-8120-eea3454ad30a.htm" />
+        <HelpTOCNode Title="Culture Property " Url="html/28aed5a1-e8a9-5afa-0782-65a2148b686f.htm" />
+        <HelpTOCNode Title="Options Property " Url="html/04b4922f-d1ca-dfcc-fd73-b7a1c0a28866.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConversionArgs Methods" Url="html/4d786b9f-89c4-2aff-f1ab-51b479c0ab37.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac16867b-c8e5-48c4-a9ed-8dfabc619310" Title="ConversionCollection Class" Url="html/ca182566-8e25-2327-5262-db747d59eb2b.htm">
+      <HelpTOCNode Title="ConversionCollection Constructor " Url="html/137945d2-51d3-523d-733b-f566d3418efc.htm" />
+      <HelpTOCNode Id="9e294ef7-c7b4-476e-9e41-6c2de04b685f" Title="ConversionCollection Methods" Url="html/d0aa9e5d-e3f0-4db1-886b-1a283c169632.htm">
+        <HelpTOCNode Title="Add Method " Url="html/67fa90c7-0eee-719b-4031-1399b737b4b2.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/b2667837-e25a-396e-b09f-12acbe7de62a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="06a73ab9-0f1f-4997-bca9-9cccaf8d1ef6" Title="ConversionOptions Class" Url="html/08f7c35b-31d3-4293-5a43-f74f24cfdd2e.htm">
+      <HelpTOCNode Title="ConversionOptions Constructor " Url="html/131dac71-85a3-749c-73ec-af540a91b5fb.htm" />
+      <HelpTOCNode Id="f0556fbe-8970-4686-8383-2ed9cae765bf" Title="ConversionOptions Properties" Url="html/13d589d1-e49b-866b-c4c7-4fdf14b7c27a.htm">
+        <HelpTOCNode Title="AllowDefaultValueIfNotConvertible Property " Url="html/11a756d8-1296-8471-fb9b-a67903e1ff02.htm" />
+        <HelpTOCNode Title="AllowDefaultValueIfNull Property " Url="html/f51c4c17-0d33-6877-e2c1-09f9f759f56f.htm" />
+        <HelpTOCNode Title="AllowDefaultValueIfWhitespace Property " Url="html/d73b84e7-bf76-0c19-53f0-6406b900d4dc.htm" />
+        <HelpTOCNode Title="ByteArrayFormat Property " Url="html/dbcb491c-acdf-f6e9-7be5-f9464c948cf5.htm" />
+        <HelpTOCNode Title="ConstructorResolvingMode Property " Url="html/ef5fd8f4-209e-6afb-c428-3412b9179caa.htm" />
+        <HelpTOCNode Title="DateTimeFormat Property " Url="html/204df9dd-7a22-668b-2e34-4fe066d5adea.htm" />
+        <HelpTOCNode Title="DateTimeLongMeaning Property " Url="html/448ed27c-2215-04d3-0813-08382ad3025d.htm" />
+        <HelpTOCNode Title="DateTimePatterns Property " Url="html/64771e14-7f5c-5c99-fc3e-637105feceef.htm" />
+        <HelpTOCNode Title="DateTimeStyle Property " Url="html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm" />
+        <HelpTOCNode Title="DecimalFormat Property " Url="html/bdbbe0aa-c88a-08d8-839d-a916c74705af.htm" />
+        <HelpTOCNode Title="DecimalNumberStyle Property " Url="html/89d80b65-58bf-1879-5f98-7b17361702db.htm" />
+        <HelpTOCNode Title="FloatFormat Property " Url="html/466d2d83-daaa-e78b-59b6-950861076b59.htm" />
+        <HelpTOCNode Title="FloatNumberStyle Property " Url="html/6d9fbb26-6e4c-3321-ec37-9b8f8f0b3e7c.htm" />
+        <HelpTOCNode Title="GuidFormat Property " Url="html/1db3ca6e-71c5-df36-c20b-d21232035766.htm" />
+        <HelpTOCNode Title="HandleDBNullAsNull Property " Url="html/8c4ca40a-2cd9-8113-b3f6-dedf9d2b2004.htm" />
+        <HelpTOCNode Title="IntegerFormat Property " Url="html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm" />
+        <HelpTOCNode Title="IntegerNumberStyle Property " Url="html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm" />
+        <HelpTOCNode Title="PropertyResolvingMode Property " Url="html/8c5cbb48-ed51-7bb3-a8dd-b023e366d731.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConversionOptions Methods" Url="html/32cf75e6-bc49-da4a-8297-1652e4524393.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="ConversionPriority Enumeration" Url="html/ad5fa9fe-1581-de8d-58df-e20592a4a65e.htm" />
+    <HelpTOCNode Id="71596ea3-21d5-492c-b4b6-504ea31c4368" Title="ConversionResult(T) Class" Url="html/66a390b4-59df-0317-f742-c020992602ab.htm">
+      <HelpTOCNode Id="c8f5b6ad-6bc1-4a12-8cc2-bcd90dbeed4a" Title="ConversionResult(T) Constructor " Url="html/08bb6f1a-82ce-460e-51a2-829a32e0706c.htm">
+        <HelpTOCNode Title="ConversionResult(T) Constructor " Url="html/9becab15-f230-a7e5-370b-c9d6af14255b.htm" />
+        <HelpTOCNode Title="ConversionResult(T) Constructor (T)" Url="html/1092456f-a43f-5ca4-442f-541a5e2addbb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2ba21983-94c8-412e-98ce-e30f7dd55b44" Title="ConversionResult(T) Properties" Url="html/da4f61a5-5369-21a9-db5a-013a16e99b45.htm">
+        <HelpTOCNode Title="HasValue Property " Url="html/91c692a2-e54d-2203-cc66-f77f2653d3c7.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/6de2430e-19b5-4599-1ae9-c8c6d6655b97.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="faa86090-9b00-447d-a4e5-5cab2d54c117" Title="ConversionResult(T) Methods" Url="html/da973810-ae59-5d87-45d4-14348fa8f948.htm">
+        <HelpTOCNode Title="Or Method " Url="html/b2825ed9-7cf5-7f41-c1f1-2961518ff1b8.htm" />
+        <HelpTOCNode Title="OrDefault Method " Url="html/cad172fd-f171-24d7-b842-e639814e160a.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/2133ff62-a308-af3d-fc69-3142667d6db5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5b212a45-40f5-4cea-8733-512d40813f00" Title="DataRecordExtension Class" Url="html/86a2f231-6d04-40d4-e311-90eb0f9ef82b.htm">
+      <HelpTOCNode Id="66434458-14d2-4b9c-ba85-83002e1d284a" Title="DataRecordExtension Methods" Url="html/bdac8c0f-1da2-d42a-a6b3-202e3cc216c2.htm">
+        <HelpTOCNode Title="ToDictionary Method " Url="html/574cb047-1088-11fc-5b56-0cef50fb1f5e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="95beadfc-37cc-47d9-aef4-77a576405f9f" Title="DataRowExtension Class" Url="html/f33d68a0-8c96-1e26-5cc2-a8a13c3edfcc.htm">
+      <HelpTOCNode Id="4f537df3-d78d-4471-b573-cd38471d4271" Title="DataRowExtension Methods" Url="html/ba69c671-e94d-c96a-f200-47b07d804b75.htm">
+        <HelpTOCNode Id="fe206805-19e7-46b5-a45b-362358c011f3" Title="ToDictionary Method " Url="html/d0112f68-c7f1-7c32-6d53-32dafbb6278e.htm">
+          <HelpTOCNode Title="ToDictionary Method (DataRow)" Url="html/fe8ba048-7be0-93e5-25d2-4cfbc7e70de0.htm" />
+          <HelpTOCNode Title="ToDictionary Method (DataRowView)" Url="html/cfd33fd6-8398-0d4c-94da-ead062991e07.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="DateTimeLongMeaning Enumeration" Url="html/13342c2b-674b-a1d9-3913-78694e29fe68.htm" />
+    <HelpTOCNode Id="5197a02f-df89-495c-ab54-f05c3a86a0a0" Title="DictionaryExtension Class" Url="html/72d2b44e-7a54-869b-a423-16336860a564.htm">
+      <HelpTOCNode Id="b14bd2b3-f467-4b7d-88b4-657956c3fdf8" Title="DictionaryExtension Methods" Url="html/fdeaa71a-0d74-bd2d-648b-1515e849ba61.htm">
+        <HelpTOCNode Id="4cebb515-849c-4bc9-bc31-d100b93144a6" Title="Create Method " Url="html/95a0f441-9d56-227a-69cc-323a990d2cef.htm">
+          <HelpTOCNode Title="Create(T) Method (IDictionary(String, Object), CultureInfo)" Url="html/7a6f15e1-7cd6-da9a-b82e-863d55ac52d7.htm" />
+          <HelpTOCNode Title="Create Method (IDictionary(String, Object), Type, CultureInfo)" Url="html/949838b2-bdf3-2d44-ea22-d10e56d0ca94.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dd4edcc4-bdb4-4f5a-86ed-811f3528b02c" Title="TryCreate Method " Url="html/95ae51a5-a3d2-275f-998e-103bd52a3f73.htm">
+          <HelpTOCNode Title="TryCreate(T) Method (IDictionary(String, Object), T, CultureInfo)" Url="html/aad49456-81f3-69f4-b9b5-440b00f8c232.htm" />
+          <HelpTOCNode Title="TryCreate Method (IDictionary(String, Object), Type, Object, CultureInfo)" Url="html/cd4ae825-7732-56d0-30ed-8c4c8878e02b.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d71a2e6d-bdc6-4b69-ae14-0c762ab0351c" Title="EnumerableConversion(T) Class" Url="html/9ed2e9b7-af6c-3020-b5ec-430f88183fab.htm">
+      <HelpTOCNode Id="4b7b3199-978b-44e3-a784-f646913e9166" Title="EnumerableConversion(T) Methods" Url="html/071f4ef0-c336-33ed-59ee-4c766f00d4be.htm">
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/6c685eb9-2092-3073-7d8c-7d02ff5f8817.htm" />
+        <HelpTOCNode Title="IgnoringNonConvertibleElements Method " Url="html/092cee4a-c828-9fad-6126-ce0a6774e69d.htm" />
+        <HelpTOCNode Title="IgnoringNullElements Method " Url="html/d164f080-e43f-c777-3bc2-bad06ef30bb1.htm" />
+        <HelpTOCNode Title="Try Method " Url="html/8081f64b-d29c-a242-997c-868d29d16422.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="387effc1-a2ba-4820-9b90-dbbf38da4ca8" Title="EnumerableExtension Class" Url="html/dc13dc61-4130-e48a-f7f1-789a6f74c0c5.htm">
+      <HelpTOCNode Id="f472ab7e-30fe-4a57-9891-34add50cea43" Title="EnumerableExtension Methods" Url="html/f6ebd0bd-9a1b-fad3-1e62-cc7744bc373f.htm">
+        <HelpTOCNode Title="ToCollection(T) Method " Url="html/d5dba674-d8b6-1085-3458-fb31c81d3e96.htm" />
+        <HelpTOCNode Id="3282b6d2-659a-4476-b939-4a50f9b0f984" Title="ToDataTable Method " Url="html/3e44bfd6-5c15-897b-49b5-d6c9d50f9859.htm">
+          <HelpTOCNode Title="ToDataTable(T) Method (IEnumerable(T), CultureInfo)" Url="html/000463ad-cd30-6f15-7956-7156bd0b5b13.htm" />
+          <HelpTOCNode Title="ToDataTable(T) Method (IEnumerable(T), IncompatibleDataColumnTypeHandling, CultureInfo)" Url="html/7e7bd956-a8e0-19af-8ff5-c5bfdf45b969.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6f542197-0b62-4376-bbb2-8e2411622269" Title="ToEnumerable Method " Url="html/77a36942-d44a-8144-c402-c3de5359600b.htm">
+          <HelpTOCNode Title="ToEnumerable(T) Method (IEnumerable, CultureInfo)" Url="html/e30f773b-40db-a141-c540-bc608f95a1f9.htm" />
+          <HelpTOCNode Title="ToEnumerable Method (IEnumerable, Type, CultureInfo)" Url="html/a3d537ab-6228-3d21-f33b-e2330dfab3df.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="85887b0b-5163-44fe-9c17-dbbc7affe1a9" Title="IConversionOptions Interface" Url="html/5be2e229-a731-4cfa-dbcd-7e283d8eab42.htm">
+      <HelpTOCNode Id="61f975cc-be81-46d8-a391-e0dba5f9d451" Title="IConversionOptions Properties" Url="html/633616ed-252e-064a-2823-aa491f532248.htm">
+        <HelpTOCNode Title="AllowDefaultValueIfNotConvertible Property " Url="html/bc10362e-bb33-e2cd-7169-7bb9d9219da7.htm" />
+        <HelpTOCNode Title="AllowDefaultValueIfNull Property " Url="html/0e80a2fd-fb39-078f-6580-31a94c9568a5.htm" />
+        <HelpTOCNode Title="AllowDefaultValueIfWhitespace Property " Url="html/894435c5-e1c3-34e0-c231-52e0e2db1f60.htm" />
+        <HelpTOCNode Title="ByteArrayFormat Property " Url="html/66b63e5e-687e-3467-893e-a06e0b01e688.htm" />
+        <HelpTOCNode Title="ConstructorResolvingMode Property " Url="html/17a13c3c-182f-b5ad-db3c-3070818e3d3f.htm" />
+        <HelpTOCNode Title="DateTimeFormat Property " Url="html/35cc11e5-b7e2-c44e-33ab-639d42e156b1.htm" />
+        <HelpTOCNode Title="DateTimeLongMeaning Property " Url="html/a300cac4-7349-992b-5783-c4e3063081e5.htm" />
+        <HelpTOCNode Title="DateTimePatterns Property " Url="html/ec03b9b6-d41c-ada4-5dc7-148431c6e133.htm" />
+        <HelpTOCNode Title="DateTimeStyle Property " Url="html/3e617a56-6b0b-cb9c-ba87-33f2c7b947e8.htm" />
+        <HelpTOCNode Title="DecimalFormat Property " Url="html/27cf8ba4-f2ad-494d-7ee8-664381fe21d2.htm" />
+        <HelpTOCNode Title="DecimalNumberStyle Property " Url="html/9d854f80-365f-0b94-87d0-b5ecc5ff2a2c.htm" />
+        <HelpTOCNode Title="FloatFormat Property " Url="html/9d4a8840-7ce2-a8ac-e583-bc6a2b7adaa1.htm" />
+        <HelpTOCNode Title="FloatNumberStyle Property " Url="html/ba5551a1-0091-a2c3-eefc-157fb1921c60.htm" />
+        <HelpTOCNode Title="GuidFormat Property " Url="html/e3c28922-3b93-0f2f-f1f7-e3c93009b687.htm" />
+        <HelpTOCNode Title="HandleDBNullAsNull Property " Url="html/66fbf571-f1bb-3ac9-9153-58fa1d792588.htm" />
+        <HelpTOCNode Title="IntegerFormat Property " Url="html/46ac0d9b-d2ff-6b84-54cb-9f86b144a89b.htm" />
+        <HelpTOCNode Title="IntegerNumberStyle Property " Url="html/5d8de197-299e-1fdb-d584-577c4fbdf7ee.htm" />
+        <HelpTOCNode Title="PropertyResolvingMode Property " Url="html/1a5dcdc4-3aa1-df36-cf65-0ad9035dccca.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="IncompatibleDataColumnTypeHandling Enumeration" Url="html/77a47688-9ef5-37d7-afc3-53caf6b7397b.htm" />
+    <HelpTOCNode Id="00b4fcce-3ad5-4d9f-8895-f14a1ee5ae3f" Title="InstantiationException Class" Url="html/2fe50167-cf46-b0ac-de8d-b1f4b9b2a5b5.htm">
+      <HelpTOCNode Title="InstantiationException Constructor " Url="html/d8ba5306-e55d-dd88-3d3d-8e64cf060077.htm" />
+      <HelpTOCNode Title="InstantiationException Methods" Url="html/16b76039-ea40-14a6-f4b2-c8abf1ffd98c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b5216147-13e0-4669-92c7-671ce5da4241" Title="InvalidConversionException Class" Url="html/6df954dd-2186-0b64-18ee-3d6712759af4.htm">
+      <HelpTOCNode Title="InvalidConversionException Constructor " Url="html/218bbc23-9ead-61d6-12a4-ab071caa8846.htm" />
+      <HelpTOCNode Title="InvalidConversionException Methods" Url="html/79387d9e-d4ef-d268-f826-295144cd87ef.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ff71b86d-90b5-443a-90b8-2e8ba2a91b5e" Title="ITypeConversion Interface" Url="html/e8300d27-ee7d-c100-ff1a-ef2c159828b1.htm">
+      <HelpTOCNode Id="af5cb99e-9549-48fb-8868-156f65b24879" Title="ITypeConversion Methods" Url="html/29caa05f-397b-bbf5-aac6-75b68d6e6dfc.htm">
+        <HelpTOCNode Title="TryConvert Method " Url="html/b45f12ce-306e-36d3-6859-ab56842b570a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4f461cc4-e721-4c5d-81fc-930162f0327c" Title="ITypeConverter Interface" Url="html/d8e97374-3e8d-4486-79dd-c8eb6a505f4a.htm">
+      <HelpTOCNode Id="591558d4-aa6e-466f-9974-50a55991cb04" Title="ITypeConverter Properties" Url="html/3f0929b8-138a-b2a5-1b04-c18fd8cb1df2.htm">
+        <HelpTOCNode Title="Options Property " Url="html/e623c849-affe-1b71-f8a5-a04d95226039.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ITypeConverter Methods" Url="html/9cb37aa4-dfe7-c104-2511-d3db18924bb1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="62aefabc-32fb-4c62-b682-9481bbbd2787" Title="IValueMapping Interface" Url="html/8938db58-ce66-600b-c5c9-d435d0bf274d.htm">
+      <HelpTOCNode Id="69b0c504-9491-415c-951c-3426e5f8c635" Title="IValueMapping Properties" Url="html/e4645eb7-5ba7-282c-4dff-ae12866ad727.htm">
+        <HelpTOCNode Title="DestinationType Property " Url="html/cc33d09d-10e0-c5ad-de06-1f2aa9b2ee92.htm" />
+        <HelpTOCNode Title="SourceType Property " Url="html/d0f53b27-2627-4a7c-ea1c-ff20cc99c3c5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="88c94d94-01c6-44f2-9506-9c10066b8473" Title="IValueMapping Methods" Url="html/3be7df40-3ecf-4234-87de-6668f8ea296b.htm">
+        <HelpTOCNode Title="TryMap Method " Url="html/db2dcc75-2993-df68-4154-21b382a9ea38.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="da53def2-b823-4042-9648-af64f05a1425" Title="ObjectExtension Class" Url="html/a637795d-8b68-9417-8fc8-be587a9bd084.htm">
+      <HelpTOCNode Id="cec914f1-7ca4-4876-b4ad-edd9a17ad687" Title="ObjectExtension Methods" Url="html/3cc07d55-1e05-34a1-9bc8-28be7c062c25.htm">
+        <HelpTOCNode Title="As(T) Method " Url="html/d8946463-b26a-d66b-ca54-b795f92907bc.htm" />
+        <HelpTOCNode Title="CanConvert Method " Url="html/b232e795-0546-5833-5069-128bc7224dae.htm" />
+        <HelpTOCNode Title="CanConvertTo(T) Method " Url="html/92c2e92d-5b87-613a-85f0-1026f72df27d.htm" />
+        <HelpTOCNode Title="Convert Method " Url="html/e13239dd-afff-db3d-bf01-dc1b54838f4c.htm" />
+        <HelpTOCNode Title="ConvertTo(T) Method " Url="html/32a24228-0704-961d-5da4-1c605f96afb2.htm" />
+        <HelpTOCNode Id="c7ef0e61-3592-409a-81b3-ef296a017b47" Title="ConvertToEnumerable Method " Url="html/1a5f2dfc-9eea-fcb0-0bcc-a376bf75020e.htm">
+          <HelpTOCNode Title="ConvertToEnumerable(T) Method (IEnumerable)" Url="html/d5c34e79-bee9-3b0b-c0fe-e64c1a1958de.htm" />
+          <HelpTOCNode Title="ConvertToEnumerable Method (IEnumerable, Type)" Url="html/5516e6fb-0d08-ee57-0820-012cef952818.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d3de7667-8057-4c7b-af60-44b8c7cd9b8e" Title="IsConvertibleTo Method " Url="html/7abd601d-6573-a016-2896-0dd717898258.htm">
+          <HelpTOCNode Title="IsConvertibleTo(T) Method (Object, CultureInfo)" Url="html/e20b8ca7-c6ba-c3a8-11e7-edd686422d5b.htm" />
+          <HelpTOCNode Title="IsConvertibleTo Method (Object, Type, CultureInfo)" Url="html/6326813d-70e6-210f-e978-83dcaba92c1b.htm" />
+          <HelpTOCNode Title="IsConvertibleTo(T) Method (Object, T, CultureInfo)" Url="html/17c618b6-04d7-b1dc-925b-66652e4e8c9f.htm" />
+          <HelpTOCNode Title="IsConvertibleTo Method (Object, Type, Object, CultureInfo)" Url="html/dce22830-4b55-58d6-61fc-2959b852a3a1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="19e1fe63-5ef1-43b4-b39a-918c2cda12b0" Title="To Method " Url="html/985bff34-28ac-d32b-2d9b-7f061f15829e.htm">
+          <HelpTOCNode Title="To(T) Method (Object, CultureInfo)" Url="html/5c1a8aed-190e-3abd-a7f2-cede84cd4e58.htm" />
+          <HelpTOCNode Title="To Method (Object, Type, CultureInfo)" Url="html/338d8027-8ac9-1a9d-9222-e0fe5f1ffcea.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToDictionary Method " Url="html/98b8b123-eed4-186a-11ca-74c2de681bc9.htm" />
+        <HelpTOCNode Title="TryConvert Method " Url="html/5a7dc09d-66a1-63f9-c3b0-05011640ee70.htm" />
+        <HelpTOCNode Title="TryConvertTo(T) Method " Url="html/2e4ecd5f-9d8b-67c8-876a-80aef692424b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="PropertyResolvingMode Enumeration" Url="html/c8ec7dd2-9fc0-0103-821a-3485be64ffa4.htm" />
+    <HelpTOCNode Id="909249b4-aa9e-4546-9f70-77b6ce82df75" Title="TypeConverter Class" Url="html/d1ebbc02-1c0a-d6a8-9fe9-805f855eabda.htm">
+      <HelpTOCNode Id="88c28d4a-46b6-4389-8332-0bdcaaf07474" Title="TypeConverter Constructor " Url="html/d1dbae93-e232-5de8-ec00-154c76f8df22.htm">
+        <HelpTOCNode Title="TypeConverter Constructor " Url="html/e2877a0d-097e-344e-78d7-ab3f2627d0fe.htm" />
+        <HelpTOCNode Title="TypeConverter Constructor (CultureInfo)" Url="html/ae842c2b-bc0b-adcd-b034-4397a8e06a27.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1adfcf70-d3e2-4fd4-87a1-81e533e0320c" Title="TypeConverter Properties" Url="html/089d0989-3a45-0bce-a9d2-1fac6e903d80.htm">
+        <HelpTOCNode Title="Conversions Property " Url="html/ad6fff00-547f-539b-9355-2f427b7e3ac8.htm" />
+        <HelpTOCNode Title="DefaultCulture Property " Url="html/43e5b489-347b-0e11-ada3-19a3ef22588e.htm" />
+        <HelpTOCNode Title="NullValues Property " Url="html/d5c797d3-973e-9fbf-481f-61943692a9de.htm" />
+        <HelpTOCNode Title="Options Property " Url="html/0201aae2-8442-a9c8-91aa-8a53e3a4de91.htm" />
+        <HelpTOCNode Title="ValueMappings Property " Url="html/9d471122-6d5e-5643-83ce-e102f2774ace.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8a02f9d8-c409-4f06-a35b-456750ee455d" Title="TypeConverter Methods" Url="html/aaa34531-49a1-3bbf-e539-4a91b06c133a.htm">
+        <HelpTOCNode Title="CanConvert Method " Url="html/667f365d-06ff-c6f3-b676-93bec051a633.htm" />
+        <HelpTOCNode Title="CanConvertTo(T) Method " Url="html/4fbe8af8-7b6c-8115-3432-757ed2445ccc.htm" />
+        <HelpTOCNode Title="Convert Method " Url="html/b44f149b-e24d-8cb7-169c-90adcab1ff57.htm" />
+        <HelpTOCNode Title="ConvertTo(T) Method " Url="html/a90815ce-c0f7-458f-3491-31cbb739362d.htm" />
+        <HelpTOCNode Id="e7dc69d5-da87-40a3-a70a-9d2ee089c846" Title="ConvertToEnumerable Method " Url="html/6994e17c-8bbe-fd1b-9de1-e84e0fa15a31.htm">
+          <HelpTOCNode Title="ConvertToEnumerable(T) Method (IEnumerable, CultureInfo)" Url="html/c00dc81a-4648-0537-7364-f1c620f75647.htm" />
+          <HelpTOCNode Title="ConvertToEnumerable Method (IEnumerable, Type, CultureInfo)" Url="html/92a9b367-1e26-bbbe-93f1-e514bdd96a6e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e9486d7b-2c5e-48f5-936e-f3926447fb77" Title="Create Method " Url="html/643f1a67-bba5-888a-f812-fa39c808dfb1.htm">
+          <HelpTOCNode Title="Create(T) Method (IDictionary(String, Object), CultureInfo)" Url="html/974c8210-20d9-f6fc-9acd-3172b0427210.htm" />
+          <HelpTOCNode Title="Create Method (Type, IDictionary(String, Object), CultureInfo)" Url="html/5c117303-4c17-a06c-d534-4f066100299c.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateDataTable(T) Method " Url="html/77cd08b4-1d46-b58a-c7d6-d585b5dcb60f.htm" />
+        <HelpTOCNode Title="TryConvert Method " Url="html/c736d4ff-6852-a7cc-42ae-3fd8e35da5df.htm" />
+        <HelpTOCNode Title="TryConvertTo(T) Method " Url="html/1c060a92-201f-ae5d-8ae4-9432acfba41c.htm" />
+        <HelpTOCNode Id="19f4ef82-ab29-485c-ad23-2e4840834bb9" Title="TryCreate Method " Url="html/2d3745a3-a63a-a7aa-5041-9f601890d6f3.htm">
+          <HelpTOCNode Title="TryCreate(T) Method (IDictionary(String, Object), T, CultureInfo)" Url="html/1abb8bc5-c3bc-c9ef-7636-3c67119cdf57.htm" />
+          <HelpTOCNode Title="TryCreate Method (Type, IDictionary(String, Object), Object, CultureInfo)" Url="html/65f843cf-08f5-9a15-80e3-99587923b7e1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="acc6f97f-19df-419a-b7ff-e528bcd18376" Title="TypeValueDictionary Class" Url="html/26106450-5672-7b05-bba8-82ca08eba3bb.htm">
+      <HelpTOCNode Title="TypeValueDictionary Constructor " Url="html/25a825dc-5b48-3228-59e1-420853f13dd1.htm" />
+      <HelpTOCNode Id="c976ccec-b198-4f57-9b77-9130bef80cbf" Title="TypeValueDictionary Methods" Url="html/441bbac2-574a-8b33-bf08-4cb2706220be.htm">
+        <HelpTOCNode Id="2a8c8964-b70a-46b0-b949-9280fd5cfc30" Title="Add Method " Url="html/164cf225-f899-b74e-aeb9-de2b8f39fdf9.htm">
+          <HelpTOCNode Title="Add(TDestination) Method (Func(TDestination))" Url="html/56f28d90-a38e-0439-ff1c-d49ba6331afd.htm" />
+          <HelpTOCNode Title="Add(TDestination) Method (TDestination)" Url="html/9cd3ace2-55b7-fad8-a7eb-6cbf42d68a7d.htm" />
+          <HelpTOCNode Title="Add Method (Type, Object)" Url="html/be714ff6-f2a7-76aa-3adc-3ca4dd8c6ab3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TryGet Method " Url="html/a522d30b-88b7-6ca7-010e-32607065f6e7.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f0e07adb-8647-4632-90df-b1d9e427574b" Title="UniversalTypeConverter Class" Url="html/48e33a2f-5d7f-a542-632e-05858d984285.htm">
+      <HelpTOCNode Id="aef35e26-22e8-4431-a8a1-32f36b403a78" Title="UniversalTypeConverter Properties" Url="html/e2e03cc6-a325-1c1c-cae3-2e9056b61560.htm">
+        <HelpTOCNode Title="Conversions Property " Url="html/c480ccdf-60d8-5cd7-b10e-ee0bfeb48c39.htm" />
+        <HelpTOCNode Title="DefaultCulture Property " Url="html/332041ac-6964-fe7d-9b82-785a5da6a99e.htm" />
+        <HelpTOCNode Title="NullValues Property " Url="html/7b9c9be1-2432-46ab-e917-ed6de35a0922.htm" />
+        <HelpTOCNode Title="Options Property " Url="html/0b666182-23a3-3cdb-984f-ebcc59a5abb6.htm" />
+        <HelpTOCNode Title="ValueMappings Property " Url="html/92f254bf-bb07-a24d-f131-8f52945d73a2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ca75eef0-1be4-4bae-b411-b560d8a0cb77" Title="ValueMapping(TSource, TDestination) Class" Url="html/7d7550ce-9a02-45e1-f994-4d9494836d7a.htm">
+      <HelpTOCNode Title="ValueMapping(TSource, TDestination) Constructor " Url="html/90f113ec-c54b-2b20-41c6-66e4228e2e01.htm" />
+      <HelpTOCNode Id="74437417-7f93-43f7-9cd0-6d7d99d65b90" Title="ValueMapping(TSource, TDestination) Properties" Url="html/020dedca-7a0f-a190-e49a-15ab176feb2c.htm">
+        <HelpTOCNode Title="DestinationType Property " Url="html/3d9197b8-320c-d122-34c9-423b5b2a581b.htm" />
+        <HelpTOCNode Title="SourceType Property " Url="html/99c13fee-7c85-0709-1d37-bce75159468d.htm" />
+        <HelpTOCNode Title="SourceValue Property " Url="html/07dd3602-bbf0-3935-5962-427bdc9418a8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="98122138-b999-4321-ba81-99ddbc926587" Title="ValueMapping(TSource, TDestination) Methods" Url="html/15333739-5651-7647-7b1b-5f3556cc8a41.htm">
+        <HelpTOCNode Title="TryMap Method " Url="html/b3de9ad7-1de2-b48c-a04b-07c5cd6e43b0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2daa1c3e-28bc-4326-a1e7-33d02cf78d6e" Title="ValueMappingCollection Class" Url="html/d3ded3d4-f132-7d83-f18c-cabb8d83ddb4.htm">
+      <HelpTOCNode Title="ValueMappingCollection Constructor " Url="html/7bab229f-8c9e-17b7-28e9-e23a49827536.htm" />
+      <HelpTOCNode Id="cb3c0dd5-0376-4531-a477-141f96639b3c" Title="ValueMappingCollection Methods" Url="html/ffab5419-29aa-d7fd-a418-a67fd195f675.htm">
+        <HelpTOCNode Title="Add(TSource, TDestination) Method " Url="html/ba1ad72a-f030-7359-109d-97fd291f31c1.htm" />
+        <HelpTOCNode Title="Clear Method " Url="html/d0661a95-0c22-435a-fdb3-83abb240588a.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/b92144c7-e9c8-0e26-4b94-9785e720383b.htm" />
+        <HelpTOCNode Title="RemoveDestinationType(T) Method " Url="html/ceb95324-08ce-017a-17f4-05cd259c79b7.htm" />
+        <HelpTOCNode Title="RemoveSourceType(T) Method " Url="html/62b21625-d077-db70-85a7-74bbf4703b68.htm" />
+        <HelpTOCNode Title="TryMap Method " Url="html/10f3537f-51cb-2d6d-b47c-9a8f0c91e75e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="ee9d16db-777a-4937-be61-78736aeb1e73" Title="TB.ComponentModel.Conversions" Url="html/7c7246e7-0fac-d328-f102-6b8694701143.htm">
+    <HelpTOCNode Id="95106aa8-8735-484a-a81b-3891d7c1c0bf" Title="AssignableConversion Class" Url="html/d369ef3a-2817-8008-f59b-481f9cbe3136.htm">
+      <HelpTOCNode Title="AssignableConversion Constructor " Url="html/13d2b8ee-b99e-9e06-ca27-53cc3a0088d3.htm" />
+      <HelpTOCNode Id="422f2eca-5a38-4291-82f5-6fe5e70934ad" Title="AssignableConversion Methods" Url="html/63c82045-093b-c5de-2eb7-b10b552076cc.htm">
+        <HelpTOCNode Title="TryConvert Method " Url="html/fd72fcf8-4935-e2e3-5ec3-778a74590965.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3abc8805-fe1e-4dc4-bccd-770c3a5437bb" Title="ByteArrayConversion Class" Url="html/435e30d4-1224-fd7c-aec2-50539a7eb199.htm">
+      <HelpTOCNode Title="ByteArrayConversion Constructor " Url="html/c28e7ba8-b1d6-7ed2-896f-61c730b142c4.htm" />
+      <HelpTOCNode Id="57196e6d-4bae-4c31-8f41-4be800695abe" Title="ByteArrayConversion Methods" Url="html/1f0a41c1-6d41-07f4-8ed3-1eb117e47530.htm">
+        <HelpTOCNode Id="858165ef-f2bc-4dbe-8c0c-a27d0bd6cfd8" Title="TryConvert Method " Url="html/b1800b3d-32f4-1603-ca12-23dd3d4db767.htm">
+          <HelpTOCNode Title="TryConvert Method (Byte[], Type, Object, ConversionArgs)" Url="html/4fc9300b-6dd8-91d4-6aef-c2abaaf0eb88.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="848f1ee3-bf2f-4778-8586-48b0bf27835d" Title="ByteConversion Class" Url="html/3528e7ac-ae07-8fcf-c73f-91688a7bee62.htm">
+      <HelpTOCNode Title="ByteConversion Constructor " Url="html/e427eabc-33cb-6a16-4f41-52ae62dba682.htm" />
+      <HelpTOCNode Id="5e4aed9f-e9b9-4ec1-9b44-d8acec51ce71" Title="ByteConversion Methods" Url="html/ce982615-ad5c-811d-176e-0c75c25cf8a8.htm">
+        <HelpTOCNode Id="1ade0be0-3381-4686-b756-2994db9087f4" Title="TryConvert Method " Url="html/9d1cde5c-6921-0653-2851-6f6557b58ef8.htm">
+          <HelpTOCNode Title="TryConvert Method (Byte, Type, Object, ConversionArgs)" Url="html/c1c3e5cf-cd95-0609-0654-69b5169136a2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="12949017-bf3c-4e47-a1d5-c2b2a9739178" Title="CharConversion Class" Url="html/18225cea-ec20-d16f-943d-45943a5b1da0.htm">
+      <HelpTOCNode Title="CharConversion Constructor " Url="html/f64f67fe-1af2-4517-e5e9-5a60eff5479b.htm" />
+      <HelpTOCNode Id="f0ed88f0-8b28-4640-ad06-6c1559285326" Title="CharConversion Methods" Url="html/19ec9502-ea90-3676-e8b7-92ab521e1cc7.htm">
+        <HelpTOCNode Id="0303332a-0049-4fd0-b248-8f2aa2fd66ed" Title="TryConvert Method " Url="html/00224bd5-0526-1217-8c56-cc7efc70b703.htm">
+          <HelpTOCNode Title="TryConvert Method (Char, Type, Object, ConversionArgs)" Url="html/f91ae325-ce3a-2c9a-59e0-7a1523b4d269.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e303b164-c1ae-4b71-a93d-c3a586d04419" Title="ConstructorBasedConversion Class" Url="html/fbd4c044-aac6-51bb-bfa7-9a6a81de0049.htm">
+      <HelpTOCNode Title="ConstructorBasedConversion Constructor " Url="html/99d566a1-e2d8-bd9e-3a98-0533bf2a1197.htm" />
+      <HelpTOCNode Id="f069352a-d057-43fb-8ab5-6ac9a2fd369b" Title="ConstructorBasedConversion Methods" Url="html/245f5477-ece5-2785-8fc5-4e674b01e790.htm">
+        <HelpTOCNode Title="TryConvert Method " Url="html/93d334e0-084c-30e3-22e6-f36a748e647a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e471b2f0-b364-486a-a7d2-61658bed4975" Title="ConversionBase Class" Url="html/85b30622-c5fb-4f4a-4505-af8024af92f3.htm">
+      <HelpTOCNode Title="ConversionBase Constructor " Url="html/1f97b728-2ba2-cb35-87e9-680285737c6a.htm" />
+      <HelpTOCNode Id="c45223f5-6492-485f-a95a-a15957dccbb4" Title="ConversionBase Methods" Url="html/5cb81c30-5b01-f97c-f07c-88c0c4ec542b.htm">
+        <HelpTOCNode Title="GetMethodsOf Method " Url="html/7e4469b9-1b50-b894-67ca-7ec79c1f95c7.htm" />
+        <HelpTOCNode Title="IsAssignable Method " Url="html/50fc806f-a254-e910-92b9-2d328a243319.htm" />
+        <HelpTOCNode Title="IsEnum Method " Url="html/611df56f-306c-1d1f-f46d-67347693bbf0.htm" />
+        <HelpTOCNode Title="IsFloat Method " Url="html/96375e95-375e-75fd-23c6-373dd57f34b0.htm" />
+        <HelpTOCNode Title="IsInteger Method " Url="html/327f0f83-0e2e-328c-2680-5d9f383d700d.htm" />
+        <HelpTOCNode Title="TryConvert Method " Url="html/2fc0e931-009b-2dbb-d288-8ed91ceddbd9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="87e3b388-79a3-47b0-98c3-f7ac1b7acbe4" Title="ConvertibleConversion Class" Url="html/f41ac9d6-2bac-e2bf-f623-1c7d07fd2df7.htm">
+      <HelpTOCNode Title="ConvertibleConversion Constructor " Url="html/d1c32066-2d3b-9471-9ab9-601c1cbf2dd5.htm" />
+      <HelpTOCNode Id="24f6f3aa-a43c-474f-9d23-697931a32d32" Title="ConvertibleConversion Methods" Url="html/a42e8331-b602-2717-342c-4a8775e323d2.htm">
+        <HelpTOCNode Id="a41246e7-4b65-4e86-8a13-aab5082efbc2" Title="TryConvert Method " Url="html/62f582b6-a886-c77d-141c-0bc3bcb2d03f.htm">
+          <HelpTOCNode Title="TryConvert Method (IConvertible, Type, Object, ConversionArgs)" Url="html/ae93261c-d6ef-8036-8984-6e43d91351d1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6c10ca08-553f-42f5-acff-e9922c3494f0" Title="DataRecordConversion Class" Url="html/c798d3c4-ec52-5261-84bf-357b9fb2e9cd.htm">
+      <HelpTOCNode Title="DataRecordConversion Constructor " Url="html/1f73fff8-dfad-8570-e88b-b51a56cf3027.htm" />
+      <HelpTOCNode Id="580c2950-0e5f-460f-a205-d5eaa8ab419c" Title="DataRecordConversion Methods" Url="html/2e0bc207-7576-f53e-9691-78d56f87afa1.htm">
+        <HelpTOCNode Id="80c9c5cf-0b4b-4419-9fcf-612c3bd93280" Title="TryConvert Method " Url="html/a313e53c-8986-54d8-575b-8483880a9715.htm">
+          <HelpTOCNode Title="TryConvert Method (IDataRecord, Type, Object, ConversionArgs)" Url="html/29aa89aa-6415-1318-d49d-482a8d4118a7.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a939741-9dcf-4170-b4a8-31e5756688e7" Title="DataRowConversion Class" Url="html/cf08b472-5cd6-1d1d-8b77-8dbf44aba6a5.htm">
+      <HelpTOCNode Title="DataRowConversion Constructor " Url="html/50b4cae5-fbd3-11c2-c058-18e714665267.htm" />
+      <HelpTOCNode Id="06db93ba-180e-4820-8c5a-c8eabb9bad3b" Title="DataRowConversion Methods" Url="html/46b06974-c769-34aa-1f62-0386c36b7723.htm">
+        <HelpTOCNode Id="0f482564-ea6a-4b10-900a-cc22b574803f" Title="TryConvert Method " Url="html/5b4d8fd6-d1cf-b0ff-c26b-db2f9ce0da26.htm">
+          <HelpTOCNode Title="TryConvert Method (DataRow, Type, Object, ConversionArgs)" Url="html/ebec4e39-225e-4794-d9bc-d6185132048a.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d059598-e283-44f2-9602-bd0440e3057d" Title="DataRowViewConversion Class" Url="html/e7ed7e12-6d05-6ffd-4801-f1d631e88604.htm">
+      <HelpTOCNode Title="DataRowViewConversion Constructor " Url="html/3a68c72e-b107-72cb-e30c-8cdd7d9fa73e.htm" />
+      <HelpTOCNode Id="44faabe3-7cff-442b-9b69-3b994ad31d0b" Title="DataRowViewConversion Methods" Url="html/89ff3eb2-c1b8-c00d-ef9b-4c0adcdda15c.htm">
+        <HelpTOCNode Id="7983482e-2a03-45da-8d40-afa87b813e69" Title="TryConvert Method " Url="html/722a9eaa-714e-dc63-245c-3acff5aa72ac.htm">
+          <HelpTOCNode Title="TryConvert Method (DataRowView, Type, Object, ConversionArgs)" Url="html/05230d39-c155-bf43-ccb0-4a5f187e07cc.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2dfd1cc0-ff4d-4966-a6c9-7febfa65b56c" Title="DateTimeConversion Class" Url="html/a2060c9b-5008-e4ef-4712-48bb033d35f3.htm">
+      <HelpTOCNode Title="DateTimeConversion Constructor " Url="html/36f9bd97-50c6-99f4-506c-0b424a039f80.htm" />
+      <HelpTOCNode Id="dedd7823-852d-4834-afb5-9e22c99c1c87" Title="DateTimeConversion Methods" Url="html/94a43e2b-74df-3a4e-b3b5-a5676e60815d.htm">
+        <HelpTOCNode Id="632908ef-263f-4a51-8d77-e7e7f9b8373b" Title="TryConvert Method " Url="html/45766ed4-18bf-d207-cdc0-a9471922f489.htm">
+          <HelpTOCNode Title="TryConvert Method (DateTime, Type, Object, ConversionArgs)" Url="html/50b9bc61-89df-ec48-d9c9-c5d7718145ca.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="63b6de1e-c3ab-4572-bba1-bcfec2a0e522" Title="DecimalConversion Class" Url="html/0c0f2ca9-67f7-3b12-10ce-4c6be99c9b10.htm">
+      <HelpTOCNode Title="DecimalConversion Constructor " Url="html/f39f0bcb-f1e6-dbec-6588-2583dd593ecb.htm" />
+      <HelpTOCNode Id="c8bc288c-5644-4d19-a958-becf7642332e" Title="DecimalConversion Methods" Url="html/ce1318f4-6eb8-b5b9-7c7c-acdeaffc8187.htm">
+        <HelpTOCNode Id="9f5316d1-2aa2-4dbc-a740-9eaab1ee0e14" Title="TryConvert Method " Url="html/ce5489fc-f9c7-a044-ca92-8f14099ec5ba.htm">
+          <HelpTOCNode Title="TryConvert Method (Decimal, Type, Object, ConversionArgs)" Url="html/2773ffa5-30e6-21ec-25b6-84bdd1fb52c9.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="79436796-813c-4611-88cb-8fa9180874b6" Title="DoubleConversion Class" Url="html/150b1dd1-81a4-edd9-59b1-37506775fdc7.htm">
+      <HelpTOCNode Title="DoubleConversion Constructor " Url="html/158e553f-4705-d487-5262-4432133da01a.htm" />
+      <HelpTOCNode Id="cfc9e412-9d33-4386-87ce-a8394b0f2102" Title="DoubleConversion Methods" Url="html/162d9fb4-59b9-7e46-6604-07b3e8162612.htm">
+        <HelpTOCNode Id="c4d073c5-2a45-4297-b32b-7fea1583991c" Title="TryConvert Method " Url="html/513fd17c-ed45-5fdf-06a2-e27025fc932e.htm">
+          <HelpTOCNode Title="TryConvert Method (Double, Type, Object, ConversionArgs)" Url="html/1e1914f5-dc81-e342-909c-d5d1fff202cc.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="029b4aa4-1ed7-4911-ad5c-d47656d0dd7d" Title="EnumConversion Class" Url="html/92b72903-8bc4-5ae1-4a1d-846f016af465.htm">
+      <HelpTOCNode Title="EnumConversion Constructor " Url="html/c6a69e88-7d78-6090-60ab-46e0c69f460f.htm" />
+      <HelpTOCNode Id="8d0d2f8c-dec6-4f5b-86b1-93fd8425cc49" Title="EnumConversion Methods" Url="html/2880ee7b-1719-4d3b-2a3b-c3b2c3561637.htm">
+        <HelpTOCNode Title="TryConvert Method " Url="html/4a3b74a7-3409-d7e0-2a55-7dc545f11b99.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f1d8a18c-b0cc-489e-9620-c629d28ebbbb" Title="FloatConversion Class" Url="html/edfc4688-2817-ab3d-5a0e-8be2f4868dab.htm">
+      <HelpTOCNode Title="FloatConversion Constructor " Url="html/00511f3b-9213-4be3-cd90-937fa26df7d6.htm" />
+      <HelpTOCNode Id="d20e2702-dd3d-45e5-8aec-1581c4f52960" Title="FloatConversion Methods" Url="html/1c1bc3b1-6a70-aeb8-5424-e645cb500e31.htm">
+        <HelpTOCNode Id="83dc5ff0-6c94-48f6-9d1e-e95b2f224d80" Title="TryConvert Method " Url="html/c78f0d81-56f9-4e41-70c1-1f4592202895.htm">
+          <HelpTOCNode Title="TryConvert Method (Single, Type, Object, ConversionArgs)" Url="html/59fc35b0-5721-37d6-549a-2f45fdafd0d4.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="43273a66-fa29-4797-b37d-354df4e3785c" Title="FormattableConversion Class" Url="html/9ed69b16-63c3-78f4-b176-cbbe22742679.htm">
+      <HelpTOCNode Title="FormattableConversion Constructor " Url="html/5e91b272-10a1-464f-1cb1-ee42e52c158d.htm" />
+      <HelpTOCNode Id="76d901c7-8915-4a69-8b51-9280483f2e31" Title="FormattableConversion Methods" Url="html/9ae0fa85-2518-8414-0787-9330aa7663db.htm">
+        <HelpTOCNode Id="14f33a7d-f690-43c3-936f-cc95061e9f74" Title="TryConvert Method " Url="html/820246c5-a7d6-e752-0a11-49a0a5cb11a0.htm">
+          <HelpTOCNode Title="TryConvert Method (IFormattable, Type, Object, ConversionArgs)" Url="html/dec9b194-6994-5ee1-0f45-76e1dd629242.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5cca1977-5d2d-47d5-ab6f-e3acad49c517" Title="GuidConversion Class" Url="html/1ef3e5fd-f4e8-9017-9e49-21eefec08057.htm">
+      <HelpTOCNode Title="GuidConversion Constructor " Url="html/339c3692-c580-46ef-8c1e-c11dd877051d.htm" />
+      <HelpTOCNode Id="0cf46e2f-3216-43ea-8e36-2e16e8b4d52c" Title="GuidConversion Methods" Url="html/34fe35cb-867b-8be3-9305-c0d133303dec.htm">
+        <HelpTOCNode Id="f9c50dec-4ffa-4a83-aa55-ccc305a2cef3" Title="TryConvert Method " Url="html/5c1108ca-bcfd-cd3e-7472-e9d895660af0.htm">
+          <HelpTOCNode Title="TryConvert Method (Guid, Type, Object, ConversionArgs)" Url="html/5f467a67-5b73-5612-46b3-6212ee62a01d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6374b424-ff4c-45be-8ac3-91b6cf9890ef" Title="IntConversion Class" Url="html/142c5ac9-15d6-13d2-b86d-d0a359429ae4.htm">
+      <HelpTOCNode Title="IntConversion Constructor " Url="html/b2c01a71-0c1a-4733-9478-1664cbe1f4e8.htm" />
+      <HelpTOCNode Id="7e8595b5-07ed-4dba-b85f-5532e5d36483" Title="IntConversion Methods" Url="html/52c12e18-62d3-5737-59e6-d5ee32c1932d.htm">
+        <HelpTOCNode Id="7e5d17d3-bf4a-45a5-8f0c-46a48cbc9983" Title="TryConvert Method " Url="html/fa5a04ae-b489-8e1b-aa29-eb73361e9202.htm">
+          <HelpTOCNode Title="TryConvert Method (Int32, Type, Object, ConversionArgs)" Url="html/6f34c745-ab6a-b01e-8834-9fd59e51a6aa.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0da3de83-90a7-442b-8562-a27fd985cdd6" Title="LongConversion Class" Url="html/6de28d25-88e6-02de-13d3-fcc5690a893b.htm">
+      <HelpTOCNode Title="LongConversion Constructor " Url="html/2645d25e-c0d7-ff75-82dc-b555eb2990a0.htm" />
+      <HelpTOCNode Id="1ffa297f-fc36-4d11-b35a-6360911ac90d" Title="LongConversion Methods" Url="html/db76990b-8c9e-d0e3-db8e-8093b75813ce.htm">
+        <HelpTOCNode Id="35942416-c2e8-437a-b5f1-597fcad58f8b" Title="TryConvert Method " Url="html/c15d91ed-dfdd-5b37-578c-e96bdc1b9a61.htm">
+          <HelpTOCNode Title="TryConvert Method (Int64, Type, Object, ConversionArgs)" Url="html/c08a6ef2-cc61-9414-d167-3c4f05e80384.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e1c993cb-6531-490f-980d-5f50e7a91c70" Title="PropertyBasedConversion Class" Url="html/bdebb42c-19e7-db32-65b7-533782bcc456.htm">
+      <HelpTOCNode Title="PropertyBasedConversion Constructor " Url="html/6b7f536c-5d3e-b9d7-5676-bb3dea9a5ae0.htm" />
+      <HelpTOCNode Id="8b4eea4e-2e45-4ce8-ad8f-17a9c91dcb1d" Title="PropertyBasedConversion Methods" Url="html/3afcbb12-571f-4ece-6967-c9b70c04269f.htm">
+        <HelpTOCNode Title="TryConvert Method " Url="html/cd4f6886-0dbd-c8ff-373a-594b91b8968f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1b7218f9-6aae-4b68-b133-8fe75079868d" Title="SByteConversion Class" Url="html/d080a0bd-871a-c400-d4c2-85a86d5c1d8e.htm">
+      <HelpTOCNode Title="SByteConversion Constructor " Url="html/3188c002-41f0-0db4-6f57-d9856281ef74.htm" />
+      <HelpTOCNode Id="9b0eb2dd-d4e1-4ed6-ade3-f7601edcb9ab" Title="SByteConversion Methods" Url="html/af180185-09a7-9683-8fdd-33271d8f91d9.htm">
+        <HelpTOCNode Id="babdec39-9a90-4632-8404-58f0fd2a12d4" Title="TryConvert Method " Url="html/60f090dd-b01c-df6a-b0ee-838b2d226ba5.htm">
+          <HelpTOCNode Title="TryConvert Method (SByte, Type, Object, ConversionArgs)" Url="html/1657251b-7225-c1ce-6f16-cb5b27f6427f.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="04f1edce-4046-45f9-8c6e-322d35a0dd9b" Title="ShortConversion Class" Url="html/50036525-3133-5df2-0e7b-9b7fd6fcb3d1.htm">
+      <HelpTOCNode Title="ShortConversion Constructor " Url="html/5d0cfd1b-2c2e-e25f-26e4-5108d0b56c06.htm" />
+      <HelpTOCNode Id="d122622f-1073-4957-8269-2f344c80ac76" Title="ShortConversion Methods" Url="html/6f234b49-7dfa-31e9-6d2f-afcaa2ec9b31.htm">
+        <HelpTOCNode Id="bc3f2fcf-7bc7-41dc-a7c8-56a24a0ddd06" Title="TryConvert Method " Url="html/6352aa16-0a65-4bd0-4abe-0af3ca65d740.htm">
+          <HelpTOCNode Title="TryConvert Method (Int16, Type, Object, ConversionArgs)" Url="html/f01d7937-935d-8687-faa3-ff65910d25b4.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="425b5bb6-7fff-4b1d-b849-632de35cb465" Title="StringConversion Class" Url="html/d9bf952b-6aab-3819-cd6d-0abb45e9a3b4.htm">
+      <HelpTOCNode Title="StringConversion Constructor " Url="html/f5c981f5-2519-8f9c-1ff7-d27907ff835b.htm" />
+      <HelpTOCNode Id="dd92a6a6-e1f5-43cd-bad5-d762f81bb984" Title="StringConversion Methods" Url="html/3dee4a96-2455-2e66-b218-25be426ad09e.htm">
+        <HelpTOCNode Id="4073c5c3-1ad7-4511-ac28-e4a1a5a20152" Title="TryConvert Method " Url="html/c237b178-78b8-07f0-f7b0-beb6f32b37d3.htm">
+          <HelpTOCNode Title="TryConvert Method (String, Type, Object, ConversionArgs)" Url="html/b859e3de-f20e-37e5-05d7-921f2aabc652.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4c3f9f0d-c087-4cff-9063-359418b57f2b" Title="TryParseConversion Class" Url="html/b73e3ca3-6b0f-2c88-5443-3580fa8e7de0.htm">
+      <HelpTOCNode Title="TryParseConversion Constructor " Url="html/46227124-0507-b378-ec07-a2a550a83866.htm" />
+      <HelpTOCNode Id="e129a1e3-1345-4acc-88b1-3cc68153490c" Title="TryParseConversion Methods" Url="html/e4e77eb1-55ed-dde6-8a1c-92c5ab190e18.htm">
+        <HelpTOCNode Title="TryConvert Method " Url="html/61cc460d-0c63-9268-943f-69924cddcc00.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="762f2f63-0e5e-41b3-a391-2cec1868f827" Title="TypeConversion(TSource) Class" Url="html/b42ec32f-550e-8cf3-95a6-7ea3fe1e664a.htm">
+      <HelpTOCNode Title="TypeConversion(TSource) Constructor " Url="html/d88f3d21-e2a5-5461-6440-b74f240104d5.htm" />
+      <HelpTOCNode Id="9cf61b12-6d67-45af-9f92-41ce19b846d4" Title="TypeConversion(TSource) Methods" Url="html/b8472da8-2a80-64b5-0a89-64c1f6625259.htm">
+        <HelpTOCNode Id="214db904-1d3d-4460-b3e2-c6a90a22a839" Title="TryConvert Method " Url="html/5e9ff647-0bdc-1e67-0d8c-e2181d2f8d91.htm">
+          <HelpTOCNode Title="TryConvert Method (Object, Type, Object, ConversionArgs)" Url="html/84aece52-bb17-f274-2809-fd7379ca5fd9.htm" />
+          <HelpTOCNode Title="TryConvert Method (TSource, Type, Object, ConversionArgs)" Url="html/d7800cc2-03a3-03b9-fdd5-5fecd61ad4bd.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4b72a674-53bd-435b-9535-7ec61f7a7145" Title="TypeConverterConversion Class" Url="html/0e367a0e-5639-d6b9-a48f-1ad716032574.htm">
+      <HelpTOCNode Title="TypeConverterConversion Constructor " Url="html/6995b774-b909-02bb-73e2-52518e3484ae.htm" />
+      <HelpTOCNode Id="22fbab27-dc84-4a74-80fb-af8c60b72187" Title="TypeConverterConversion Methods" Url="html/e6c08447-bd14-46cd-e3d7-e950d22f06f9.htm">
+        <HelpTOCNode Title="TryConvert Method " Url="html/78a973b4-805c-af5d-553d-e6e3636506a9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bb45adc1-efc0-4316-84c0-0fad22356233" Title="UIntConversion Class" Url="html/cc7f8431-1d99-e6a6-699d-8c8f73405323.htm">
+      <HelpTOCNode Title="UIntConversion Constructor " Url="html/350f84e2-8a94-56a0-e106-e53508f39bfe.htm" />
+      <HelpTOCNode Id="5896827a-4f90-4f96-9a28-e779b294a3ef" Title="UIntConversion Methods" Url="html/864600b0-1c13-91b7-adc4-79b56044a8f0.htm">
+        <HelpTOCNode Id="b79928ab-8f4a-441f-a7a1-2184a67de550" Title="TryConvert Method " Url="html/e56e8abb-1d4f-28d5-10ee-89d0e17e8230.htm">
+          <HelpTOCNode Title="TryConvert Method (UInt32, Type, Object, ConversionArgs)" Url="html/fde9a27c-49ca-0473-c36f-e7b27c74f508.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7376981b-fd8b-4c1d-84bd-19e66d3794fd" Title="ULongConversion Class" Url="html/36ae410d-4efa-9101-db43-8412e7c90515.htm">
+      <HelpTOCNode Title="ULongConversion Constructor " Url="html/01ce5492-4c4f-01c3-a17f-4f577c4cd41e.htm" />
+      <HelpTOCNode Id="ff2e1fd9-2b7f-467b-bffa-7d488cff3662" Title="ULongConversion Methods" Url="html/5ab3223c-3291-66f7-1166-af8965e58100.htm">
+        <HelpTOCNode Id="f304a54e-a150-4709-946e-771b88ffc936" Title="TryConvert Method " Url="html/3dd61842-7ff7-fa08-5286-617b3c3844b8.htm">
+          <HelpTOCNode Title="TryConvert Method (UInt64, Type, Object, ConversionArgs)" Url="html/f1d668b1-71b3-5890-ab26-bf885c0f6dfb.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dab0c3c5-8182-4b62-a310-46109feae053" Title="UShortConversion Class" Url="html/52b10293-f5c4-1351-cd4a-18d89dcfc1bc.htm">
+      <HelpTOCNode Title="UShortConversion Constructor " Url="html/85c0b811-8582-14b6-312f-964e16a7f9a8.htm" />
+      <HelpTOCNode Id="5e399d74-04b9-4eef-abe0-66eed772999a" Title="UShortConversion Methods" Url="html/80092fd9-627d-5e8e-2ae1-5ffbffe93a0e.htm">
+        <HelpTOCNode Id="a1cd19d9-4a6d-4eca-89c0-78d84eb24865" Title="TryConvert Method " Url="html/b9346cbd-65a6-caf6-ec3e-d0344c8081c7.htm">
+          <HelpTOCNode Title="TryConvert Method (UInt16, Type, Object, ConversionArgs)" Url="html/f28ea9f2-595d-e077-cde6-c1ef1680dca2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="82d89c09-9289-46c4-bd46-3eab038baca1" Title="XPlicitConversion Class" Url="html/1e94de3a-958e-d0f4-872e-f87b4d37b231.htm">
+      <HelpTOCNode Title="XPlicitConversion Constructor " Url="html/21aa9eed-d7f0-7c14-097e-aac3c5fc4242.htm" />
+      <HelpTOCNode Id="3743ec07-f0cb-40ab-beb8-a4ba2b82f412" Title="XPlicitConversion Methods" Url="html/70b34d01-b944-5ad9-35bb-a59d5a6163ad.htm">
+        <HelpTOCNode Title="TryConvert Method " Url="html/a6987290-7401-2b3a-d2c0-223b83c6e62d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

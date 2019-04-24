@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net46;net45;netcoreapp2.0</TargetFrameworks>
+
+    <IsPackable>false</IsPackable>
+
+    <SignAssembly>true</SignAssembly>
+
+    <AssemblyOriginatorKeyFile>UTC.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.4.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UniversalTypeConverter\UniversalTypeConverter.csproj" />
+  </ItemGroup>
+
+</Project>
