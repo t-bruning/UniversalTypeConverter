@@ -1,0 +1,604 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<style type="text/css" media="screen">
+
+body {
+	padding: 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+td {
+	vertical-align: top;
+}
+
+</style>
+
+<body>
+
+<h1>UniversalTypeConverter</h1>
+<p>
+on <a href="https://github.com/t-bruning/UniversalTypeConverter">github.com/t-bruning/UniversalTypeConverter</a>
+</p>
+
+<h2>Supported conversions</h2>
+<p>
+	The following conversions are tried in the given order.</br>
+</p>
+<p>
+	If supported, you can control conversions by their specified <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/08f7c35b-31d3-4293-5a43-f74f24cfdd2e.htm">options</a> - either <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0b666182-23a3-3cdb-984f-ebcc59a5abb6.htm">globally</a> or <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0201aae2-8442-a9c8-91aa-8a53e3a4de91.htm">separately</a> for each converter.</br>
+	Keep in mind that some of the basic conversions between primitives are done by <a href="https://docs.microsoft.com/de-de/dotnet/api/system.iconvertible">IConvertible</a>. So they are not mentioned if there are no options.
+</p>
+
+<div>
+<table>
+  <tr>
+    <th>From type</th>
+    <th>To type</th>
+    <th>Method</th>
+    <th>Culture sensitive</th>
+    <th>Options</th>
+  </tr>
+  <tr>
+    <td>(any)</td>
+    <td>(assignable)</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.reflection.typeinfo.isassignablefrom">TypeInfo.IsAssignableFrom</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td rowspan="17">string</td>
+    <td>byte</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.byte.tryparse">byte.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>int</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.int32.tryparse">int.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>long</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.int64.tryparse">long.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>sbyte</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.sbyte.tryparse">sbyte.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>short</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.int16.tryparse">sbyte.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>uint</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint32.tryparse">uint.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>ulong</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint64.tryparse">ulong.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>ushort</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint16.tryparse">ushort.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">converting to any of these integral types allows formating as Hex (0x or &amp;h) as well</td>
+  </tr>
+  <tr>
+    <td>decimal</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.decimal.tryparse">decimal.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/89d80b65-58bf-1879-5f98-7b17361702db.htm">DecimalNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>float</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.single.tryparse">float.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/89d80b65-58bf-1879-5f98-7b17361702db.htm">DecimalNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>double</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.double.tryparse">double.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/89d80b65-58bf-1879-5f98-7b17361702db.htm">DecimalNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="3">DateTime</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tryparse">DateTime.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm">DateTimeStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tryparseexact">DateTime.TryParseExact</a>
+    </td>
+    <td rowspan="2">yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm">DateTimeStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/64771e14-7f5c-5c99-fc3e-637105feceef.htm">DateTimePatterns</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Guid</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.guid.tryparse">Guid.TryParse</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>byte[]</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.convert.frombase64string">Convert.FromBase64String</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/dbcb491c-acdf-f6e9-7be5-f9464c948cf5.htm">ByteArrayFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>int</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.int32.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm">IntegerFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>decimal</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.decimal.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/bdbbe0aa-c88a-08d8-839d-a916c74705af.htm">DecimalFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="4">long</td>
+    <td rowspan="4">DateTime</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.-ctor">new DateTime(long ticks)</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/448ed27c-2215-04d3-0813-08382ad3025d.htm">DateTimeLongMeaning (Ticks)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.frombinary">DateTime.FromBinary</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/448ed27c-2215-04d3-0813-08382ad3025d.htm">DateTimeLongMeaning (Binary)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.fromfiletime">DateTime.FromFileTime</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/448ed27c-2215-04d3-0813-08382ad3025d.htm">DateTimeLongMeaning (FileTime)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.fromfiletimeutc">DateTime.FromFileTimeUtc</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/448ed27c-2215-04d3-0813-08382ad3025d.htm">DateTimeLongMeaning (FileTimeUtc)</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="6">DateTime</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/204df9dd-7a22-668b-2e34-4fe066d5adea.htm">DateTimeFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>double</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tooadate">ToOADate (OLE Automation date)</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td rowspan="4">long</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.ticks">Ticks</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/448ed27c-2215-04d3-0813-08382ad3025d.htm">DateTimeLongMeaning (Ticks)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tobinary">ToBinary</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/448ed27c-2215-04d3-0813-08382ad3025d.htm">DateTimeLongMeaning (Binary)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tofiletime">ToFileTime</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/448ed27c-2215-04d3-0813-08382ad3025d.htm">DateTimeLongMeaning (FileTime)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tofiletimeutc">ToFileTimeUtc</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/448ed27c-2215-04d3-0813-08382ad3025d.htm">DateTimeLongMeaning (FileTimeUtc)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Guid</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.guid.tostring">ToString</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/1db3ca6e-71c5-df36-c20b-d21232035766.htm">GuidFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="3">double</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.double.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm">IntegerFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>DateTime</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.fromoadate">DateTime.FromOADate</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>char</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.convert">Convert.ToInt16;<br>
+      Convert.ToChar</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>byte</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.byte.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm">IntegerFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">char</td>
+    <td>double</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.convert">Convert.ToInt16;<br>
+      Convert.ToDouble</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>float</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.convert">Convert.ToInt16;<br>
+      Convert.ToSingle</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>short</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.int16.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm">IntegerFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">float</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.single.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/466d2d83-daaa-e78b-59b6-950861076b59.htm">FloatFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>char</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.convert">Convert.ToInt16;<br>
+      Convert.ToChar</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>uint</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint32.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm">IntegerFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>ulong</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint64.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm">IntegerFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>ushort</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint16.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm">IntegerFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>sbyte</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.sbyte.tostring">ToString</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/f83d129f-ae44-c2bc-8985-2b7c827464f3.htm">IntegerFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>byte[]</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.convert.tobase64string">Convert.ToBase64String</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/dbcb491c-acdf-f6e9-7be5-f9464c948cf5.htm">ByteArrayFormat</a>
+    </td>
+  </tr>
+  <tr>
+    <td>integer (any)</td>
+    <td>Enum</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.enum.toobject">Enum.ToObject</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>DataRow</td>
+    <td>(any type providing&nbsp; a constructor whose parameters are compatible to colums of the same name)</td>
+    <td>Reflection</td>
+    <td>depends</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>DataRowView</td>
+    <td>(any type providing&nbsp; a constructor whose parameters are compatible to colums of the same name)</td>
+    <td>Reflection</td>
+    <td>depends</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>IDataRecord</td>
+    <td>(any type providing&nbsp; a constructor whose parameters are compatible to fields of the same name)</td>
+    <td>Reflection</td>
+    <td>depends</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>IConvertible</td>
+    <td>(any type supported by the concrete implementation)</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.iconvertible">IConvertible</a>
+    </td>
+    <td>yes</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>IFormattable</td>
+    <td>string</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.iformattable.tostring">IFormattable.ToString</a>
+    </td>
+    <td>yes</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>(any type which defines a .net framework TypeConverter - other than the default converter)</td>
+    <td>(any type supported by the specified TypeConverter)</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.componentmodel.typeconverter">ConvertFrom;<br>
+      ConvertTo</a>
+    </td>
+    <td>yes</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>(any type which implements the implicit operator)</td>
+    <td>(any type supported by this operator overload)</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/csharp/language-reference/keywords/implicit">Implicit operator</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>(any type which implements the explicit operator)</td>
+    <td>(any type supported by this operator overload)</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/csharp/language-reference/keywords/explicit">Explicit operator</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>string</td>
+    <td>(any type which provides a static TryParse method)</td>
+    <td>TryParse(string, IFormatProvider, out ToType) or<br>
+    TryParse(string, out ToType)</td>
+    <td>depends</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>(any)</td>
+    <td>(any type which provides a constructor with its only parameter beeing compatible to the given value)</td>
+    <td>Reflection</td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/ef5fd8f4-209e-6afb-c428-3412b9179caa.htm">ConstructorResolvingMode</a>
+    </td>
+  </tr>
+  <tr>
+    <td>(any type which provides a public property/field of the type to convert to whose name is identical to the parameter of an constructor)</td>
+    <td>(any)</td>
+    <td>Reflection</td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/8c5cbb48-ed51-7bb3-a8dd-b023e366d731.htm">PropertyResolvingMode</a>
+    </td>
+  </tr>
+</table>
+</div>
+
+<hr>
+<p>
+2019, by Thorsten Bruning
+</p>
+
+</body>
+
+</html>
