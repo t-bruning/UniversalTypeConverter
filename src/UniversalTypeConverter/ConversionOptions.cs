@@ -149,10 +149,6 @@ namespace TB.ComponentModel {
             DateTimePatterns.Add("yyyy-MM-dd");
             DateTimePatterns.Add("yyyy-MM-dd HH:mm");
             DateTimePatterns.Add("yyyy-MM-dd HH:mm:ss");
-
-            DateTimePatterns.Add("dd.MM.yyyy");
-            DateTimePatterns.Add("dd.MM.yyyy HH:mm");
-            DateTimePatterns.Add("dd.MM.yyyy HH:mm:ss");
         }
     }
 

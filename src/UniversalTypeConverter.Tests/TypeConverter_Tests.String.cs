@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Threading;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TB.ComponentModel;
@@ -81,6 +82,7 @@ namespace UniversalTypeConverter.Tests {
         [TestMethod]
         public void Convert_String_To_DateTime_Should_Parse_Given_Patterns() {
             var converter = new TypeConverter();
+
             converter.ConvertTo<DateTime>("20181011").Should().Be(new DateTime(2018, 10, 11));
             converter.ConvertTo<DateTime>("201810112312").Should().Be(new DateTime(2018, 10, 11, 23, 12, 0));
             converter.ConvertTo<DateTime>("20181011231206").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6));
@@ -94,11 +96,6 @@ namespace UniversalTypeConverter.Tests {
             converter.ConvertTo<DateTime>("2018-10-11").Should().Be(new DateTime(2018, 10, 11));
             converter.ConvertTo<DateTime>("2018-10-11 23:12").Should().Be(new DateTime(2018, 10, 11, 23, 12, 0));
             converter.ConvertTo<DateTime>("2018-10-11 23:12:06").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6));
-
-
-            converter.ConvertTo<DateTime>("11.10.2018").Should().Be(new DateTime(2018, 10, 11));
-            converter.ConvertTo<DateTime>("11.10.2018 23:12").Should().Be(new DateTime(2018, 10, 11, 23, 12, 0));
-            converter.ConvertTo<DateTime>("11.10.2018 23:12:06").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6));
         }
 
         [TestMethod]
