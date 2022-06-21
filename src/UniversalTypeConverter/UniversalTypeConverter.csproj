@@ -1,34 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net46;net45;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
     <RootNamespace>TB.ComponentModel</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.0</Version>
+    <Version>2.6.0</Version>
     <Authors>Thorsten Bruning</Authors>
     <Company />
-    <PackageLicenseUrl>http://www.opensource.org/licenses/ms-pl.html</PackageLicenseUrl>
-    <Copyright>Copyright 2011-2019 by Thorsten Bruning</Copyright>
+	<PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+    <Copyright>Copyright 2011-2022 by Thorsten Bruning</Copyright>
     <PackageTags>typeconverter typeconversion typeconverting conversion converting converter convert convertible type types UniversalTypeConverter universal casting</PackageTags>
-    <Description>The Swiss Army Knife for type conversion.</Description>
-    <PackageReleaseNotes>Version 2.0 is a complete rewrite of the UniversalTypeConverter. Much more options and possibilities - but also some breaking changes.</PackageReleaseNotes>
+    <Description>The Swiss Army Knife for type conversion. Convert any type to another compatible type without worrying about which method to use.</Description>
+    <PackageReleaseNotes>Version 2.6 supports new types introduced in .NET 6, e.g. DateOnly and TimeOnly.</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>UTC.snk</AssemblyOriginatorKeyFile>
     <PackageProjectUrl>https://github.com/t-bruning/UniversalTypeConverter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/t-bruning/UniversalTypeConverter</RepositoryUrl>
+	<PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl>https://t-bruning.github.io/UniversalTypeConverter/images/logo.png</PackageIconUrl>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\UniversalTypeConverter.xml</DocumentationFile>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
-    <DocumentationFile>bin\Release\net45\UniversalTypeConverter.xml</DocumentationFile>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net46|AnyCPU'">
-    <DocumentationFile>bin\Release\net46\UniversalTypeConverter.xml</DocumentationFile>
-  </PropertyGroup>
+  <ItemGroup>
+	<None Include="logo.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
 
 </Project>

@@ -3,6 +3,7 @@
 // author   : Thorsten Bruning
 // date     : 2019-02-21     
 
+using System;
 using System.Collections.ObjectModel;
 using System.Globalization;
 
@@ -73,6 +74,29 @@ namespace TB.ComponentModel {
         /// Defines the meaning of a Long value when converting to DateTime.
         /// </summary>
         DateTimeLongMeaning DateTimeLongMeaning { get; }
+
+#if NET6_0_OR_GREATER
+        /// <summary>
+        /// Defines the format used when converting a DateOnly to its equivalent string representation.
+        /// </summary>
+        string DateOnlyFormat { get; }
+
+        /// <summary>
+        /// Defines the default time used when converting a DateOnly to DateTime.
+        /// </summary>
+        TimeOnly DateOnlyDefaultTime { get; }
+
+        /// <summary>
+        /// Gets the list of patterns used when converting a string to its TimeOnly equivalent.
+        ///  E.g., these patterns are used as formats when calling TimeOnly.TryParseExact.
+        /// </summary>
+        ReadOnlyCollection<string> TimeOnlyPatterns { get; }
+
+        /// <summary>
+        /// Defines the format used when converting a TimeOnly to its equivalent string representation.
+        /// </summary>
+        string TimeOnlyFormat { get; }
+#endif
 
         /// <summary>
         /// Defines the format used when converting a guid to its equivalent string representation.

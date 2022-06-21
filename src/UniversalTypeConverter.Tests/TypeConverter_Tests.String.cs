@@ -1,8 +1,8 @@
-﻿using System;
+﻿using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Globalization;
 using System.Threading;
-using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TB.ComponentModel;
 
 namespace UniversalTypeConverter.Tests {
@@ -86,16 +86,81 @@ namespace UniversalTypeConverter.Tests {
             converter.ConvertTo<DateTime>("20181011").Should().Be(new DateTime(2018, 10, 11));
             converter.ConvertTo<DateTime>("201810112312").Should().Be(new DateTime(2018, 10, 11, 23, 12, 0));
             converter.ConvertTo<DateTime>("20181011231206").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6));
+
             converter.ConvertTo<DateTime>("20181011 23:12").Should().Be(new DateTime(2018, 10, 11, 23, 12, 0));
             converter.ConvertTo<DateTime>("20181011 23:12:06").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6));
+            converter.ConvertTo<DateTime>("20181011 23:12:06.123").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6, 123));
 
             converter.ConvertTo<DateTime>("2018-10-11").Should().Be(new DateTime(2018, 10, 11));
             converter.ConvertTo<DateTime>("2018-10-11 23:12").Should().Be(new DateTime(2018, 10, 11, 23, 12, 0));
             converter.ConvertTo<DateTime>("2018-10-11 23:12:06").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6));
+            converter.ConvertTo<DateTime>("2018-10-11 23:12:06.123").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6, 123));
+        }
 
-            converter.ConvertTo<DateTime>("2018-10-11").Should().Be(new DateTime(2018, 10, 11));
-            converter.ConvertTo<DateTime>("2018-10-11 23:12").Should().Be(new DateTime(2018, 10, 11, 23, 12, 0));
-            converter.ConvertTo<DateTime>("2018-10-11 23:12:06").Should().Be(new DateTime(2018, 10, 11, 23, 12, 6));
+        [TestMethod]
+        public void Convert_String_To_DateOnly_Should_Parse_Given_Culture() {
+            var date = new DateOnly(2018, 10, 8);
+
+            var stringValue = date.ToString(new CultureInfo("en-GB"));
+            var converter = new TypeConverter(new CultureInfo("en-GB"));
+            converter.ConvertTo<DateOnly>(stringValue).Should().Be(date);
+
+            stringValue = date.ToString(new CultureInfo("en-us"));
+            converter.DefaultCulture = new CultureInfo("en-us");
+            converter.ConvertTo<DateOnly>(stringValue).Should().Be(date);
+        }
+
+        [TestMethod]
+        public void Convert_String_To_DateOnly_Should_Parse_Given_Patterns() {
+            var converter = new TypeConverter();
+
+            converter.ConvertTo<DateOnly>("20181011").Should().Be(new DateOnly(2018, 10, 11));
+            converter.ConvertTo<DateOnly>("201810112312").Should().Be(new DateOnly(2018, 10, 11));
+            converter.ConvertTo<DateOnly>("20181011231206").Should().Be(new DateOnly(2018, 10, 11));
+
+            converter.ConvertTo<DateOnly>("20181011 23:12").Should().Be(new DateOnly(2018, 10, 11));
+            converter.ConvertTo<DateOnly>("20181011 23:12:06").Should().Be(new DateOnly(2018, 10, 11));
+            converter.ConvertTo<DateOnly>("20181011 23:12:06.123").Should().Be(new DateOnly(2018, 10, 11));
+
+            converter.ConvertTo<DateOnly>("2018-10-11").Should().Be(new DateOnly(2018, 10, 11));
+            converter.ConvertTo<DateOnly>("2018-10-11 23:12").Should().Be(new DateOnly(2018, 10, 11));
+            converter.ConvertTo<DateOnly>("2018-10-11 23:12:06").Should().Be(new DateOnly(2018, 10, 11));
+            converter.ConvertTo<DateOnly>("2018-10-11 23:12:06.123").Should().Be(new DateOnly(2018, 10, 11));
+        }
+
+        [TestMethod]
+        public void Convert_String_To_TimeOnly_Should_Parse_Given_Culture() {
+            var time = new TimeOnly(12, 30);
+
+            var stringValue = time.ToString(new CultureInfo("fi-FI"));
+            var converter = new TypeConverter(new CultureInfo("fi-FI"));
+            converter.ConvertTo<TimeOnly>(stringValue).Should().Be(time);
+
+            stringValue = time.ToString(new CultureInfo("en-us"));
+            converter.DefaultCulture = new CultureInfo("en-us");
+            converter.ConvertTo<TimeOnly>(stringValue).Should().Be(time);
+        }
+
+        [TestMethod]
+        public void Convert_String_To_TimeOnly_Should_Parse_Given_Patterns() {
+            var converter = new TypeConverter();
+            converter.DefaultCulture = new CultureInfo("fi-FI");
+
+            converter.ConvertTo<TimeOnly>("23:12").Should().Be(new TimeOnly(23, 12, 0));
+            converter.ConvertTo<TimeOnly>("23:12:06").Should().Be(new TimeOnly(23, 12, 6));
+            converter.ConvertTo<TimeOnly>("23:12:06.123").Should().Be(new TimeOnly(23, 12, 6, 123));
+
+            converter.ConvertTo<TimeOnly>("23h 12").Should().Be(new TimeOnly(23, 12, 0));
+            converter.ConvertTo<TimeOnly>("23 h 12").Should().Be(new TimeOnly(23, 12, 0));
+            converter.ConvertTo<TimeOnly>("23h12").Should().Be(new TimeOnly(23, 12, 0));
+            converter.ConvertTo<TimeOnly>("23h12m").Should().Be(new TimeOnly(23, 12, 0));
+            converter.ConvertTo<TimeOnly>("23h12m24").Should().Be(new TimeOnly(23, 12, 24));
+            converter.ConvertTo<TimeOnly>("23h12m24s").Should().Be(new TimeOnly(23, 12, 24));
+            converter.ConvertTo<TimeOnly>("23h12m24.123").Should().Be(new TimeOnly(23, 12, 24, 123));
+            converter.ConvertTo<TimeOnly>("23h12m24.123s").Should().Be(new TimeOnly(23, 12, 24, 123));
+
+
+            converter.ConvertTo<TimeOnly>("23.12").Should().Be(new TimeOnly(23, 12, 0));
         }
 
         [TestMethod]
@@ -112,7 +177,7 @@ namespace UniversalTypeConverter.Tests {
 
         [TestMethod]
         public void Convert_String_To_ByteArray_Should_Use_Given_ByteArayFormat() {
-            var array = new byte[] {12, 123, 0};
+            var array = new byte[] { 12, 123, 0 };
             var converter = new TypeConverter();
             converter.Options.ByteArrayFormat.Should().Be(ByteArrayFormat.Base64);
 
