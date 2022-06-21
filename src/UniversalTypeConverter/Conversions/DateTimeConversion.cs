@@ -19,6 +19,18 @@ namespace TB.ComponentModel.Conversions {
                 return true;
             }
 
+#if NET6_0_OR_GREATER
+            if (destinationType == typeof(DateOnly)) {
+                result = DateOnly.FromDateTime(value);
+                return true;
+            }
+
+            if (destinationType == typeof(TimeOnly)) {
+                result = TimeOnly.FromDateTime(value);
+                return true;
+            }
+#endif
+
             if (destinationType == typeof(double)) {
                 try {
                     result = value.ToOADate();

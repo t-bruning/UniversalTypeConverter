@@ -1,9 +1,9 @@
-﻿using System;
+﻿using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TB.ComponentModel;
 
 namespace UniversalTypeConverter.Tests {
@@ -69,6 +69,20 @@ namespace UniversalTypeConverter.Tests {
             converter.Options.DateTimeLongMeaning = DateTimeLongMeaning.None;
             Action action = () => converter.ConvertTo<long>(date);
             action.Should().Throw<InvalidConversionException>();
+        }
+
+        [TestMethod]
+        public void Convert_DateTime_To_DateOnly_Should_Work_By_Default() {
+            var converter = new TypeConverter();
+            var dateTime = DateTime.Now;
+            converter.ConvertTo<DateOnly>(dateTime).Should().Be(DateOnly.FromDateTime(dateTime));
+        }
+
+        [TestMethod]
+        public void Convert_DateTime_To_TimeOnly_Should_Work_By_Default() {
+            var converter = new TypeConverter();
+            var dateTime = DateTime.Now;
+            converter.ConvertTo<TimeOnly>(dateTime).Should().Be(TimeOnly.FromDateTime(dateTime));
         }
     }
 

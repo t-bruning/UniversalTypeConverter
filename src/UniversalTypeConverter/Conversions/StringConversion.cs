@@ -36,6 +36,16 @@ namespace TB.ComponentModel.Conversions {
                 return TryParseDateTime(value, out result, args);
             }
 
+#if NET6_0_OR_GREATER
+            if (destinationType == typeof(DateOnly)) {
+                return TryParseDateOnly(value, out result, args);
+            }
+
+            if (destinationType == typeof(TimeOnly)) {
+                return TryParseTimeOnly(value, out result, args);
+            }
+#endif
+
             if (destinationType == typeof(Guid)) {
                 return TryParseGuid(value, out result);
             }
@@ -162,6 +172,42 @@ namespace TB.ComponentModel.Conversions {
             result = DateTime.MinValue;
             return false;
         }
+
+#if NET6_0_OR_GREATER
+        private bool TryParseDateOnly(string value, out object result, ConversionArgs args) {
+            if (DateOnly.TryParse(value, args.Culture, args.Options.DateTimeStyle, out var parseResult)) {
+                result = parseResult;
+                return true;
+            }
+
+            foreach (var pattern in args.Options.DateTimePatterns) {
+                if (DateOnly.TryParseExact(value, pattern, args.Culture, args.Options.DateTimeStyle, out parseResult)) {
+                    result = parseResult;
+                    return true;
+                }
+            }
+
+            result = DateOnly.MinValue;
+            return false;
+        }
+
+        private bool TryParseTimeOnly(string value, out object result, ConversionArgs args) {
+            if (TimeOnly.TryParse(value, args.Culture, args.Options.DateTimeStyle, out var parseResult)) {
+                result = parseResult;
+                return true;
+            }
+
+            foreach (var pattern in args.Options.TimeOnlyPatterns) {
+                if (TimeOnly.TryParseExact(value, pattern, args.Culture, args.Options.DateTimeStyle, out parseResult)) {
+                    result = parseResult;
+                    return true;
+                }
+            }
+
+            result = DateOnly.MinValue;
+            return false;
+        }
+#endif
 
         private bool TryParseGuid(string value, out object result) {
             if (Guid.TryParse(value, out var guid)) {

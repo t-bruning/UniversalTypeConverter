@@ -15,7 +15,7 @@ namespace TB.ComponentModel {
     /// Defines a type converter.
     /// </summary>
     public partial class TypeConverter : ITypeConverter {
-        
+
         private CultureInfo mDefaultCulture;
 
         /// <summary>
@@ -101,7 +101,7 @@ namespace TB.ComponentModel {
         /// <returns>An instance of type <typeparamref name="T">T</typeparamref> whose value is equivalent to the given <paramref name="value">value</paramref>.</returns>
         /// <exception cref="InvalidConversionException">InvalidConversionException if the value is not convertible to the given type.</exception>
         public T ConvertTo<T>(object value, CultureInfo culture = null) {
-            return (T) Convert(value, typeof(T), culture);
+            return (T)Convert(value, typeof(T), culture);
         }
 
         /// <summary>
@@ -155,7 +155,7 @@ namespace TB.ComponentModel {
         /// <returns>true if <paramref name="value"/> was converted successfully; otherwise, false.</returns>
         public bool TryConvertTo<T>(object value, out T result, CultureInfo culture = null) {
             if (TryConvert(value, typeof(T), out var tmpResult, culture)) {
-                result = (T) tmpResult;
+                result = (T)tmpResult;
                 return true;
             }
 
@@ -254,7 +254,7 @@ namespace TB.ComponentModel {
             return Options.AllowDefaultValueIfNull;
         }
 
-        
+
 
         bool ITypeConversion.TryConvert(object value, Type destinationType, out object result, ConversionArgs args) {
             return TryConvert(value, destinationType, out result, args);
@@ -305,6 +305,12 @@ namespace TB.ComponentModel {
             Conversions.Add(new DecimalConversion(), ConversionPriority.Low);
             Conversions.Add(new LongConversion(), ConversionPriority.Low);
             Conversions.Add(new DateTimeConversion(), ConversionPriority.Low);
+
+#if NET6_0_OR_GREATER
+            Conversions.Add(new DateOnlyConversion(), ConversionPriority.Low);
+            Conversions.Add(new TimeOnlyConversion(), ConversionPriority.Low);
+#endif
+
             Conversions.Add(new GuidConversion(), ConversionPriority.Low);
             Conversions.Add(new DoubleConversion(), ConversionPriority.Low);
             Conversions.Add(new ByteConversion(), ConversionPriority.Low);
