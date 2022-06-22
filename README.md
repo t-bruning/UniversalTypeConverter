@@ -2,6 +2,8 @@
 
 The Swiss Army Knife for type conversion in .NET
 
+[![Release](https://img.shields.io/github/v/release/t-bruning/UniversalTypeConverter)](https://github.com/t-bruning/UniversalTypeConverter/releases)
+
 - [NuGet Package](https://www.nuget.org/packages/UniversalTypeConverter/)
 - [Browse API](https://t-bruning.github.io/UniversalTypeConverter/api/index.html)
 - [Supported conversions](https://t-bruning.github.io/UniversalTypeConverter/conversionoverview.htm)
