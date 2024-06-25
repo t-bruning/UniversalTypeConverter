@@ -1,26 +1,23 @@
 ﻿// project  : UniversalTypeConverter
-// file     : StringConversion.cs
+// file     : ReadOnlySpanOfCharConversion.cs
 // author   : Thorsten Bruning
-// date     : 2018-09-24 
+// date     : 2024-06-25 
 
+#if NET6_0_OR_GREATER
 using System;
-using System.Globalization;
+using TB.ComponentModel.Reflection;
 
 namespace TB.ComponentModel.Conversions {
 
-    /// <summary>
-    /// Defines conversions from strings to their requested equivalent.
-    /// </summary>
-    public class StringConversion : TypeConversion<string> {
+    internal static class ReadOnlySpanOfCharConversion {
 
-        /// <inheritdoc />
-        protected override bool TryConvert(string value, Type destinationType, out object result, ConversionArgs args) {
-            if (string.IsNullOrWhiteSpace(value)) {
+        public static bool TryConvert(ReadOnlySpan<char> value, Type destinationType, out object result, ConversionArgs args) {
+            if (value.IsWhiteSpace()) {
                 result = null;
                 return false;
             }
 
-            if (IsInteger(destinationType)) {
+            if (destinationType.IsInteger()) {
                 return TryParseInteger(value, destinationType, out result, args);
             }
 
@@ -28,7 +25,7 @@ namespace TB.ComponentModel.Conversions {
                 return TryParseDecimal(value, out result, args);
             }
 
-            if (IsFloat(destinationType)) {
+            if (destinationType.IsFloat()) {
                 return TryParseFloat(value, destinationType, out result, args);
             }
 
@@ -36,7 +33,6 @@ namespace TB.ComponentModel.Conversions {
                 return TryParseDateTime(value, out result, args);
             }
 
-#if NET6_0_OR_GREATER
             if (destinationType == typeof(DateOnly)) {
                 return TryParseDateOnly(value, out result, args);
             }
@@ -44,31 +40,17 @@ namespace TB.ComponentModel.Conversions {
             if (destinationType == typeof(TimeOnly)) {
                 return TryParseTimeOnly(value, out result, args);
             }
-#endif
 
             if (destinationType == typeof(Guid)) {
                 return TryParseGuid(value, out result);
-            }
-
-            if (destinationType == typeof(byte[]) && args.Options.ByteArrayFormat != ByteArrayFormat.None) {
-                try {
-                    result = Convert.FromBase64String(value);
-                    return true;
-                } catch {
-                    result = null;
-                    return false;
-                }
             }
 
             result = null;
             return false;
         }
 
-        private static bool TryParseInteger(string value, Type destinationType, out object result, ConversionArgs args) {
+        private static bool TryParseInteger(ReadOnlySpan<char> value, Type destinationType, out object result, ConversionArgs args) {
             var style = args.Options.IntegerNumberStyle;
-            if (IsHex(value)) {
-                style = NumberStyles.AllowHexSpecifier;
-            }
 
             if (destinationType == typeof(byte)) {
                 var succeeded = byte.TryParse(value, style, args.Culture, out var parseResult);
@@ -122,23 +104,14 @@ namespace TB.ComponentModel.Conversions {
             return false;
         }
 
-        private static bool IsHex(string value) {
-            if (value.Length < 3) {
-                return false;
-            }
-
-            return value.StartsWith("0x", StringComparison.OrdinalIgnoreCase)
-                   || value.StartsWith("&h", StringComparison.OrdinalIgnoreCase);
-        }
-
-        private static bool TryParseDecimal(string value, out object result, ConversionArgs args) {
+        private static bool TryParseDecimal(ReadOnlySpan<char> value, out object result, ConversionArgs args) {
             var style = args.Options.DecimalNumberStyle;
             var succeeded = decimal.TryParse(value, style, args.Culture, out var parseResult);
             result = parseResult;
             return succeeded;
         }
 
-        private static bool TryParseFloat(string value, Type destinationType, out object result, ConversionArgs args) {
+        private static bool TryParseFloat(ReadOnlySpan<char> value, Type destinationType, out object result, ConversionArgs args) {
             var style = args.Options.FloatNumberStyle;
             if (destinationType == typeof(float)) {
                 var succeeded = float.TryParse(value, style, args.Culture, out var parseResult);
@@ -156,7 +129,7 @@ namespace TB.ComponentModel.Conversions {
             return false;
         }
 
-        private static bool TryParseDateTime(string value, out object result, ConversionArgs args) {
+        private static bool TryParseDateTime(ReadOnlySpan<char> value, out object result, ConversionArgs args) {
             if (DateTime.TryParse(value, args.Culture, args.Options.DateTimeStyle, out var parseResult)) {
                 result = parseResult;
                 return true;
@@ -173,18 +146,7 @@ namespace TB.ComponentModel.Conversions {
             return false;
         }
 
-        private static bool TryParseGuid(string value, out object result) {
-            if (Guid.TryParse(value, out var guid)) {
-                result = guid;
-                return true;
-            }
-
-            result = null;
-            return false;
-        }
-
-#if NET6_0_OR_GREATER
-        private static bool TryParseDateOnly(string value, out object result, ConversionArgs args) {
+        private static bool TryParseDateOnly(ReadOnlySpan<char> value, out object result, ConversionArgs args) {
             if (DateOnly.TryParse(value, args.Culture, args.Options.DateTimeStyle, out var parseResult)) {
                 result = parseResult;
                 return true;
@@ -201,7 +163,7 @@ namespace TB.ComponentModel.Conversions {
             return false;
         }
 
-        private static bool TryParseTimeOnly(string value, out object result, ConversionArgs args) {
+        private static bool TryParseTimeOnly(ReadOnlySpan<char> value, out object result, ConversionArgs args) {
             if (TimeOnly.TryParse(value, args.Culture, args.Options.DateTimeStyle, out var parseResult)) {
                 result = parseResult;
                 return true;
@@ -217,8 +179,18 @@ namespace TB.ComponentModel.Conversions {
             result = DateOnly.MinValue;
             return false;
         }
-#endif
+
+        private static bool TryParseGuid(ReadOnlySpan<char> value, out object result) {
+            if (Guid.TryParse(value, out var guid)) {
+                result = guid;
+                return true;
+            }
+
+            result = null;
+            return false;
+        }
 
     }
 
 }
+#endif

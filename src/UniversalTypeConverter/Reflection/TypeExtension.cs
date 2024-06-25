@@ -12,44 +12,46 @@ namespace TB.ComponentModel.Reflection {
 
     internal static class TypeExtension {
 
+#pragma warning disable IDE1006
         private static readonly Dictionary<Type, bool> DataTableCompatibleTypes;
+#pragma warning restore IDE1006
 
         static TypeExtension() {
             DataTableCompatibleTypes = new Dictionary<Type, bool> {
-                {typeof(bool), false},
-                {typeof(bool?), true},
-                {typeof(byte), false},
-                {typeof(byte?), true},
-                {typeof(char), false},
-                {typeof(char?), true},
-                {typeof(DateTime), false},
-                {typeof(DateTime?), true},
-                {typeof(decimal), false},
-                {typeof(decimal?), true},
-                {typeof(double), false},
-                {typeof(double?), true},
-                {typeof(Guid), false},
-                {typeof(Guid?), true},
-                {typeof(short), false},
-                {typeof(short?), true},
-                {typeof(int), false},
-                {typeof(int?), true},
-                {typeof(long), false},
-                {typeof(long?), true},
-                {typeof(sbyte), false},
-                {typeof(sbyte?), true},
-                {typeof(float), false},
-                {typeof(float?), true},
-                {typeof(string), true},
-                {typeof(TimeSpan), false},
-                {typeof(TimeSpan?), true},
-                {typeof(ushort), false},
-                {typeof(ushort?), true},
-                {typeof(uint), false},
-                {typeof(uint?), true},
-                {typeof(ulong), false},
-                {typeof(ulong?), true},
-                {typeof(byte[]), true}
+                { typeof(bool), false },
+                { typeof(bool?), true },
+                { typeof(byte), false },
+                { typeof(byte?), true },
+                { typeof(char), false },
+                { typeof(char?), true },
+                { typeof(DateTime), false },
+                { typeof(DateTime?), true },
+                { typeof(decimal), false },
+                { typeof(decimal?), true },
+                { typeof(double), false },
+                { typeof(double?), true },
+                { typeof(Guid), false },
+                { typeof(Guid?), true },
+                { typeof(short), false },
+                { typeof(short?), true },
+                { typeof(int), false },
+                { typeof(int?), true },
+                { typeof(long), false },
+                { typeof(long?), true },
+                { typeof(sbyte), false },
+                { typeof(sbyte?), true },
+                { typeof(float), false },
+                { typeof(float?), true },
+                { typeof(string), true },
+                { typeof(TimeSpan), false },
+                { typeof(TimeSpan?), true },
+                { typeof(ushort), false },
+                { typeof(ushort?), true },
+                { typeof(uint), false },
+                { typeof(uint?), true },
+                { typeof(ulong), false },
+                { typeof(ulong?), true },
+                { typeof(byte[]), true }
             };
         }
 
@@ -108,6 +110,22 @@ namespace TB.ComponentModel.Reflection {
             return Nullable.GetUnderlyingType(type);
         }
 
+        public static bool IsInteger(this Type type) {
+            return type == typeof(byte)
+                   || type == typeof(int)
+                   || type == typeof(long)
+                   || type == typeof(sbyte)
+                   || type == typeof(short)
+                   || type == typeof(uint)
+                   || type == typeof(ulong)
+                   || type == typeof(ushort);
+        }
+
+        public static bool IsFloat(this Type type) {
+            return type == typeof(float)
+                   || type == typeof(double);
+        }
+
         private class FieldGetter : Getter {
 
             private readonly FieldInfo mFieldInfo;
@@ -141,6 +159,7 @@ namespace TB.ComponentModel.Reflection {
             }
 
         }
+
     }
 
 }
