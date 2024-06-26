@@ -14,14 +14,19 @@
     <PackageReleaseNotes>Version 2.6.2 supports common conversions of ReadOnlySpan&lt;char&gt;</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>UTC.snk</AssemblyOriginatorKeyFile>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/t-bruning/UniversalTypeConverter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/t-bruning/UniversalTypeConverter</RepositoryUrl>
 	<PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl>https://t-bruning.github.io/UniversalTypeConverter/images/logo.png</PackageIconUrl>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
+	<None Include="..\..\README.md">
+	  <Pack>True</Pack>
+	  <PackagePath>\</PackagePath>
+	</None>
 	<None Include="logo.png" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
 

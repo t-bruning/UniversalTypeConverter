@@ -1,13 +1,18 @@
-﻿using FluentAssertions;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+﻿using System;
 using System.Globalization;
-using System.Threading;
+using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TB.ComponentModel;
 
 namespace UniversalTypeConverter.Tests {
 
     partial class TypeConverter_Tests {
+
+        [TestMethod]
+        public void Convert_String_To_String_Should_Work() {
+            var converter = new TypeConverter();
+            converter.ConvertTo<string>("Hello").Should().Be("Hello");
+        }
 
         [TestMethod]
         public void Convert_String_To_Integers_Should_Use_Default_IntegerNumberStyle() {
@@ -193,6 +198,7 @@ namespace UniversalTypeConverter.Tests {
             Action action = () => converter.ConvertTo<byte[]>(Convert.ToBase64String(array, Base64FormattingOptions.None));
             action.Should().Throw<InvalidConversionException>();
         }
+
     }
 
 }

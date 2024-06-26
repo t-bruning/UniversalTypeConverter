@@ -9,6 +9,14 @@ namespace UniversalTypeConverter.Tests {
     partial class TypeConverter_Tests {
 
         [TestMethod]
+        public void Convert_ReadOnlySpanChar_To_String_Should_Work() {
+            var converter = new TypeConverter();
+            converter.Options.AllowRetryWithStringIfCharSpanNotConvertible = false;
+
+            converter.ConvertTo<string>("Hello".AsSpan(0)).Should().Be("Hello");
+        }
+
+        [TestMethod]
         public void Convert_ReadOnlySpanChar_To_Integers_Should_Use_Default_IntegerNumberStyle() {
             var converter = new TypeConverter();
             converter.Options.AllowRetryWithStringIfCharSpanNotConvertible = false;

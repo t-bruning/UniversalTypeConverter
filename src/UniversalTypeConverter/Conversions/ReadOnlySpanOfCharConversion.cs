@@ -12,6 +12,11 @@ namespace TB.ComponentModel.Conversions {
     internal static class ReadOnlySpanOfCharConversion {
 
         public static bool TryConvert(ReadOnlySpan<char> value, Type destinationType, out object result, ConversionArgs args) {
+            if (destinationType == typeof(string)) {
+                result = value.ToString();
+                return true;
+            }    
+
             if (value.IsWhiteSpace()) {
                 result = null;
                 return false;
