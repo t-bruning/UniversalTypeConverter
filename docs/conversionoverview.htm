@@ -267,6 +267,210 @@ on <a href="https://github.com/t-bruning/UniversalTypeConverter">github.com/t-br
     </td>
   </tr>
   <tr>
+    <td rowspan="23">ReadOnlySpan&lt;char&gt;</td>
+    <td>byte</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.byte.tryparse">byte.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>int</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.int32.tryparse">int.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>long</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.int64.tryparse">long.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>sbyte</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.sbyte.tryparse">sbyte.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>short</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.int16.tryparse">sbyte.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>uint</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint32.tryparse">uint.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>ulong</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint64.tryparse">ulong.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>ushort</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.uint16.tryparse">ushort.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/261f398c-7a27-922d-f5bf-4ca6b26e3e16.htm">IntegerNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">converting to any of these integral types allows formating as Hex (0x or &amp;h) as well (by using .ToString() of ReadOnlySpan&lt;char&gt;)</td>
+  </tr>
+  <tr>
+    <td>decimal</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.decimal.tryparse">decimal.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/89d80b65-58bf-1879-5f98-7b17361702db.htm">DecimalNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>float</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.single.tryparse">float.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/89d80b65-58bf-1879-5f98-7b17361702db.htm">DecimalNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>double</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.double.tryparse">double.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/89d80b65-58bf-1879-5f98-7b17361702db.htm">DecimalNumberStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="3">DateTime</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tryparse">DateTime.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm">DateTimeStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.datetime.tryparseexact">DateTime.TryParseExact</a>
+    </td>
+    <td rowspan="2">yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm">DateTimeStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/64771e14-7f5c-5c99-fc3e-637105feceef.htm">DateTimePatterns</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="3">DateOnly</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.dateonly.tryparse">DateOnly.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm">DateTimeStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.dateonly.tryparseexact">DateOnly.TryParseExact</a>
+    </td>
+    <td rowspan="2">yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm">DateTimeStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/64771e14-7f5c-5c99-fc3e-637105feceef.htm">DateTimePatterns</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="3">TimeOnly</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.timeonly.tryparse">TimeOnly.TryParse</a>
+    </td>
+    <td>yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm">DateTimeStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.timeonly.tryparseexact">TimeOnly.TryParseExact</a>
+    </td>
+    <td rowspan="2">yes</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/0907da6c-4d3a-8b0f-e26e-0c895b298b3c.htm">DateTimeStyle</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      TimeOnlyPatterns
+    </td>
+  </tr>
+  <tr>
+    <td>Guid</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.guid.tryparse">Guid.TryParse</a>
+    </td>
+    <td>no</td>
+    <td>(none)</td>
+  </tr>
+  <tr>
+    <td>byte[]</td>
+    <td>
+      <a href="https://docs.microsoft.com/de-de/dotnet/api/system.convert.frombase64string">Convert.FromBase64String (by using .ToString() of ReadOnlySpan&lt;char&gt;)</a>
+    </td>
+    <td>no</td>
+    <td>
+      <a href="https://t-bruning.github.io/UniversalTypeConverter/api/html/dbcb491c-acdf-f6e9-7be5-f9464c948cf5.htm">ByteArrayFormat</a>
+    </td>
+  </tr>
+  <tr>
     <td>int</td>
     <td>string</td>
     <td>
@@ -690,7 +894,7 @@ on <a href="https://github.com/t-bruning/UniversalTypeConverter">github.com/t-br
 
 <hr>
 <p>
-2022, by Thorsten Bruning
+2024, by Thorsten Bruning
 </p>
 
 </body>

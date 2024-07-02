@@ -6,6 +6,7 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using TB.ComponentModel.Reflection;
 
 namespace TB.ComponentModel.Conversions {
 
@@ -51,14 +52,7 @@ namespace TB.ComponentModel.Conversions {
         /// <param name="type"></param>
         /// <returns></returns>
         protected static bool IsInteger(Type type) {
-            return type == typeof(byte)
-                   || type == typeof(int)
-                   || type == typeof(long)
-                   || type == typeof(sbyte)
-                   || type == typeof(short)
-                   || type == typeof(uint)
-                   || type == typeof(ulong)
-                   || type == typeof(ushort);
+            return type.IsInteger();
         }
 
         /// <summary>
@@ -67,9 +61,9 @@ namespace TB.ComponentModel.Conversions {
         /// <param name="type"></param>
         /// <returns></returns>
         protected static bool IsFloat(Type type) {
-            return type == typeof(float)
-                   || type == typeof(double);
+            return type.IsFloat();
         }
+
     }
 
 }

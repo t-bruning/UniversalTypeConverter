@@ -18,6 +18,12 @@ namespace TB.ComponentModel {
         private readonly ReadOnlyCollection<string> mTimeOnlyPatterns;
 
         /// <summary>
+        /// Gets the list of patterns used when converting a string to its DateTime equivalent.
+        ///  E.g., these patterns are used as formats when calling DateTime.TryParseExact.
+        /// </summary>
+        public Collection<string> DateTimePatterns { get; }
+
+        /// <summary>
         /// If true, <see cref="System.DBNull.Value"/> is handled the same way as null.
         ///  This option is true by default.
         /// </summary>
@@ -72,14 +78,6 @@ namespace TB.ComponentModel {
         public DateTimeStyles DateTimeStyle { get; set; } = DateTimeStyles.AllowLeadingWhite | DateTimeStyles.AllowTrailingWhite;
 
         /// <summary>
-        /// Gets the list of patterns used when converting a string to its DateTime equivalent.
-        ///  E.g., these patterns are used as formats when calling DateTime.TryParseExact.
-        /// </summary>
-        public Collection<string> DateTimePatterns { get; }
-
-        ReadOnlyCollection<string> IConversionOptions.DateTimePatterns => mDateTimePatterns;
-
-        /// <summary>
         /// Defines the format used when converting a date/time to its equivalent string representation.
         ///  The default format is "G".
         /// </summary>
@@ -90,34 +88,6 @@ namespace TB.ComponentModel {
         ///  The default meaning is <see cref="ComponentModel.DateTimeLongMeaning.Ticks"/>.
         /// </summary>
         public DateTimeLongMeaning DateTimeLongMeaning { get; set; } = DateTimeLongMeaning.Ticks;
-
-#if NET6_0_OR_GREATER
-        /// <summary>
-        /// Defines the format used when converting a DateOnly to its equivalent string representation.
-        ///  The default format is "d".
-        /// </summary>
-        public string DateOnlyFormat { get; set; } = "d";
-
-        /// <summary>
-        /// Defines the default time used when converting a DateOnly to DateTime.
-        ///  The default time is '00:00:00'.
-        /// </summary>
-        public TimeOnly DateOnlyDefaultTime { get; set; } = new TimeOnly(0, 0, 0);
-
-        /// <summary>
-        /// Gets the list of patterns used when converting a string to its TimeOnly equivalent.
-        ///  E.g., these patterns are used as formats when calling TimeOnly.TryParseExact.
-        /// </summary>
-        public Collection<string> TimeOnlyPatterns { get; }
-
-        ReadOnlyCollection<string> IConversionOptions.TimeOnlyPatterns => mTimeOnlyPatterns;
-
-        /// <summary>
-        /// Defines the format used when converting a TimeOnly to its equivalent string representation.
-        ///  The default format is "t".
-        /// </summary>
-        public string TimeOnlyFormat { get; set; } = "t";
-#endif
 
         /// <summary>
         /// Defines the format used when converting a guid to its equivalent string representation.
@@ -155,10 +125,20 @@ namespace TB.ComponentModel {
         /// </summary>
         public bool AllowDefaultValueIfNotConvertible { get; set; }
 
+#if NET6_0_OR_GREATER
+        /// <summary>
+        /// If true, conversion will try to convert the string representation of a ReadOnlySpan&lt;char&gt; if the span is not convertible by itself.
+        ///  This option is false by default as performance is preferred in this case.
+        /// </summary>
+        public bool AllowRetryWithStringIfCharSpanNotConvertible { get; set; }
+#endif
+
+        ReadOnlyCollection<string> IConversionOptions.DateTimePatterns => mDateTimePatterns;
+
         /// <summary>
         /// Initializes a new instance.
         /// </summary>
-        public ConversionOptions() {
+        internal ConversionOptions() {
             DateTimePatterns = new Collection<string>();
             mDateTimePatterns = new ReadOnlyCollection<string>(DateTimePatterns);
             AddDefaultDateTimePatterns();
@@ -202,6 +182,34 @@ namespace TB.ComponentModel {
 
             TimeOnlyPatterns.Add("HH.mm");
         }
+#endif
+
+#if NET6_0_OR_GREATER
+        /// <summary>
+        /// Defines the format used when converting a DateOnly to its equivalent string representation.
+        ///  The default format is "d".
+        /// </summary>
+        public string DateOnlyFormat { get; set; } = "d";
+
+        /// <summary>
+        /// Defines the default time used when converting a DateOnly to DateTime.
+        ///  The default time is '00:00:00'.
+        /// </summary>
+        public TimeOnly DateOnlyDefaultTime { get; set; } = new TimeOnly(0, 0, 0);
+
+        /// <summary>
+        /// Gets the list of patterns used when converting a string to its TimeOnly equivalent.
+        ///  E.g., these patterns are used as formats when calling TimeOnly.TryParseExact.
+        /// </summary>
+        public Collection<string> TimeOnlyPatterns { get; }
+
+        ReadOnlyCollection<string> IConversionOptions.TimeOnlyPatterns => mTimeOnlyPatterns;
+
+        /// <summary>
+        /// Defines the format used when converting a TimeOnly to its equivalent string representation.
+        ///  The default format is "t".
+        /// </summary>
+        public string TimeOnlyFormat { get; set; } = "t";
 #endif
 
     }
