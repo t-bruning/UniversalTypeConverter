@@ -20,7 +20,7 @@
     <PackageIconUrl>https://t-bruning.github.io/UniversalTypeConverter/images/logo.png</PackageIconUrl>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Title>Universal Type Converter</Title>
+    <Title>UniversalTypeConverter</Title>
   </PropertyGroup>
 
   <ItemGroup>
