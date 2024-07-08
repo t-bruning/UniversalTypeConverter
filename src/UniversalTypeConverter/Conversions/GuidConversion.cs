@@ -19,6 +19,11 @@ namespace TB.ComponentModel.Conversions {
                 return true;
             }
 
+            if (destinationType == typeof(byte[])) {
+                result = value.ToByteArray();
+                return true;
+            }
+
             result = null;
             return false;
         }

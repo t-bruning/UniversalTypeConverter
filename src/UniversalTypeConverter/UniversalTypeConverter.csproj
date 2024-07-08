@@ -4,14 +4,14 @@
     <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
     <RootNamespace>TB.ComponentModel</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.6.2</Version>
+    <Version>2.7.1</Version>
     <Authors>Thorsten Bruning</Authors>
     <Company />
 	<PackageLicenseExpression>MS-PL</PackageLicenseExpression>
     <Copyright>Copyright 2011-2024 by Thorsten Bruning</Copyright>
     <PackageTags>typeconverter typeconversion typeconverting conversion converting converter convert convertible type types UniversalTypeConverter universal casting</PackageTags>
     <Description>The Swiss Army Knife for type conversion. Convert any type to another compatible type without worrying about which method to use.</Description>
-    <PackageReleaseNotes>Version 2.6.2 supports common conversions of ReadOnlySpan&lt;char&gt;</PackageReleaseNotes>
+    <PackageReleaseNotes>Version 2.7.1 supports conversion from Guid to byte[]</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>UTC.snk</AssemblyOriginatorKeyFile>
     <PackageProjectUrl>https://github.com/t-bruning/UniversalTypeConverter</PackageProjectUrl>
