@@ -2,11 +2,12 @@
 
 The Swiss Army Knife for type conversion in .NET
 
-[![Release](https://img.shields.io/github/v/release/t-bruning/UniversalTypeConverter)](https://github.com/t-bruning/UniversalTypeConverter/releases)
+ [![Release](https://img.shields.io/github/v/release/t-bruning/UniversalTypeConverter)](https://github.com/t-bruning/UniversalTypeConverter/releases) [![NuGet Version](https://img.shields.io/nuget/v/UniversalTypeConverter)](https://www.nuget.org/packages/UniversalTypeConverter/) [![Static Badge](https://img.shields.io/badge/dependency_free-1b963c)](https://www.nuget.org/packages/UniversalTypeConverter/#dependencies-body-tab)
+ [![NuGet Downloads](https://img.shields.io/nuget/dt/UniversalTypeConverter)](https://www.nuget.org/packages/UniversalTypeConverter/)
 
-- [NuGet Package](https://www.nuget.org/packages/UniversalTypeConverter/)
-- [Browse API](https://t-bruning.github.io/UniversalTypeConverter/api/index.html)
 - [Supported conversions](https://t-bruning.github.io/UniversalTypeConverter/conversionoverview.htm)
+- [Browse API](https://t-bruning.github.io/UniversalTypeConverter/api/index.html)
+- [NuGet Package](https://www.nuget.org/packages/UniversalTypeConverter/)
 - [License (MS-PL)](https://opensource.org/licenses/ms-pl.html)
 
 Convert any type to another compatible type without worrying about which method to use.
@@ -75,7 +76,3 @@ This is a complete rewrite of version 1 of the UniversalTypeConverter. If you ar
 
 **If you have already used the first version of the UniversalTypeConverter**:  
 Some of the old extension methods are marked as "obsolete", but still work. I recommend replacing them with the new signatures, as the old variants will be removed at some point. However, there are also some methods and options that have been removed. If you have used them, you can expect Breaking Changes. If you are unsure: stay at version 1 on existing projects and use version 2 for new projects.
-
---------
-
-Have a look at the [supported conversions](https://t-bruning.github.io/UniversalTypeConverter/conversionoverview.htm).
