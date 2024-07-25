@@ -39,6 +39,16 @@ namespace TB.ComponentModel.Conversions {
                 }
             }
 
+            if (destinationType == typeof(Guid)) {
+                try {
+                    result = new Guid(value);
+                    return true;
+                } catch {
+                    result = null;
+                    return false;
+                }
+            }
+
             result = null;
             return false;
         }
